@@ -1,0 +1,1 @@
+Learn the fundamentals of programming for games through hands-on exercises in programming languages like C#, Processing, Visual Studio, .NET, and the Unity engine. Students build several small game prototypes.
