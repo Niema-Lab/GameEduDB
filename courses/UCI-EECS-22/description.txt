@@ -1,0 +1,1 @@
+C language programming concepts. Control flow, function calls, recursion. Basic and composite data types, static and dynamic data structures. Program modules and compilation units. Preprocessor macros. C standard libraries.
