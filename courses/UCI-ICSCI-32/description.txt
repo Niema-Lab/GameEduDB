@@ -1,1 +1,2 @@
 Construction of programs for problems and computing environments more varied than in I&C SCI 31. Using library modules for applications such as graphics, sound, GUI, database, Web, and network programming. Language features beyond those in I&C SCI 31 are introduced as needed.
+Restrictions: Computer Science and Engineering majors and School of Information and Computer Sciences students have the first consideration for enrollment.

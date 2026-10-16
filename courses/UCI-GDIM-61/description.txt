@@ -1,1 +1,2 @@
 Introduction to the design and development of games. Includes core concepts in software development, team management, leadership, and project management.
+Restrictions: Game Design and Interactive Media majors have the first consideration for enrollment. School of ICS majors have second right of consideration.
