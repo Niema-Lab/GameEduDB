@@ -1,0 +1,2 @@
+An introduction to computers and structured programming. Binary Data Representation. Hands-on experience with a high-level structured programming language. Introduction to algorithm efficiency. Applications of structured programming in solving engineering problems. Programming laboratory.
+Overlaps with EECS 12.
