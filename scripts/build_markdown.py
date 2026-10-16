@@ -12,6 +12,7 @@ REQUIRED_META = { # required metadata (`None` means >0)
     'institutions': { # TODO
         'name': 1,
         'url': 1,
+        'location': 1,
         'description': None,
     },
     'departments': { # TODO
@@ -49,6 +50,7 @@ TRANSLATE = { # translate keys to human-readable strings
     'institution_ids':   "Institution IDs",
     'length':            "Expected Length (years)",
     'level':             "Academic Level",
+    'location':          "Location",
     'name':              "Name",
     'program_code':      "Program Code",
     'total_credits':     "Total Credits/Units",
@@ -101,11 +103,11 @@ def build_markdown(data):
             out += f" ({' / '.join(institution_data['abbreviation'])})"
         out += f"]({institution_data['url'][0]}) {{#{institution_id}}}\n"
         out += f"{'\n\n'.join(institution_data['description'])}\n\n"
-        remaining_institution_keys = set(institution_data.keys()) - {'name', 'url', 'abbreviation', 'description'}
-        if len(remaining_institution_keys) != 0:
-            for k in sorted(remaining_institution_keys, key=lambda x: TRANSLATE[x]):
-                out += f"* **{TRANSLATE[k]}:** {' / '.join(institution_data[k])}\n"
-            out += '\n'
+        out += f"* **{TRANSLATE['location']}:** {institution_data['location'][0]}\n"
+        remaining_institution_keys = set(institution_data.keys()) - {'name', 'url', 'abbreviation', 'description', 'location'}
+        for k in sorted(remaining_institution_keys, key=lambda x: TRANSLATE[x]):
+            out += f"* **{TRANSLATE[k]}:** {' / '.join(institution_data[k])}\n"
+        out += '\n'
         institution_departments = institution_to_departments[institution_id]
         if len(institution_departments) == 0:
             raise NotImplementedError(f"TODO NIEMA: Handle institution without any departments: {institution_id}") # TODO
@@ -134,10 +136,10 @@ def build_markdown(data):
                     if 'description' in program_data:
                         out += f"{'\n\n'.join(program_data['description'])}\n\n"
                     remaining_program_keys = set(program_data.keys()) - {'name', 'url', 'abbreviation', 'description', 'institution_id', 'department_id', 'course_ids'}
-                    if len(remaining_program_keys) != 0:
-                        for k in sorted(remaining_program_keys, key=lambda x: TRANSLATE[x]):
-                            out += f"* **{TRANSLATE[k]}:** {' / '.join(program_data[k])}\n"
-                        out += '\n'
+                    for k in sorted(remaining_program_keys, key=lambda x: TRANSLATE[x]):
+                        out += f"* **{TRANSLATE[k]}:** {' / '.join(program_data[k])}\n"
+                    out += '\n'
+                    return out # TODO DELETE
                     for course_id in sort_course_ids(program_data['course_ids'], data):
                         course_data = data['courses'][course_id]
                         out += f"#### [{course_data['course_code'][0]}: {course_data['name'][0]}]({course_data['url'][0]})\n"

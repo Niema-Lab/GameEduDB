@@ -4,3 +4,4 @@ This directory contains institutions. Each individual institution is contained w
 * `abbreviation.txt` - Official abbreviation of the name of the institution
 * `url.txt` - URL of the institution (ideally the official website)
 * `description.txt` - Description of the institution (ideally the official description)
+* `location.txt` - Location of the institution (e.g. full address, "Online", etc.)
