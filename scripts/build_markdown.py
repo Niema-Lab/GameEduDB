@@ -135,6 +135,8 @@ def build_markdown(data):
                     out += f" {{#{program_id}}}\n"
                     if 'description' in program_data:
                         out += f"{'\n\n'.join(program_data['description'])}\n\n"
+                    out += f"* **{TRANSLATE['institution']}:** [{data['institutions'][program_data['institution_id'][0]]['name'][0]}](#{program_data['institution_id'][0]})\n"
+                    out += f"* **{TRANSLATE['department']}:** [{data['departments'][program_data['department_id'][0]]['name'][0]}](#{program_data['department_id'][0]})\n"
                     remaining_program_keys = set(program_data.keys()) - {'name', 'url', 'abbreviation', 'description', 'institution_id', 'department_id', 'course_ids'}
                     for k in sorted(remaining_program_keys, key=lambda x: TRANSLATE[x]):
                         out += f"* **{TRANSLATE[k]}:** {' / '.join(program_data[k])}\n"
