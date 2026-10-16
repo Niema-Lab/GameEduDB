@@ -1,0 +1,2 @@
+The principles, tools, and techniques of visual design for playable media. How do shape, line, color, composition, typography, and time work together to communicate information, emotion, and meaning in interfaces, game worlds, and stories?
+Restrictions: Game Design and Interactive Media majors have the first consideration for enrollment. Informatics majors have second right of consideration. School of ICS majors have third right of consideration.
