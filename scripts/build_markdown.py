@@ -40,9 +40,11 @@ TRANSLATE = { # translate keys to human-readable strings
     'course_ids':        "Course IDs",
     'credit_system':     "Credit/Unit System",
     'degree':            "Degree Type",
+    'department':        "Department",
     'department_id':     "Department ID",
     'department_ids':    "Department IDs",
     'description':       "Description",
+    'institution':       "Institution",
     'institution_id':    "Institution ID",
     'institution_ids':   "Institution IDs",
     'length':            "Expected Length (years)",
@@ -94,10 +96,10 @@ def build_markdown(data):
     out = ''
     for institution_id, institution_data in sorted(data['institutions'].items(), key=lambda x: x[1]['name']):
         # institution info
-        out += f"# [{institution_data['name'][0]}]({institution_data['url'][0]})"
+        out += f"# [{institution_data['name'][0]}"
         if 'abbreviation' in institution_data:
             out += f" ({' / '.join(institution_data['abbreviation'])})"
-        out += f" {{#{institution_id}}}\n"
+        out += f"]({institution_data['url'][0]}) {{#{institution_id}}}\n"
         out += f"{'\n\n'.join(institution_data['description'])}\n\n"
         remaining_institution_keys = set(institution_data.keys()) - {'name', 'url', 'abbreviation', 'description'}
         if len(remaining_institution_keys) != 0:
@@ -111,17 +113,17 @@ def build_markdown(data):
             # department info
             for department_id in sort_department_ids(institution_to_departments[institution_id], data):
                 department_data = data['departments'][department_id]
-                out += f"## [{department_data['name'][0]}]({department_data['url'][0]})"
+                out += f"## [{department_data['name'][0]}"
                 if 'abbreviation' in department_data:
                     out += f" ({' / '.join(department_data['abbreviation'])})"
-                out += f" {{#{department_id}}}\n"
+                out += f"]({department_data['url'][0]}) {{#{department_id}}}\n"
                 if 'description' in department_data:
                     out += f"{'\n\n'.join(department_data['description'])}\n\n"
+                out += f"* **{TRANSLATE['institution']}:** [{data['institutions'][department_data['institution_id'][0]]['name'][0]}](#{department_data['institution_id'][0]})\n"
                 remaining_department_keys = set(department_data.keys()) - {'name', 'url', 'abbreviation', 'description', 'institution_id'}
-                if len(remaining_department_keys) != 0:
-                    for k in sorted(remaining_department_keys, key=lambda x: TRANSLATE[x]):
-                        out += f"* **{TRANSLATE[k]}:** {' / '.join(department_data[k])}\n"
-                    out += '\n'
+                for k in sorted(remaining_department_keys, key=lambda x: TRANSLATE[x]):
+                    out += f"* **{TRANSLATE[k]}:** {' / '.join(department_data[k])}\n"
+                out += '\n'
                 for program_id in sort_program_ids(department_to_programs[department_id], data):
                     # program info
                     program_data = data['programs'][program_id]
