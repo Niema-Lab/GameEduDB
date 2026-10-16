@@ -1,0 +1,1 @@
+Primitive types and expressions. The class and method definition. Information hiding and encapsulation. Objects and reference. Overloading. Constructors. Inheritance basics. Programming with inheritance. Dynamic binding and polymorphism. Exception handling. An overview of streams and file input/output. Programming laboratory.
