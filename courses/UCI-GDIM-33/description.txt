@@ -1,2 +1,1 @@
 Introduces students to visual scripting tools in game engines in the context of game design, level, design, and experience design. Students gain fluency in one or more visual scripting languages.
-Restrictions: Game Design and Interactive Media majors have the first consideration for enrollment. School of ICS majors have second consideration for enrollment.  
