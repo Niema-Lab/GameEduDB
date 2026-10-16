@@ -141,11 +141,13 @@ def build_markdown(data):
                     for k in sorted(remaining_program_keys, key=lambda x: TRANSLATE[x]):
                         out += f"* **{TRANSLATE[k]}:** {' / '.join(program_data[k])}\n"
                     out += '\n'
-                    return out # TODO DELETE
                     for course_id in sort_course_ids(program_data['course_ids'], data):
                         course_data = data['courses'][course_id]
                         out += f"#### [{course_data['course_code'][0]}: {course_data['name'][0]}]({course_data['url'][0]})\n"
                         out += f"{'\n\n'.join(course_data['description'])}\n\n"
+                        out += f"* **{TRANSLATE['institution']}:** [{data['institutions'][course_data['institution_id'][0]]['name'][0]}](#{course_data['institution_id'][0]})\n"
+                        if 'department_id' in course_data:
+                            out += f"* **{TRANSLATE['department']}:** [{data['departments'][course_data['department_id'][0]]['name'][0]}](#{course_data['department_id'][0]})\n"
                         if 'prerequisite_course_ids' in course_data:
                             out += f'''* **TRANSLATE['prerequisite_courses']:** {'/'.join(f'[{data['courses'][prereq_course_id]['course_code'][0]}](#{alt_course_id})' for prereq_course_id in course_data['prerequisite_course_ids'])}'''
                         if 'alternate_course_ids' in course_data:
