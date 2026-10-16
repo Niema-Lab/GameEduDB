@@ -1,3 +1,2 @@
 Introduction to derivatives, calculation of derivatives of algebraic and trigonometric functions; applications including curve sketching, related rates, and optimization. Exponential and logarithm functions.
 Overlaps with MATH 5A.  
-Restrictions: School of Physical Sciences students, School of Engineering students, School of Information and Computer Sciences students, and School of Biological Sciences students have the first consideration for enrollment.

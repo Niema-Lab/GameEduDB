@@ -1,2 +1,1 @@
 Students advance their skills with game programming, building on existing skills developed in Introduction to Programming for Games. Hands-on projects emphasize general procedural and problem-solving skills, as well as furthering knowledge of C# and the Unity3D/Unreal game engines.
-Restrictions: Game Design and Interactive Media majors have the first consideration for enrollment. School of ICS majors will have second consideration.

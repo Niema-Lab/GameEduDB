@@ -1,2 +1,1 @@
 Intermediate-level language features and programming concepts for larger, more complex, higher-quality software. Functional programming, name spaces, modules, class protocols, inheritance, iterators, generators, operator overloading, reflection. Analysis of time and space efficiency.
-Restrictions: Computer Science and Engineering majors and School of Information and Computer Sciences students have the first consideration for enrollment.

@@ -1,2 +1,1 @@
 Students work on their own to design, develop, and playtest a small game from scratch, taking into consideration psychology, narrative, platform features and limitations, marketing, computer science capabilities, human-computer interface principles, industry trends, aesthetic judgment, and other factors.
-Restrictions: Game Design and Interactive Media majors have the first consideration for enrollment. School of ICS majors given second consideration.

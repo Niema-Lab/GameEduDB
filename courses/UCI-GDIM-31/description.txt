@@ -1,2 +1,1 @@
 Learn the fundamentals of programming for games through hands-on exercises in programming languages like C#, Processing, Visual Studio, .NET, and the Unity engine. Students build several small game prototypes.
-Restrictions: Game Design and Interactive Media majors have the first consideration for enrollment. School of ICS majors have second right of consideration.

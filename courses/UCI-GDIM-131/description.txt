@@ -1,2 +1,1 @@
 Survey of analysis methods for understanding player and user data, including playtesting, telemetry data collection and analysis, metrics visualization, and its application in development and business.
-Restrictions: Game Design and Interactive Media majors have the first consideration for enrollment. Informatics majors have second right of consideration. School of ICS majors have third right of consideration.

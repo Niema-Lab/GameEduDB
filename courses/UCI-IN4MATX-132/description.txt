@@ -1,2 +1,1 @@
 Advanced material in the space of Human-Computer Interaction (HCI) through application and practice. Introduces user research methods such as observation, interviewing, usability testing, design activities, and user analytics.
-Restrictions: Computer Science and Engineering majors and School of Information and Computer Sciences students have the first consideration for enrollment.

@@ -1,2 +1,1 @@
 Introduction to application design: designing the overall functionality of a software application. Topics include general design theory, software design theory, and software architecture. Includes practice in designing and case studies of existing designs.
-Restrictions: Computer Science and Engineering majors and School of Information and Computer Sciences students have the first consideration for enrollment.

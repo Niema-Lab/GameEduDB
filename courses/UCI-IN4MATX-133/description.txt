@@ -1,2 +1,1 @@
 Introduction to human-computer interaction programming. Emphasis on current tools, standards, methodologies for implementing effective interaction designs. Widget toolkits, Web interface programming, geo-spatial and map interfaces, mobile phone interfaces.
-Restrictions: Computer Science and Engineering majors and School of Information and Computer Sciences students have the first consideration for enrollment.
