@@ -77,6 +77,18 @@ def check_data(data):
         if not is_in_program:
             raise ValueError(f"Course not in any programs: {course_id}")
 
+    # check that all mentioned courses exist
+    for program_id, program_data in data['programs'].items():
+        for mentioned_course_id in program_data['course_ids']:
+            if mentioned_course_id not in data['courses']:
+                raise ValueError(f"Missing course (mentioned in program '{program_id}'): {mentioned_course_id}")
+    for course_id, course_data in data['courses'].items():
+        for k in ['alternate_course_ids', 'prerequisite_course_ids']:
+            if k in course_data:
+                for mentioned_course_id in course_data[k]:
+                    if mentioned_course_id not in data['courses']:
+                        raise ValueError(f"Missing course (mentioned in '{k}' of course '{course_id}'): {mentioned_course_id}")
+
 # sort department IDs by name
 def sort_department_ids(department_ids, data):
     return sorted(department_ids, key=lambda x: data['departments'][x]['name'])
