@@ -34,26 +34,28 @@ REQUIRED_META = { # required metadata (`None` means >0)
     },
 }
 TRANSLATE = { # translate keys to human-readable strings
-    'abbreviation':      "Abbreviation",
-    'course_code':       "Course Code",
-    'course_id':         "Course ID",
-    'course_ids':        "Course IDs",
-    'credit_system':     "Credit/Unit System",
-    'degree':            "Degree Type",
-    'department':        "Department",
-    'department_id':     "Department ID",
-    'department_ids':    "Department IDs",
-    'description':       "Description",
-    'institution':       "Institution",
-    'institution_id':    "Institution ID",
-    'institution_ids':   "Institution IDs",
-    'length':            "Expected Length (years)",
-    'level':             "Academic Level",
-    'location':          "Location",
-    'name':              "Name",
-    'program_code':      "Program Code",
-    'total_credits':     "Total Credits/Units",
-    'url':               "URL",
+    'abbreviation':         "Abbreviation",
+    'course_code':          "Course Code",
+    'course_id':            "Course ID",
+    'course_ids':           "Course IDs",
+    'credits':              "Credits",
+    'credit_system':        "Credit/Unit System",
+    'degree':               "Degree Type",
+    'department':           "Department",
+    'department_id':        "Department ID",
+    'department_ids':       "Department IDs",
+    'description':          "Description",
+    'institution':          "Institution",
+    'institution_id':       "Institution ID",
+    'institution_ids':      "Institution IDs",
+    'length':               "Expected Length (years)",
+    'level':                "Academic Level",
+    'location':             "Location",
+    'name':                 "Name",
+    'prerequisite_courses': "Prerequisites",
+    'program_code':         "Program Code",
+    'total_credits':        "Total Credits/Units",
+    'url':                  "URL",
 }
 
 # check data for validity
@@ -67,26 +69,23 @@ def check_data(data):
                 if (meta_num is not None) and (len(entry_data[meta]) != meta_num):
                     raise ValueError(f"'{k}' entry's '{meta}.txt' has {len(entry_data[meta])} line(s) instead of {meta_num}")
 
-    # check that every course is in at least 1 program
-    course_in_program = {course_id: False for course_id in data['courses']}
-    for program_data in data['programs'].values():
-        for course_id in program_data['course_ids']:
-            course_in_program[course_id] = True
-    for course_id, is_in_program in course_in_program.items():
-        if not is_in_program:
-            raise ValueError(f"Course not in any programs: {course_id}")
-
-    # check that all mentioned courses exist
+    # check that all mentioned courses exist and that every course is mentioned somewhere
+    mentioned_course_ids = set()
     for program_id, program_data in data['programs'].items():
         for mentioned_course_id in program_data['course_ids']:
             if mentioned_course_id not in data['courses']:
                 raise ValueError(f"Missing course (mentioned in program '{program_id}'): {mentioned_course_id}")
+            mentioned_course_ids.add(mentioned_course_id)
     for course_id, course_data in data['courses'].items():
         for k in ['prerequisite_course_ids']:
             if k in course_data:
                 for mentioned_course_id in course_data[k]:
                     if mentioned_course_id not in data['courses']:
                         raise ValueError(f"Missing course (mentioned in '{k}' of course '{course_id}'): {mentioned_course_id}")
+                    mentioned_course_ids.add(mentioned_course_id)
+    for course_id in data['courses']:
+        if course_id not in mentioned_course_ids:
+            raise ValueError(f"Course not mentioned anywhere: {course_id}")
 
 # sort department IDs by name
 def sort_department_ids(department_ids, data):
@@ -103,17 +102,14 @@ def sort_course_ids(course_ids, data):
 # build Markdown
 def build_markdown(data):
     # precompute mappings
-    institution_to_departments = dict()
-    department_to_programs = dict()
+    institution_to_departments = {institution_id: set() for institution_id in data['institutions']}
+    department_to_programs = {department_id: set() for department_id in data['departments']}
     for mapping_dict, child_key, parent_id_key in [
         (institution_to_departments, 'departments', 'institution_id'),
         (department_to_programs, 'programs', 'department_id'),
     ]:
         for child_id, child_data in data[child_key].items():
-            parent_id = child_data[parent_id_key][0]
-            if parent_id not in mapping_dict:
-                mapping_dict[parent_id] = set()
-            mapping_dict[parent_id].add(child_id)
+            mapping_dict[child_data[parent_id_key][0]].add(child_id)
 
     # create Markdown
     out = ''
@@ -170,8 +166,8 @@ def build_markdown(data):
                         if 'department_id' in course_data:
                             out += f"* **{TRANSLATE['department']}:** [{data['departments'][course_data['department_id'][0]]['name'][0]}](#{course_data['department_id'][0]})\n"
                         if 'prerequisite_course_ids' in course_data:
-                            out += f'''* **TRANSLATE['prerequisite_courses']:** {'/'.join(f'[{data['courses'][prereq_course_id]['course_code'][0]}](#{alt_course_id})' for prereq_course_id in course_data['prerequisite_course_ids'])}'''
-                        remaining_course_keys = set(course_data.keys()) - {'course_code', 'name', 'url', 'description', 'institution_id', 'department_id', 'course_id'}
+                            out += f'''* **TRANSLATE['prerequisite_courses']:** {'/'.join(f'[{data['courses'][prereq_course_id]['course_code'][0]}](#{prereq_course_id})' for prereq_course_id in course_data['prerequisite_course_ids'])}'''
+                        remaining_course_keys = set(course_data.keys()) - {'course_code', 'name', 'url', 'description', 'institution_id', 'department_id', 'course_id', 'prerequisite_course_ids'}
                         if len(remaining_course_keys) != 0:
                             for k in sorted(remaining_course_keys, key=lambda x: TRANSLATE[x]):
                                 out += f"* **{TRANSLATE[k]}:** {' / '.join(course_data[k])}\n"
