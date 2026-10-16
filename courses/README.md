@@ -8,3 +8,4 @@ This directory contains courses. Each individual course is contained within a fo
 * `institution_id.txt` - GameEduDB institution ID (as defined in [`institutions`](../institutions)) in which the course is offered
 * `department_id.txt` - GameEduDB department ID (as defined in [`departments`](../departments)) in which the course resides
 * `description.txt` - Description of the course (ideally the official description)
+* `credits.txt` - Number of credits/units
