@@ -1,0 +1,2 @@
+Introduction to the basic concepts of probability and statistics with discussion of applications to computer science.
+Restrictions: Computer Science and Engineering majors and School of Information and Computer Sciences students have the first consideration for enrollment. STATS 67 may not be taken for credit concurrently with or after STATS 120B.
