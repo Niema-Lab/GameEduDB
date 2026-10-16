@@ -1,0 +1,2 @@
+An introduction to computers and programming. Python programming syntax/style, types. Numbers and sequences. Control flow. I/O and errors/exceptions. Function calling, parameter passing, formal arguments, return values. Variable scoping. Programming laboratory.
+Overlaps with EECS 10.
