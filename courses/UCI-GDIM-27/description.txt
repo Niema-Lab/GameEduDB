@@ -1,0 +1,1 @@
+More advanced study of game design principles and systems design through the study of complex problems and play experiences. Topics include economies, game balancing, level design, prototyping, stat design, playtesting, and design documentation.
