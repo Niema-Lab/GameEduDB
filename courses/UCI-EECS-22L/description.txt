@@ -1,0 +1,1 @@
+Hands-on experience with the ANSI-C programming language. Medium-sized programming projects, team work. Software specification, documentation, implementation, testing. Definition of data structures and application programming interface. Creation of program modules, linking with external libraries. Rule-based compilation, version control.
