@@ -1,0 +1,2 @@
+Differential calculus with applications to life sciences. Exponential, logarithmic, and trigonometric functions. Limits, differentiation techniques, optimization and difference equations.
+Overlaps with MATH 2A.  
