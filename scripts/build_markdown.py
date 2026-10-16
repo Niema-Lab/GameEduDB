@@ -59,6 +59,7 @@ TRANSLATE = { # translate keys to human-readable strings
 
 # check data for validity
 def check_data(data):
+    # check required metadata
     for k in data:
         for entry_id, entry_data in data[k].items():
             for meta, meta_num in REQUIRED_META[k].items():
@@ -66,6 +67,15 @@ def check_data(data):
                     raise ValueError(f"'{k}' entry missing required '{meta}.txt' metadata: {entry_id}")
                 if (meta_num is not None) and (len(entry_data[meta]) != meta_num):
                     raise ValueError(f"'{k}' entry's '{meta}.txt' has {len(entry_data[meta])} line(s) instead of {meta_num}")
+
+    # check that every course is in at least 1 program
+    course_in_program = {course_id: False for course_id in data['courses']}
+    for program_data in data['programs'].values():
+        for course_id in program_data['course_ids']:
+            course_in_program[course_id] = True
+    for course_id, is_in_program in course_in_program.items():
+        if not is_in_program:
+            raise ValueError(f"Course not in any programs: {course_id}")
 
 # sort department IDs by name
 def sort_department_ids(department_ids, data):
