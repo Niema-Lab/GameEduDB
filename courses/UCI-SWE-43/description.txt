@@ -1,0 +1,2 @@
+Concepts, methods, and current practice of software engineering. Large-scale software production, software life cycle models, principles, and techniques for each stage of development.
+Overlaps with I&C SCI 105.  
