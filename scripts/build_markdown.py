@@ -33,23 +33,24 @@ REQUIRED_META = { # required metadata (`None` means >0)
     },
 }
 TRANSLATE = { # translate keys to human-readable strings
-    'abbreviation':    "Abbreviation",
-    'course_code':     "Course Code",
-    'course_id':       "Course ID",
-    'course_ids':      "Course IDs",
-    'credit_system':   "Credit/Unit System",
-    'degree':          "Degree Type",
-    'department_id':   "Department ID",
-    'department_ids':  "Department IDs",
-    'description':     "Description",
-    'institution_id':  "Institution ID",
-    'institution_ids': "Institution IDs",
-    'length':          "Expected Length (years)",
-    'level':           "Academic Level",
-    'name':            "Name",
-    'program_code':    "Program Code",
-    'total_credits':   "Total Credits/Units",
-    'url':             "URL",
+    'abbreviation':      "Abbreviation",
+    'alternate_courses': "Alternate Courses",
+    'course_code':       "Course Code",
+    'course_id':         "Course ID",
+    'course_ids':        "Course IDs",
+    'credit_system':     "Credit/Unit System",
+    'degree':            "Degree Type",
+    'department_id':     "Department ID",
+    'department_ids':    "Department IDs",
+    'description':       "Description",
+    'institution_id':    "Institution ID",
+    'institution_ids':   "Institution IDs",
+    'length':            "Expected Length (years)",
+    'level':             "Academic Level",
+    'name':              "Name",
+    'program_code':      "Program Code",
+    'total_credits':     "Total Credits/Units",
+    'url':               "URL",
 }
 
 # check data for validity
@@ -139,7 +140,15 @@ def build_markdown(data):
                         course_data = data['courses'][course_id]
                         out += f"#### [{course_data['course_code'][0]}: {course_data['name'][0]}]({course_data['url'][0]})\n"
                         out += f"{'\n\n'.join(course_data['description'])}\n\n"
-                        remaining_course_keys = set(course_data.keys()) - {'course_code', 'name', 'url', 'description', 'institution_id', 'department_id', 'course_id'}
+                        if 'prerequisite_course_ids' in course_data:
+                            out += f'''* **TRANSLATE['prerequisite_courses']:** {'/'.join(f'[{data['courses'][prereq_course_id]['course_code'][0]}](#{alt_course_id})' for prereq_course_id in course_data['prerequisite_course_ids'])}'''
+                        if 'alternate_course_ids' in course_data:
+                            out += f'''* **TRANSLATE['alternate_courses']:** {'/'.join(f'[{data['courses'][alt_course_id]['course_code'][0]}](#{alt_course_id})' for alt_course_id in course_data['alternate_course_ids'])}'''
+                        remaining_course_keys = set(course_data.keys()) - {'course_code', 'name', 'url', 'description', 'institution_id', 'department_id', 'course_id', 'alternate_course_ids'}
+                        if len(remaining_course_keys) != 0:
+                            for k in sorted(remaining_course_keys, key=lambda x: TRANSLATE[x]):
+                                out += f"* **{TRANSLATE[k]}:** {' / '.join(course_data[k])}\n"
+                            out += '\n'
     return out
 
 # main logic
