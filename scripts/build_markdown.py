@@ -44,17 +44,23 @@ def check_data(data):
 
 # build Markdown
 def build_markdown(data):
-    # precompute mapping from institutions to departments
+    # precompute mappings
     institution_to_departments = dict()
-    for department_id, department_data in data['departments'].items():
-        institution_id = department_data['institution_id'][0]
-        if institution_id not in institution_to_departments:
-            institution_to_departments[institution_id] = set()
-        institution_to_departments[institution_id].add(department_id)
+    department_to_programs = dict()
+    for mapping_dict, child_key, parent_id_key in [
+        (institution_to_departments, 'departments', 'institution_id'),
+        (department_to_programs, 'programs', 'department_id'),
+    ]:
+        for child_id, child_data in data[child_key].items():
+            parent_id = child_data[parent_id_key][0]
+            if parent_id not in mapping_dict:
+                mapping_dict[parent_id] = set()
+            mapping_dict[parent_id].add(child_id)
 
     # create Markdown
     out = ''
     for institution_id, institution_data in sorted(data['institutions'].items(), key=lambda x: x[1]['name']):
+        # institution info
         out += f"# [{institution_data['name'][0]}]({institution_data['url'][0]})"
         if 'abbreviation' in institution_data:
             out += f" ({'/'.join(institution_data['abbreviation'])})"
@@ -62,9 +68,10 @@ def build_markdown(data):
         out += f"{'\n\n'.join(institution_data['description'])}\n\n"
         institution_departments = institution_to_departments[institution_id]
         if len(institution_departments) == 0:
-            pass # TODO HANDLE INSTITUTION WITHOUT DEPARTMENTS (e.g. standalone programs within an institution)
+            raise NotImplementedError(f"TODO NIEMA: Handle institution without any departments: {institution_id}") # TODO
         else:
-            for department_id in sorted(institution_to_departments[institution_id], key=lambda x: data['departments'][department_id]['name']):
+            # department info
+            for department_id in sorted(institution_to_departments[institution_id], key=lambda x: data['departments'][x]['name']):
                 department_data = data['departments'][department_id]
                 out += f"## [{department_data['name'][0]}]({department_data['url'][0]})"
                 if 'abbreviation' in department_data:
@@ -72,6 +79,16 @@ def build_markdown(data):
                 out += f" {{#{department_id}}}\n"
                 if 'description' in department_data:
                     out += f"{'\n\n'.join(department_data['description'])}\n\n"
+                for program_id in sorted(department_to_programs[department_id], key=lambda x: data['programs'][x]['name']):
+                    # program info
+                    program_data = data['programs'][program_id]
+                    out += f"### [{program_data['name'][0]}]({program_data['url'][0]})"
+                    if 'abbreviation' in program_data:
+                        out += f" ({'/'.join(program_data['abbreviation'])})"
+                    out += f" {{#{program_id}}}\n"
+                    if 'description' in program_data:
+                        out += f"{'\n\n'.join(program_data['description'])}\n\n"
+                    pass # TODO CONTINUE HERE
     return out
 
 # main logic
