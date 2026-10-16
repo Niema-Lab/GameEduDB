@@ -1,6 +1,7 @@
 This directory contains programs, which are collections of courses (e.g. degree programs, certifications, online specializations, etc.). Each individual program is contained within a folder whose name is a unique identifier for the program. Within each program's folder, the following files contain program attributes:
 
 * `name.txt` - Official name of the program
+* `abbreviation.txt` - Abbreviation of the name of the program
 * `program_code.txt` - Institutional ID/code of the program
 * `url.txt` - URL of the program (ideally the official program website)
 * `institution_id.txt` - GameEduDB institution ID (as defined in [`institutions`](../institutions)) in which the program is offered

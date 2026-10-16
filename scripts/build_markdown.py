@@ -6,6 +6,7 @@ Build a Markdown file from the GameEduDB contents
 # imports
 from pathlib import Path
 from sys import argv
+import re
 
 # constants
 REQUIRED_META = { # required metadata (`None` means >0)
@@ -38,6 +39,7 @@ TRANSLATE = { # translate keys to human-readable strings
     'course_code':          "Course Code",
     'course_id':            "Course ID",
     'course_ids':           "Course IDs",
+    'courses':              "Courses",
     'credits':              "Credits",
     'credit_system':        "Credit/Unit System",
     'degree':               "Degree Type",
@@ -57,6 +59,10 @@ TRANSLATE = { # translate keys to human-readable strings
     'total_credits':        "Total Credits/Units",
     'url':                  "URL",
 }
+
+# key for natural sort (attempt numeric, but default to alphabetic)
+def natural_sort_key(s):
+    return [int(text) if text.isdigit() else text.lower() for text in re.split(r'(\d+)', s)]
 
 # check data for validity
 def check_data(data):
@@ -87,34 +93,53 @@ def check_data(data):
         if course_id not in mentioned_course_ids:
             raise ValueError(f"Course not mentioned anywhere: {course_id}")
 
+# sort institution IDs by name
+def sort_institution_ids(institution_ids, data):
+    return sorted(set(institution_ids), key=lambda x: data['institutions'][x]['name'])
+
 # sort department IDs by name
 def sort_department_ids(department_ids, data):
-    return sorted(department_ids, key=lambda x: data['departments'][x]['name'])
+    department_ids = set(department_ids)
+    has_none = None in department_ids
+    out = sorted(department_ids-{None}, key=lambda x: data['departments'][x]['name'])
+    if has_none:
+        out += [None]
+    return out
 
 # sort program IDs by name
 def sort_program_ids(program_ids, data):
-    return sorted(program_ids, key=lambda x: data['programs'][x]['name'])
+    return sorted(set(program_ids), key=lambda x: data['programs'][x]['name'])
 
-# sort course IDs by course code, but require a course's prerequisites to come before it
+# sort course IDs by course code (attempt numeric sort)
 def sort_course_ids(course_ids, data):
-    return sorted(course_ids) # TODO REPLACE WITH ACTUAL IMPLEMENTATION
+    return sorted(set(course_ids), key=lambda x: natural_sort_key(data['courses'][x]['course_code'][0]))
 
 # build Markdown
 def build_markdown(data):
-    # precompute mappings
-    institution_to_departments = {institution_id: set() for institution_id in data['institutions']}
-    department_to_programs = {department_id: set() for department_id in data['departments']}
-    for mapping_dict, child_key, parent_id_key in [
-        (institution_to_departments, 'departments', 'institution_id'),
-        (department_to_programs, 'programs', 'department_id'),
-    ]:
-        for child_id, child_data in data[child_key].items():
-            mapping_dict[child_data[parent_id_key][0]].add(child_id)
-
-    # create Markdown
+    # set things up
     out = ''
-    for institution_id, institution_data in sorted(data['institutions'].items(), key=lambda x: x[1]['name']):
-        # institution info
+    institution_to_programs = {institution_id: set() for institution_id in data['institutions']}
+    institution_to_departments = {institution_id: set() for institution_id in data['institutions']}
+    for program_id, program_data in data['programs'].items():
+        institution_to_programs[program_data['institution_id'][0]].add(program_id)
+    for department_id, department_data in data['departments'].items():
+        institution_to_departments[department_data['institution_id'][0]].add(department_id)
+    institution_to_courses = dict()
+    for course_id, course_data in data['courses'].items():
+        institution_id = course_data['institution_id'][0]
+        if institution_id not in institution_to_courses:
+            institution_to_courses[institution_id] = dict()
+        if 'department_id' in course_data:
+            department_id = course_data['department_id'][0]
+        else:
+            department_id = None
+        if department_id not in institution_to_courses[institution_id]:
+            institution_to_courses[institution_id][department_id] = set()
+        institution_to_courses[institution_id][department_id].add(course_id)
+
+    # write institutions
+    for institution_id in sort_institution_ids(data['institutions'].keys(), data):
+        institution_data = data['institutions'][institution_id]
         out += f"# [{institution_data['name'][0]}"
         if 'abbreviation' in institution_data:
             out += f" ({' / '.join(institution_data['abbreviation'])})"
@@ -125,14 +150,35 @@ def build_markdown(data):
         for k in sorted(remaining_institution_keys, key=lambda x: TRANSLATE[x]):
             out += f"* **{TRANSLATE[k]}:** {' / '.join(institution_data[k])}\n"
         out += '\n'
-        institution_departments = institution_to_departments[institution_id]
-        if len(institution_departments) == 0:
-            raise NotImplementedError(f"TODO NIEMA: Handle institution without any departments: {institution_id}") # TODO
-        else:
-            # department info
-            for department_id in sort_department_ids(institution_to_departments[institution_id], data):
+
+        # write programs
+        out += f"## Programs\n\n"
+        for program_id in sort_program_ids(institution_to_programs[institution_id], data):
+            program_data = data['programs'][program_id]
+            out += f"### [{program_data['name'][0]}"
+            if 'abbreviation' in program_data:
+                out += f" ({' / '.join(program_data['abbreviation'])})"
+            out += f"]({program_data['url'][0]}) {{#{program_id}}}\n"
+            if 'description' in program_data:
+                out += f"{'\n\n'.join(program_data['description'])}\n\n"
+            out += f"* **{TRANSLATE['institution']}:** [{data['institutions'][program_data['institution_id'][0]]['name'][0]}](#{program_data['institution_id'][0]})\n"
+            out += f"* **{TRANSLATE['department']}:** [{data['departments'][program_data['department_id'][0]]['name'][0]}](#{program_data['department_id'][0]})\n"
+            remaining_program_keys = set(program_data.keys()) - {'name', 'url', 'abbreviation', 'description', 'institution_id', 'department_id', 'course_ids'}
+            for k in sorted(remaining_program_keys, key=lambda x: TRANSLATE[x]):
+                out += f"* **{TRANSLATE[k]}:** {' / '.join(program_data[k])}\n"
+            out += f"* **{TRANSLATE['courses']}:**\n"
+            for course_id in sort_course_ids(program_data['course_ids'], data):
+                out += f"    * [{data['courses'][course_id]['course_code'][0]}: {data['courses'][course_id]['name'][0]}](#{course_id})\n"
+            out += '\n'
+
+        # write departments
+        out += f"## Departments\n\n"
+        for department_id in sort_department_ids(institution_to_courses[institution_id].keys(), data):
+            if department_id is None:
+                out += "### No Department\n\n"
+            else:
                 department_data = data['departments'][department_id]
-                out += f"## [{department_data['name'][0]}"
+                out += f"### [{department_data['name'][0]}"
                 if 'abbreviation' in department_data:
                     out += f" ({' / '.join(department_data['abbreviation'])})"
                 out += f"]({department_data['url'][0]}) {{#{department_id}}}\n"
@@ -143,35 +189,21 @@ def build_markdown(data):
                 for k in sorted(remaining_department_keys, key=lambda x: TRANSLATE[x]):
                     out += f"* **{TRANSLATE[k]}:** {' / '.join(department_data[k])}\n"
                 out += '\n'
-                for program_id in sort_program_ids(department_to_programs[department_id], data):
-                    # program info
-                    program_data = data['programs'][program_id]
-                    out += f"### [{program_data['name'][0]}]({program_data['url'][0]})"
-                    if 'abbreviation' in program_data:
-                        out += f" ({' / '.join(program_data['abbreviation'])})"
-                    out += f" {{#{program_id}}}\n"
-                    if 'description' in program_data:
-                        out += f"{'\n\n'.join(program_data['description'])}\n\n"
-                    out += f"* **{TRANSLATE['institution']}:** [{data['institutions'][program_data['institution_id'][0]]['name'][0]}](#{program_data['institution_id'][0]})\n"
-                    out += f"* **{TRANSLATE['department']}:** [{data['departments'][program_data['department_id'][0]]['name'][0]}](#{program_data['department_id'][0]})\n"
-                    remaining_program_keys = set(program_data.keys()) - {'name', 'url', 'abbreviation', 'description', 'institution_id', 'department_id', 'course_ids'}
-                    for k in sorted(remaining_program_keys, key=lambda x: TRANSLATE[x]):
-                        out += f"* **{TRANSLATE[k]}:** {' / '.join(program_data[k])}\n"
-                    out += '\n'
-                    for course_id in sort_course_ids(program_data['course_ids'], data):
-                        course_data = data['courses'][course_id]
-                        out += f"#### [{course_data['course_code'][0]}: {course_data['name'][0]}]({course_data['url'][0]})\n"
-                        out += f"{'\n\n'.join(course_data['description'])}\n\n"
-                        out += f"* **{TRANSLATE['institution']}:** [{data['institutions'][course_data['institution_id'][0]]['name'][0]}](#{course_data['institution_id'][0]})\n"
-                        if 'department_id' in course_data:
-                            out += f"* **{TRANSLATE['department']}:** [{data['departments'][course_data['department_id'][0]]['name'][0]}](#{course_data['department_id'][0]})\n"
-                        if 'prerequisite_course_ids' in course_data:
-                            out += f'''* **TRANSLATE['prerequisite_courses']:** {'/'.join(f'[{data['courses'][prereq_course_id]['course_code'][0]}](#{prereq_course_id})' for prereq_course_id in course_data['prerequisite_course_ids'])}'''
-                        remaining_course_keys = set(course_data.keys()) - {'course_code', 'name', 'url', 'description', 'institution_id', 'department_id', 'course_id', 'prerequisite_course_ids'}
-                        if len(remaining_course_keys) != 0:
-                            for k in sorted(remaining_course_keys, key=lambda x: TRANSLATE[x]):
-                                out += f"* **{TRANSLATE[k]}:** {' / '.join(course_data[k])}\n"
-                            out += '\n'
+
+            # write courses
+            for course_id in sort_course_ids(institution_to_courses[institution_id][department_id], data):
+                course_data = data['courses'][course_id]
+                out += f"#### [{course_data['course_code'][0]}: {course_data['name'][0]}]({course_data['url'][0]})\n"
+                out += f"{'\n\n'.join(course_data['description'])}\n\n"
+                out += f"* **{TRANSLATE['institution']}:** [{data['institutions'][course_data['institution_id'][0]]['name'][0]}](#{course_data['institution_id'][0]})\n"
+                if 'department_id' in course_data:
+                    out += f"* **{TRANSLATE['department']}:** [{data['departments'][course_data['department_id'][0]]['name'][0]}](#{course_data['department_id'][0]})\n"
+                if 'prerequisite_course_ids' in course_data:
+                    out += f'''* **TRANSLATE['prerequisite_courses']:** {'/'.join(f'[{data['courses'][prereq_course_id]['course_code'][0]}](#{prereq_course_id})' for prereq_course_id in course_data['prerequisite_course_ids'])}'''
+                remaining_course_keys = set(course_data.keys()) - {'course_code', 'name', 'url', 'description', 'institution_id', 'department_id', 'course_id', 'prerequisite_course_ids'}
+                for k in sorted(remaining_course_keys, key=lambda x: TRANSLATE[x]):
+                    out += f"* **{TRANSLATE[k]}:** {' / '.join(course_data[k])}\n"
+                out += '\n'
     return out
 
 # main logic
