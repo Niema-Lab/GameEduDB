@@ -1,0 +1,2 @@
+Introduction to the solution of engineering problems through the use of the computer. Elementary programming, numerical analysis, and data visualization with a high-level programming language such as MATLAB.
+Overlaps with EECS 10, EECS 12, BME 60B.  
