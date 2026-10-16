@@ -1,0 +1,1 @@
+Design and develop a multiplayer game using Unity or similar engine, with a focus on learning to work in a development team, writing design documents, working with platform features and limitations, developing engaging mechanics, playtesting, and post-mortems.
