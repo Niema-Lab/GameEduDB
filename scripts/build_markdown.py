@@ -181,7 +181,7 @@ def build_markdown(data):
                         course_category_counts[cat] += 1
             if len(course_category_counts) != 0: # TODO delete this check once 'categories' becomes required for courses
                 out += f"* **{TRANSLATE['categories']}:**\n"
-                for cat, cat_count in sorted(course_category_counts.items()):
+                for cat, cat_count in sorted(course_category_counts.items(), key=lambda x: (x[1],x[0]), reverse=True):
                     out += f"    * {cat}: {cat_count} of {len(program_data['course_ids'])} ({round(100 * cat_count / len(program_data['course_ids']))}%)\n"
             out += f"* **{TRANSLATE['courses']}:**\n"
             for course_id in sort_course_ids(program_data['course_ids'], data):
