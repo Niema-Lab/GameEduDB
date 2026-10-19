@@ -10,31 +10,33 @@ import re
 
 # constants
 REQUIRED_META = { # required metadata (`None` means >0)
-    'institutions': { # TODO
-        'name': 1,
-        'url': 1,
-        'location': 1,
+    'institutions': {
         'description': None,
-    },
-    'departments': { # TODO
+        'location': 1,
         'name': 1,
         'url': 1,
-        'institution_id': 1
     },
-    'programs': { # TODO
-        'name': 1,
-        'url': 1,
+    'departments': {
         'institution_id': 1,
+        'name': 1,
+        'url': 1,
+    },
+    'programs': {
+        'institution_id': 1,
+        'name': 1,
+        'url': 1,
     },
     'courses': {
-        'name': 1,
-        'url': 1,
+        #'categories': None, # TODO uncomment once we've added categories to all existing courses
         'description': None,
         'institution_id': 1,
+        'name': 1,
+        'url': 1,
     },
 }
 TRANSLATE = { # translate keys to human-readable strings
     'abbreviation':         "Abbreviation",
+    'categories':           "Categories",
     'course_code':          "Course Code",
     'course_id':            "Course ID",
     'course_ids':           "Course IDs",
@@ -170,6 +172,17 @@ def build_markdown(data):
             remaining_program_keys = set(program_data.keys()) - {'name', 'url', 'abbreviation', 'description', 'institution_id', 'department_id', 'course_ids'}
             for k in sorted(remaining_program_keys, key=lambda x: TRANSLATE[x]):
                 out += f"* **{TRANSLATE[k]}:** {' / '.join(program_data[k])}\n"
+            course_category_counts = dict()
+            for course_id in program_data['course_ids']:
+                if 'categories' in data['courses'][course_id]: # TODO delete this check once 'categories' becomes required for courses
+                    for cat in data['courses'][course_id]['categories']:
+                        if cat not in course_category_counts:
+                            course_category_counts[cat] = 0
+                        course_category_counts[cat] += 1
+            if len(course_category_counts) != 0: # TODO delete this check once 'categories' becomes required for courses
+                out += f"* **{TRANSLATE['categories']}:**\n"
+                for cat, cat_count in sorted(course_category_counts.items()):
+                    out += f"    * {cat}: {cat_count} of {len(program_data['course_ids'])} ({round(100 * cat_count / len(program_data['course_ids']))}%)\n"
             out += f"* **{TRANSLATE['courses']}:**\n"
             for course_id in sort_course_ids(program_data['course_ids'], data):
                 out += "    * ["
