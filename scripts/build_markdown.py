@@ -28,7 +28,6 @@ REQUIRED_META = { # required metadata (`None` means >0)
     },
     'courses': {
         'name': 1,
-        'course_code': 1,
         'url': 1,
         'description': None,
         'institution_id': 1,
@@ -112,7 +111,11 @@ def sort_program_ids(program_ids, data):
 
 # sort course IDs by course code (attempt numeric sort)
 def sort_course_ids(course_ids, data):
-    return sorted(set(course_ids), key=lambda x: natural_sort_key(data['courses'][x]['course_code'][0]))
+    sort_keys = {course_id: data['courses'][course_id]['name'][0] for course_id in set(course_ids)}
+    for course_id in set(sort_keys.keys()):
+        if 'course_code' in data['courses'][course_id]:
+            sort_keys[course_id] = data['courses'][course_id]['course_code'][0]
+    return sorted(sort_keys.keys(), key=lambda x: natural_sort_key(sort_keys[x]))
 
 # build Markdown
 def build_markdown(data):
@@ -162,13 +165,17 @@ def build_markdown(data):
             if 'description' in program_data:
                 out += f"{'\n\n'.join(program_data['description'])}\n\n"
             out += f"* **{TRANSLATE['institution']}:** [{data['institutions'][program_data['institution_id'][0]]['name'][0]}](#{program_data['institution_id'][0]})\n"
-            out += f"* **{TRANSLATE['department']}:** [{data['departments'][program_data['department_id'][0]]['name'][0]}](#{program_data['department_id'][0]})\n"
+            if 'department_id' in program_data:
+                out += f"* **{TRANSLATE['department']}:** [{data['departments'][program_data['department_id'][0]]['name'][0]}](#{program_data['department_id'][0]})\n"
             remaining_program_keys = set(program_data.keys()) - {'name', 'url', 'abbreviation', 'description', 'institution_id', 'department_id', 'course_ids'}
             for k in sorted(remaining_program_keys, key=lambda x: TRANSLATE[x]):
                 out += f"* **{TRANSLATE[k]}:** {' / '.join(program_data[k])}\n"
             out += f"* **{TRANSLATE['courses']}:**\n"
             for course_id in sort_course_ids(program_data['course_ids'], data):
-                out += f"    * [{data['courses'][course_id]['course_code'][0]}: {data['courses'][course_id]['name'][0]}](#{course_id})\n"
+                out += "    * ["
+                if 'course_code' in data['courses'][course_id]:
+                    out += f"{data['courses'][course_id]['course_code'][0]}: "
+                out += f"{data['courses'][course_id]['name'][0]}](#{course_id})\n"
             out += '\n'
 
         # write departments
@@ -193,13 +200,20 @@ def build_markdown(data):
             # write courses
             for course_id in sort_course_ids(institution_to_courses[institution_id][department_id], data):
                 course_data = data['courses'][course_id]
-                out += f"#### [{course_data['course_code'][0]}: {course_data['name'][0]}]({course_data['url'][0]}) {{#{course_id}}}\n"
+                out += "#### ["
+                if 'course_code' in course_data:
+                    out += f"{course_data['course_code'][0]}: "
+                out += f"{course_data['name'][0]}]({course_data['url'][0]}) {{#{course_id}}}\n"
                 out += f"{'\n\n'.join(course_data['description'])}\n\n"
                 out += f"* **{TRANSLATE['institution']}:** [{data['institutions'][course_data['institution_id'][0]]['name'][0]}](#{course_data['institution_id'][0]})\n"
                 if 'department_id' in course_data:
                     out += f"* **{TRANSLATE['department']}:** [{data['departments'][course_data['department_id'][0]]['name'][0]}](#{course_data['department_id'][0]})\n"
                 if 'prerequisite_course_ids' in course_data:
-                    out += f'''* **{TRANSLATE['prerequisite_courses']}:** {' / '.join(f'[{data['courses'][prereq_course_id]['course_code'][0]}](#{prereq_course_id})' for prereq_course_id in course_data['prerequisite_course_ids'])}\n'''
+                    prereq_key = {prereq_course_id: data['courses'][prereq_course_id]['name'][0] for prereq_course_id in set(course_data['prerequisite_course_ids'])}
+                    for prereq_course_id in set(prereq_key.keys()):
+                        if 'course_code' in data['courses'][prereq_course_id]:
+                            prereq_key[prereq_course_id] = data['courses'][prereq_course_id]['course_code'][0]
+                    out += f'''* **{TRANSLATE['prerequisite_courses']}:** {' / '.join(f'[{prereq_key[prereq_course_id]}](#{prereq_course_id})' for prereq_course_id in sorted(prereq_key.keys(), key=lambda x: natural_sort_key(prereq_key[x])))}\n'''
                 remaining_course_keys = set(course_data.keys()) - {'course_code', 'name', 'url', 'description', 'institution_id', 'department_id', 'course_id', 'prerequisite_course_ids'}
                 for k in sorted(remaining_course_keys, key=lambda x: TRANSLATE[x]):
                     out += f"* **{TRANSLATE[k]}:** {' / '.join(course_data[k])}\n"
