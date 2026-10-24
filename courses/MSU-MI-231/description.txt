@@ -1,0 +1,1 @@
+Brainstorming, planning, implementing, and troubleshooting applications and interfaces for games and interactive media. Basic principles of programming for interactivity.

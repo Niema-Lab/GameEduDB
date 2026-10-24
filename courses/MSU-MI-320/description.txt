@@ -1,0 +1,1 @@
+Explore and summarize structured data using simple statistics such as means, standard deviations, contingency tables, and hypothesis tests, and use this data to evaluate arguments and draw conclusions about technology performance and human behavior.
