@@ -1,0 +1,1 @@
+This course focuses on how to analyze and simulate game systems from a technical perspective. Both economic and combat systems are the focus, with automation and telemetry used for debugging, analyzing, and balancing those systems.

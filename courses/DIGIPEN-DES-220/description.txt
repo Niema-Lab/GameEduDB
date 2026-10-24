@@ -1,0 +1,1 @@
+This course introduces the basic principles of system design and game mechanics with an emphasis on dynamic combat systems, player agency, and system balance. Additional topics include system economics and player perception of a system.

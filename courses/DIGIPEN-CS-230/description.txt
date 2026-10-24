@@ -1,0 +1,1 @@
+This course explores the architecture and implementation techniques of game engines. Through hands-on projects, a basic game engine will be created and expanded, applying fundamental programming principles.

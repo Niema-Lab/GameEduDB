@@ -1,0 +1,1 @@
+The course focuses on methods for creating engaging spatial environments, both through the use of procedural generation and traditional level editors. How to use encounters to control progression, how to guide players through a space, and how to use telemetry to analyze levels will also be covered.

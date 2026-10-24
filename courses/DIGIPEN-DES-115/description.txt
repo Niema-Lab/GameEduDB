@@ -1,0 +1,1 @@
+This course is an introduction to game design theory and the process of designing games. Topics may include design principles, writing rules, playtesting, game state, randomness, hidden information, and game balance.

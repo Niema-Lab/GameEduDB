@@ -1,0 +1,1 @@
+This course explores advanced techniques of system design and game mechanics with an emphasis on game economies and system balance.

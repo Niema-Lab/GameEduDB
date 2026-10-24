@@ -1,0 +1,1 @@
+This course introduces the basic principles of user research and formal testing methodologies based on the scientific method. Topics include qualitative and quantitative research methods, test candidate selection, data analysis, information visualization, and end-user research.

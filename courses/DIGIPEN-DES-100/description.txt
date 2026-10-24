@@ -1,0 +1,1 @@
+This course introduces the design process as it applies to interactive experiences. Topics include exploration, research, proposals, prototypes, iteration, and polishing of an interactive experience.

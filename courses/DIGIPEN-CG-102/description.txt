@@ -1,0 +1,1 @@
+This course introduces the software and basic interface customization options and strategies in 2D raster graphics. Interface organization strategies, system components, bit depth, resolution, memory management, and output strategies are covered. The course also explores techniques and critical thinking skills for digital painting.

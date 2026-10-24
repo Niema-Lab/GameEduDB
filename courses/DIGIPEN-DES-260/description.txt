@@ -1,0 +1,1 @@
+This course explores fundamental principles of interactive design and psychological principles related to design. Emphasis is placed on information architecture, graphic design concepts, user interface documentation, and interface prototyping techniques.

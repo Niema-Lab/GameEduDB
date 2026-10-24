@@ -1,0 +1,1 @@
+This course introduces game designers to the 3D production process. The course begins with the basics of interface organization strategies, equipment options, and production elements. The class also introduces techniques for texture mapping, modeling, rigging, lighting, cameras, and animation.

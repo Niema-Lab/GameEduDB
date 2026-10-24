@@ -1,0 +1,1 @@
+This course focuses on building a digital 2D game engine with a team and then finishing a project with that engine. Topics include software development cycles, technical design, technical problem-solving, and team problem-solving.

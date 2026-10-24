@@ -1,0 +1,1 @@
+This course focuses on designing and implementing a complete experience that showcases system design techniques and is suitable as a portfolio piece.

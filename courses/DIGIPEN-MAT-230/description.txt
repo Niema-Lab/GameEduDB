@@ -1,0 +1,1 @@
+This course studies sequences and series, and integral calculus of single and multivariate functions. Topics include: an introduction to differential equations; applications of integrals; techniques of integration; sequences and series of real numbers; power series; Taylor series; double, triple, line, and surface integrals; and the theorems of Green, Gauss and Stokes.

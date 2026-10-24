@@ -1,0 +1,1 @@
+This course focuses on the team development of a digital 2D game project. Topics include basic software development and developing software on a team.

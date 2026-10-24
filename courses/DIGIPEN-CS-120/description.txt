@@ -1,0 +1,1 @@
+This course covers the fundamentals of programming in C. It focusses on developing a deep understanding of the structured programming concepts and practices. Topics include variables, data types, functions, control structures, pointers, strings, arrays, and dynamic allocation principles.

@@ -1,0 +1,1 @@
+This course focuses on designing and implementing digital game prototypes, with an emphasis on integrating mechanics, controls, and camera. Additional topics include building tension to create engagement and implementing player feedback techniques.

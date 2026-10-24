@@ -1,0 +1,1 @@
+This course provides an introduction to hierarchical network communication within a distributed computing environment. The curriculum encompasses network technologies, architecture, and protocols, with a particular focus on the TCP/IP stack.

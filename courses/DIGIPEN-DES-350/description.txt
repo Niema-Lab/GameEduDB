@@ -1,0 +1,1 @@
+This course explores advanced components of modern game engines and technical design patterns for games. Topics include data management, advanced control systems, advanced cameras, and asset management.

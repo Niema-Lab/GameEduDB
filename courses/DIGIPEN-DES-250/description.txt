@@ -1,0 +1,1 @@
+This course introduces designers to the core components of modern game engines and technical design patterns for games. Topics include the design and implementation of character controllers, camera systems, and game state management.

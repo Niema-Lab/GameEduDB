@@ -1,0 +1,1 @@
+This course introduces students to the basic theories and techniques of 3D computer animation. The curriculum emphasizes standard 3D modeling techniques, including polygonal and spline modeling, texture map creation and application, keyframing, and animating through forward kinematics and inverse kinematics.

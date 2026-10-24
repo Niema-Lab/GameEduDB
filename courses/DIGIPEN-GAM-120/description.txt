@@ -1,0 +1,1 @@
+This course introduces the workflows, methodologies, and best practices for working within a modern digital game development environment. Topics may include game editors, components, basic scripting, input processing, importing art and audio, level creation, and source control.

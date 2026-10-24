@@ -1,0 +1,1 @@
+This course explores advanced topics and techniques for designing successful user experiences in a variety of media with an emphasis on adaptive, flexible digital interfaces. Topics include interaction design processes and artifacts, adaptive layouts, design pivots, and visual design techniques.

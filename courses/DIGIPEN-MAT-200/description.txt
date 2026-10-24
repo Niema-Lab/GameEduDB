@@ -1,0 +1,1 @@
+Topics include an introduction to differential equations, applications of integrals, techniques of integration, sequences and series of real numbers, power series, and Taylor series.

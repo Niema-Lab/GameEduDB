@@ -1,0 +1,1 @@
+Topics in vector geometry include vector arithmetic, dot products, cross products, numerical representations of lines and planes, distances, angles, and intersections. Topics in linear algebra include matrices, systems of linear equations, linear transformations, and affine transformations. Additional topics may include barycentric coordinates and perspective projections.

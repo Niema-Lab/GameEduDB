@@ -1,0 +1,1 @@
+This course covers advanced features and techniques in C and C++. It focuses on developing an understanding of interaction and communication between classes and objects. Topics include bit manipulations, advanced memory management, advanced function and class templates, inheritance, design patterns, and STL containers and algorithms.

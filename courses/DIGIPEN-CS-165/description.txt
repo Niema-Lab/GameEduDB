@@ -1,0 +1,1 @@
+This course expands on basic programming skills through an exploration of object-oriented programming techniques. Topics may include classes, inheritance, interfaces, polymorphism, and data structures.

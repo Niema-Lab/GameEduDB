@@ -1,0 +1,1 @@
+This course covers advanced user research techniques with an emphasis on information visualization. Topics include methods for collecting and building data sets, assessing the quality of those data sets, selecting the optimal method for data visualization, and creating user research reports.

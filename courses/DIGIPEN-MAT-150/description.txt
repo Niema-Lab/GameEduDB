@@ -1,0 +1,1 @@
+This course introduces the calculus of functions of a single real variable. Topics include limits, continuity, differentiation, techniques of differentiation, optimization, integration, Riemann sums, the fundamental theorem of calculus, and u-substitution.

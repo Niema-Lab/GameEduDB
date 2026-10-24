@@ -1,0 +1,1 @@
+This course presents the concepts of PHY 200 in the laboratory. The experiments allow the student to experience the laws of basic physics involving linear motion, force, gravitation, conservation of energy, conservation of momentum, collisions, rotational motion, and springs. Error analysis and data reduction techniques are taught and required in experimental reports.

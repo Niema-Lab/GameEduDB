@@ -1,0 +1,1 @@
+This course covers a variety of algorithms and algorithmic patterns. It focusses on developing an understanding of the internal structure, workings, and common properties of algorithms. Topics include divide-and-conquer, dynamic programming, greedy algorithms, incremental improvement, and computational complexity.
