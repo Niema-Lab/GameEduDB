@@ -1,0 +1,1 @@
+This course uses 3D modeling and animation software to create high-resolution 3D computer models. The tools, techniques, and topics studied include advanced 3D modeling tools, topology, 3D micro-scene layout, lighting, texturing, and rendering.

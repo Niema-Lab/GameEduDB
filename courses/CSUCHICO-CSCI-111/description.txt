@@ -1,0 +1,1 @@
+A first-semester programming course providing an overview of computer systems and an introduction to problem solving and software design using procedural object-oriented programming languages. Coverage includes the software life cycle, algorithms, and their role in software design. Students are expected to design, implement, and test several programs.

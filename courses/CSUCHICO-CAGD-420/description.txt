@@ -1,0 +1,1 @@
+This course explores the techniques used for simulating realistic 3D modeling, lighting, and texturing in 3D environments and develops skills in accurate image creation, narrative, and rendering.

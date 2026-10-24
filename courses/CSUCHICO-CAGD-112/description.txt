@@ -1,0 +1,1 @@
+This course is designed as an introduction to multiple software packages and applicable techniques to develop skills to create 3D assets based on real world environments and objects. We explore the practical uses of physical and virtual cameras, material and 3D scanning for asset creation, scene composition, and digital lighting.

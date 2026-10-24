@@ -1,0 +1,1 @@
+This course introduces the essentials of virtual production, combining elements of filmmaking and game development to prepare students for the dynamic field of real-time production environments. The course covers both technical and creative aspects of CGI including real-time rendering, motion capture integration, and virtual set design.

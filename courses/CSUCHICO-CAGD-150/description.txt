@@ -1,0 +1,1 @@
+Students are introduced to fundamental visual scripting concepts such as problem solving and program design, control flow, variables, input/output systems, and digital asset manipulation. The course examines artificial intelligence tools, workflows, and their ethical implications.
