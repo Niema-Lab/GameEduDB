@@ -1,0 +1,1 @@
+An introduction to computational techniques and using a modern programming language to solve current problems drawn from science, technology, and the arts. Topics include control structures, elementary data structures, and effective program design and implementation techniques. Weekly laboratory.

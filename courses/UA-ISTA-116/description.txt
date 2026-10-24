@@ -1,0 +1,1 @@
+Understanding uncertainty and variation in modern data: data summarization and description, rules of counting and basic probability, data visualization, graphical data summaries, working with large data sets, prediction of stochastic outputs from quantitative inputs.  Operations with statistical computer packages such as R.
