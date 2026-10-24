@@ -1,0 +1,1 @@
+Emphasizes 3D industry title development processes. Covers lighting and rendering in an animation and/or game environment. Includes composition, technical lighting, layer-based rendering, and texture baking. Requires junior-level projects to be initiated and completed within the semester.

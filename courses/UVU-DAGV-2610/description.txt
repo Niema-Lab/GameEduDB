@@ -1,0 +1,1 @@
+Addresses the basics of 3D procedural modeling, texturing, surfacing, and rendering. Demonstrates these techniques in a production pipeline for games and animation. Includes basic practices and theories common in the animation industry.

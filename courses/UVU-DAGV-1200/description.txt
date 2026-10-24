@@ -1,0 +1,1 @@
+Covers the 3D pipeline which includes pre-production (rough placeholder art), production (finished art), and post production (composite and effects). Instructs students to develop 3D models, UV maps, and 2D textures. Teaches how to integrate models into a realtime rendering engine. Lab access fee of $45 applies.

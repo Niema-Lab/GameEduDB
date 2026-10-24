@@ -1,0 +1,1 @@
+Introduces 2D animation processes used in industry today. Teaches both traditional paperless and cut-out animation. Introduces node-system software technology and the use of a script editor.

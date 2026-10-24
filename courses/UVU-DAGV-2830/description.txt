@@ -1,0 +1,1 @@
+Introduces fundamental rigging on typical 3D props and characters for simple performance motion in animated films and interactive games.

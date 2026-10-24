@@ -1,0 +1,1 @@
+Addresses the basics of 3D modeling, texturing, animation, and rendering. Demonstrates how to utilize these techniques in a production pipeline for games and animation. Includes basic practices and theories common in the animation industry. Software fee of $15 applies. Course fee of $19 for equipment applies. Lab access fee of $45 for computers applies.

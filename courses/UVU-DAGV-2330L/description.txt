@@ -1,0 +1,1 @@
+Applies the fundamentals of rigging on typical 2D characters for performance-oriented motion.

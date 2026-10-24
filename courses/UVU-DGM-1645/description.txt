@@ -1,0 +1,1 @@
+Introduces virtual reality using browser technology, mobile apps, head-mounted displays, and other emerging platforms. Engages in practical exercises to design and prototype basic MR applications, fostering skills in problem-solving, user experience design, and interactive storytelling.

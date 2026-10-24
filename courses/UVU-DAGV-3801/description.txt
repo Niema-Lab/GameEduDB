@@ -1,0 +1,1 @@
+Creates a foundation for a primary game development pipeline. Covers low poly count modeling in a variety of software packages and the use of 3D models in an industry-standard game development engine. Uses an alternative engine to game development courses.

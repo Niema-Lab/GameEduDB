@@ -1,0 +1,1 @@
+Provides a foundation for basic game development pipeline. Covers low poly count modeling in a variety of software packages and use of 3D models in an industry-standard game development engine. Software fee of $15 applies. Lab access fee of $45 for computers applies.

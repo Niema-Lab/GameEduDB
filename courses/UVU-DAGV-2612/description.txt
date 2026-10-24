@@ -1,0 +1,1 @@
+Builds upon the foundational concepts from 3D Modeling and Surfacing and dives deeper into creating realistic 3D assets. Emphasizes procedural modeling and covers elements of worlds and environments.

@@ -1,0 +1,1 @@
+Introduces 3D animation compositing processes, including lighting, filters, masks, effects, rendering, and export of finished scenes.

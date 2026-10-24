@@ -1,0 +1,1 @@
+Prepares students to implement the full animation production pipeline. Uses composition, lighting, character animation, compositing, and rendering. Requires junior-level projects to be initiated and completed within the semester. Lab access fee of $45 for computers applies.
