@@ -12,4 +12,9 @@ This directory contains programs, which are collections of courses (e.g. degree 
 * `length.txt` - Expected length of the program (in years)
 * `credit_system.txt` - Credit/unit system (e.g. Quarter, Semester, etc.)
 * `total_credits.txt` - Total number of credits/units (defined in `credit_system.txt`) to complete the program
-* `course_ids.txt` - List of GameEduDB course IDs (as defined in [`courses`](../courses)) within the program
+* `course_ids_core.txt` - List of GameEduDB course IDs (as defined in [`courses`](../courses)) for core courses within the program
+    * A course is a "core course" if all students in the program must take it
+* `course_ids_path.txt` - List of GameEduDB course IDs (as defined in [`courses`](../courses)) for path courses within the program
+    * A course is a "path course" if all students have to choose X out of Y possible choices depending on what path in the program they are pursuing (e.g. "Art Path" vs. "Programming Path")
+* `course_ids_elective.txt` - List of GameEduDB course IDs (as defined in [`courses`](../courses)) for elective courses within the program
+    * A course is an "elective course" if students are free to choose a required quantity of courses from a large pool of options
