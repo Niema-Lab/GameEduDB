@@ -9,6 +9,7 @@ from sys import argv
 import re
 
 # constants
+COURSE_ID_KEYS = {'course_ids_core', 'course_ids_path', 'course_ids_elective'}
 REQUIRED_META = { # required metadata (`None` means >0)
     'institutions': {
         'description': None,
@@ -39,7 +40,9 @@ TRANSLATE = { # translate keys to human-readable strings
     'categories':           "Categories",
     'course_code':          "Course Code",
     'course_id':            "Course ID",
-    'course_ids':           "Course IDs",
+    'course_ids_core':      "Course IDs (Core)",
+    'course_ids_path':      "Course IDs (Path)",
+    'course_ids_elective':  "Course IDs (Elective)",
     'courses':              "Courses",
     'credits':              "Credits",
     'credit_system':        "Credit/Unit System",
@@ -79,10 +82,12 @@ def check_data(data):
     # check that all mentioned courses exist and that every course is mentioned somewhere
     mentioned_course_ids = set()
     for program_id, program_data in data['programs'].items():
-        for mentioned_course_id in program_data['course_ids']:
-            if mentioned_course_id not in data['courses']:
-                raise ValueError(f"Missing course (mentioned in program '{program_id}'): {mentioned_course_id}")
-            mentioned_course_ids.add(mentioned_course_id)
+        for k in COURSE_ID_KEYS:
+            if k in program_data:
+                for mentioned_course_id in program_data[k]:
+                    if mentioned_course_id not in data['courses']:
+                        raise ValueError(f"Missing course (mentioned in '{k}' of program '{program_id}'): {mentioned_course_id}")
+                    mentioned_course_ids.add(mentioned_course_id)
     for course_id, course_data in data['courses'].items():
         for k in ['prerequisite_course_ids']:
             if k in course_data:
@@ -169,27 +174,34 @@ def build_markdown(data):
             out += f"* **{TRANSLATE['institution']}:** [{data['institutions'][program_data['institution_id'][0]]['name'][0]}](#{program_data['institution_id'][0]})\n"
             if 'department_id' in program_data:
                 out += f"* **{TRANSLATE['department']}:** [{data['departments'][program_data['department_id'][0]]['name'][0]}](#{program_data['department_id'][0]})\n"
-            remaining_program_keys = set(program_data.keys()) - {'name', 'url', 'abbreviation', 'description', 'institution_id', 'department_id', 'course_ids'}
+            remaining_program_keys = set(program_data.keys()) - ({'name', 'url', 'abbreviation', 'description', 'institution_id', 'department_id'} | COURSE_ID_KEYS)
             for k in sorted(remaining_program_keys, key=lambda x: TRANSLATE[x]):
                 out += f"* **{TRANSLATE[k]}:** {' / '.join(program_data[k])}\n"
             course_category_counts = dict()
-            for course_id in program_data['course_ids']:
-                if 'categories' in data['courses'][course_id]: # TODO delete this check once 'categories' becomes required for courses
-                    for cat in data['courses'][course_id]['categories']:
-                        if cat not in course_category_counts:
-                            course_category_counts[cat] = 0
-                        course_category_counts[cat] += 1
-            if len(course_category_counts) != 0: # TODO delete this check once 'categories' becomes required for courses
-                out += f"* **{TRANSLATE['categories']}:**\n"
-                for cat, cat_count in sorted(course_category_counts.items(), key=lambda x: (x[1],x[0]), reverse=True):
-                    out += f"    * {cat}: {cat_count} of {len(program_data['course_ids'])} ({round(100 * cat_count / len(program_data['course_ids']))}%)\n"
+            for k in COURSE_ID_KEYS:
+                if k in program_data:
+                    course_category_counts[k] = dict()
+                    for course_id in program_data[k]:
+                        for cat in data['courses'][course_id]['categories']:
+                            if cat not in course_category_counts[k]:
+                                course_category_counts[k][cat] = 0
+                            course_category_counts[k][cat] += 1
+            out += f"* **{TRANSLATE['categories']}:**\n"
+            for k in COURSE_ID_KEYS:
+                if k in program_data:
+                    out += f"    * *{TRANSLATE[k]}* ({len(program_data[k])} total)\n"
+                    for cat, cat_count in sorted(course_category_counts[k].items(), key=lambda x: (x[1],x[0]), reverse=True):
+                        out += f"        * {cat}: {cat_count} ({round(100 * cat_count / len(program_data[k]))}%)\n"
             out += f"* **{TRANSLATE['courses']}:**\n"
-            for course_id in sort_course_ids(program_data['course_ids'], data):
-                out += "    * ["
-                if 'course_code' in data['courses'][course_id]:
-                    out += f"{data['courses'][course_id]['course_code'][0]}: "
-                out += f"{data['courses'][course_id]['name'][0]}](#{course_id})\n"
-            out += '\n'
+            for k in COURSE_ID_KEYS:
+                if k in program_data:
+                    out += f"    * *{TRANSLATE[k]}* ({len(program_data[k])} total)\n"
+                    for course_id in sort_course_ids(program_data[k], data):
+                        out += "        * ["
+                        if 'course_code' in data['courses'][course_id]:
+                            out += f"{data['courses'][course_id]['course_code'][0]}: "
+                        out += f"{data['courses'][course_id]['name'][0]}](#{course_id})\n"
+                    out += '\n'
 
         # write departments
         out += f"## Departments\n\n"
