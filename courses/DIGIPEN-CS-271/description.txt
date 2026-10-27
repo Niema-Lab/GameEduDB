@@ -1,0 +1,1 @@
+This course covers fundamental machine learning algorithms and their implementation using supervised learning techniques. Topics include classification and regression supervised learning algorithms.

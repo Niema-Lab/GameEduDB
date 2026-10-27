@@ -1,0 +1,1 @@
+This course is the second semester of a two-semester project. It provides the opportunity to work in teams on implementation of a software solution for a scientific or computing problem. The focus of this course is implementing a software solution, iterating on the implementation to meet the technical requirements of the project, and presenting the outcomes effectively.

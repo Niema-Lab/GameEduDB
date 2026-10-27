@@ -1,0 +1,1 @@
+This course explores how visuals, audio, programming, and design intersect to create immersive interactive experiences. Emphasis is placed on the implementation of dynamic user interfaces, intuitive real-time feedback, and immersive control systems.

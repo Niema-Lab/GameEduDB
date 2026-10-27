@@ -1,0 +1,1 @@
+This course covers basic concepts of data processing, cleaning, summarization, and visualization. The course introduces exploratory data analysis, and basic concepts of probability and statistics as they are applied in data analysis.

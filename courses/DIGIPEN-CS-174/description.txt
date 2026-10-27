@@ -1,0 +1,1 @@
+This course covers concepts and implementation strategies for using a high-level scripting language to achieve complex audio behavior in game development. Topics include principles of analog and digital audio, psychoacoustics, and programming.

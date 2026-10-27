@@ -1,0 +1,1 @@
+This course covers building blocks of big data engineering. Topics include the foundational concepts of distributed computing, distributed data processing, data management, data pipelines, cloud computing, and big data analytics.

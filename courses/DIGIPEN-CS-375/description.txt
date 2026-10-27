@@ -1,0 +1,1 @@
+This course presents fundamental topics in the field of compiler construction. Topics covered in the course will help students understand and implement a compiler for a high-level programming language. The course will guide the students towards an in-depth understanding of compilation techniques and runtime implementation for a modern programming language.

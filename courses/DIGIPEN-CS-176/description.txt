@@ -1,0 +1,1 @@
+This course explores programming concepts for game designers in the context of developing video games. Topics covered include architecture patterns, advanced character controllers, cameras, and custom systems designed for versatility and scalability. Additional topics may include game testing automation, and networking.

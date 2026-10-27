@@ -1,0 +1,1 @@
+This course presents an introduction to multi-threaded and distributed programming. The course covers some classical problems and synchronization mechanisms, as well as modern libraries that support parallel programming. The course also covers distributed programming models and applications to video game programming.

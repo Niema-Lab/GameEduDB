@@ -1,0 +1,1 @@
+This course introduces fundamental methods and algorithms in the field of Natural Language Processing. Topics include regular expressions, finite-state automata, language morphology, syntactic parsing, and parts-of-speech tagging. Additional topics may include feature extraction, unification, and lexical semantics.

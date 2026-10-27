@@ -1,0 +1,1 @@
+This course is the first semester of a two-semester project, which will be continued in CSP 250, and focuses on the creation of a useful software application or tool. It provides the opportunity to work together on teams of three or more members, to implement technical features required by their chosen projects.

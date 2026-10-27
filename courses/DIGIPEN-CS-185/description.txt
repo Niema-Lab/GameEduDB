@@ -1,0 +1,1 @@
+This course introduces the C++ language with particular emphasis on its object-oriented features. Topics covered include differences between scripting languages and C++, data types, namespaces, classes, inheritance, polymorphism, templates, and fundamental STL components.

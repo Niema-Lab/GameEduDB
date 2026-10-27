@@ -1,0 +1,1 @@
+This course covers fundamental concepts and techniques in machine learning and their practical applications in various domains. Topics include key principles of learning theory, methods for model selection and evaluation, regression analysis and classification algorithms. Additional topics may explore unsupervised learning and emerging topics in the field.

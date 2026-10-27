@@ -1,0 +1,1 @@
+This course provides a broad overview of database systems. It presents the fundamentals, practices, and applications of computer databases. Topics include database architectures, data modeling, design schemes, transaction processing, and database implementation. Additional topics may include emerging technologies in the field.

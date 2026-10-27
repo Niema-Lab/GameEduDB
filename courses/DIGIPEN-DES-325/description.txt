@@ -1,0 +1,1 @@
+This course focuses on designing and implementing modern tabletop games. Topics include modern tabletop design and development techniques, production processes, identifying user demographics, and preparing a tabletop game design for publication.

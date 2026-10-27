@@ -1,0 +1,1 @@
+This course focuses on designing and creating game engine architecture with a small group of engineers. Over the course of a semester, a simple real-time game will be created to prove and test the architecture.

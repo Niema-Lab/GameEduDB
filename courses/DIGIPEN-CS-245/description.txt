@@ -1,0 +1,1 @@
+This course examines the principles and practicalities of digital sound synthesis. Topics include the digital representation of sound, real–time generation and manipulation of audio data, MIDI, wavetable synthesis, additive synthesis, sound modeling, and FM synthesis.

@@ -1,0 +1,1 @@
+This course covers fundamental areas of Artificial Intelligence, including various search algorithms, game playing, constraint satisfaction problems, propositional and first-order logic, and planning. The course will also explore practical skills relevant to implementation of Al techniques, practices, and design solutions.

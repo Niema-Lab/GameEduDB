@@ -1,0 +1,1 @@
+This course is an introduction to the foundational techniques used to create dynamic user interfaces for games, automate and debug gameplay, model and control physics-based movement, and build complex multi-part game entities.

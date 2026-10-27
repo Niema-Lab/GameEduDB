@@ -1,0 +1,1 @@
+This course focuses on understanding the details for the computer, compiler, and language, specifically how to apply these towards practical problem of solving crashes and performance issues. The emphasis is not only on knowing what and why, but also about taking that knowledge and creating useful tools and techniques for solving these problems.

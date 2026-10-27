@@ -1,0 +1,1 @@
+This course focuses on recommendation systems and reinforcement learning methods in machine learning. Topics include clustering, classification, exploration-exploitation dilemma, q-learning, reinforcement learning environments and hyperparameter tuning.

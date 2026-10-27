@@ -1,0 +1,1 @@
+This course covers the fundamentals of goal-directed machine learning using reinforcement learning principles. Decision-making frameworks based on exploitation and exploration are covered. The course also covers single- and multiple-state space approximations using regular- and linear-function approximation techniques.

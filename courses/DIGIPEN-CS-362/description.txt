@@ -1,0 +1,1 @@
+This course introduces the fundamental concepts and numerical methods employed in the field of operations research. The course focuses on methods in constraint-based optimization. Topics include linear programming, inventory modeling, and decision-making under uncertainty.
