@@ -1,0 +1,1 @@
+This Game Lab provides students with an experiential learning opportunity by building a game for a client or for publication. Students work in teams to build working prototypes and manage the life cycle of the game development process including troubleshooting, playtesting, usability testing and revisions. Prerequisite may be waived with permission of the program director.

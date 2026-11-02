@@ -1,0 +1,1 @@
+This course introduces students to the basic skills and pipeline for creating 2D and 3D assets for games and animation. Topics include: lighting, modeling and textures. Artwork is integrated into 3D game engines and optimized for performance.

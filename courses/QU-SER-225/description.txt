@@ -1,0 +1,1 @@
+This course presents introductory software development concepts including group development, large-scale project work and theoretical aspects of object-oriented programming. The course expands on material from previous courses. Professional behavior and ethics represent an important component of this course.

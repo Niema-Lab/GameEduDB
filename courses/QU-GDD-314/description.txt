@@ -1,0 +1,1 @@
+This course is an exploration into the potentials of Augmented and Virtual Reality in play and games. Students learn the skills to design and develop Virtual Reality applications for dedicated headsets and Augmented Reality applications for smartphones in Unity. Prerequisite may be waived with permission of the program director.

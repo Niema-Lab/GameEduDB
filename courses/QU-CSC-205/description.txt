@@ -1,0 +1,1 @@
+This course introduces students to basic concepts and structures of discrete mathematics. Topics can include propositional and predicate logic, sets and set operations, functions, proof techniques, counting problems, probability and basic number theory. Applications include computer science, biology, social sciences, law and the physical sciences.

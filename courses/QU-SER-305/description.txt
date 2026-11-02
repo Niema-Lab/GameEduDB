@@ -1,0 +1,1 @@
+This course presents computational problem solving and advanced algorithmic thinking techniques. It expands on material from previous courses. Students also learn about advanced APIs and software development frameworks, including APIs for advanced collections and concurrent programming, and gain additional experience with frameworks for testing and building software systems.

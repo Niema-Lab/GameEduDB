@@ -1,0 +1,1 @@
+Introductory course to Unreal Engine 5, where you will learn how to build games, interactive systems, and animations, inside this industry leading software. Gain experience with Blueprint Visual Scripting, direct cinematic animations using the Sequencer, construct interactive physics simulations, and more, as you build your own games in Unreal Engine 5.

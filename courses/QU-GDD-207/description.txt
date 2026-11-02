@@ -1,0 +1,1 @@
+This course covers the fundamentals of audio creation and implementation for games using a variety of software and digital tools. Readings on theory are integrated with group discussions and critique of student work. Classwork is project-based and students are encouraged to design audio for projects being developed in other classes.
