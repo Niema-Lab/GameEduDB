@@ -1,0 +1,1 @@
+This online advanced web technologies course explores client-side scripting using HTML, CSS, JavaScript, and JQuery. By creating complex interactive functions and user experiences, students understand the overall environment of web design technologies and a more integrated set of web design skills while building games for the browser. Level: Undergraduate

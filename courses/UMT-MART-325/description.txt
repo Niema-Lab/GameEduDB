@@ -1,0 +1,1 @@
+Introduction to two-dimensional digital animation, focusing on character and motion design animation fundamentals including: cell animation (frame by frame), motion-tweening, working with keyframes and motion paths, moving elements on a 2D stage, object choreography, and text animation.

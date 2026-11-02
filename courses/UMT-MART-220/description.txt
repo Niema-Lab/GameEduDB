@@ -1,0 +1,1 @@
+Building on the techniques, theory, and skills acquired in Creative Coding I, students create artworks and experiences focusing on physical computing. These include, but not limited to: Raspberry Pi, Arduino, Virtual Reality and Augmented Reality.

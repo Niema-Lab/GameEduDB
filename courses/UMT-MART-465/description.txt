@@ -1,0 +1,1 @@
+This game programming course explores the Unreal Game Engine. Through multiple design and programmatic experiences, students understand the overall game programming environment and their technologies. Level: Undergraduate-Graduate
