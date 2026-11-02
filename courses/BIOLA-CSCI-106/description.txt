@@ -1,0 +1,1 @@
+Linear lists, strings, arrays and orthogonal lists; graphs, trees, binary trees, multi-linked structures, searching and sorting techniques, dynamic storage allocation; applications. Lecture/Lab Hours: Three hours lecture, one hour lab.

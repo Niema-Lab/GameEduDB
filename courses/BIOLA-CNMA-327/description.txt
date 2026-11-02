@@ -1,0 +1,1 @@
+A hands-on workshop in creating interactive game environments using industry-standard game engine software. Topics include level building, materials, lighting, cut-scenes, animation, artificial intelligence, visual effects and programming to respond to player actions.

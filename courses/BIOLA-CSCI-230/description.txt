@@ -1,0 +1,1 @@
+Organization and structure of programming languages; runtime behavior and requirements of programs; introduction to programming language specifications and analysis; and the study of various alternative languages, such as Java, C++ and Python.

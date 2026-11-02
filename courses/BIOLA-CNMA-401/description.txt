@@ -1,0 +1,1 @@
+Working from a design document created in the intermediate course, students will develop a complete game or game level, suitable for submission to game festivals. Special emphasis will be placed on learning and using an iterative production process such as Agile Scrum.

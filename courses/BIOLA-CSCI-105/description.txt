@@ -1,0 +1,1 @@
+Introduction to computer hardware and software, problem solving methods, elementary concepts of algorithm development, and C++ programming. Lecture/Lab Hours: Three hours lecture, one hour lab.

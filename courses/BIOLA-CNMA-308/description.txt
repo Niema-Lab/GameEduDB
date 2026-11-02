@@ -1,0 +1,1 @@
+Investigates the creation of 3D models using industry-standard software. Topics include hard surface modeling, texturing, lighting, rendering, proper modeling topology, and efficient 3D workflows. Note(s): Open to non-CNMA majors with departmental permission.

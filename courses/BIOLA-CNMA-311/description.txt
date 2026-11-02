@@ -1,0 +1,1 @@
+This course takes general game design concepts learned in Fundamentals and applies them to game levels. Like scenes in a movie, game levels define the individual moments where gameplay and story unfold. Topics include teaching the player how to play, emotional feedback systems, puzzle design, modular design, and parallels to architecture and theme park design.
