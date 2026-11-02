@@ -1,0 +1,1 @@
+Introduces the fundamentals of three-dimensional computer animation. Class lectures and demonstrations are followed by substantial hands-on exploration. Students gain fundamental skills for modeling, surfacing, and animating. Projects progress from creating simple geometric objects to realistic organic characters. Basic systems for animating are introduced and explored.

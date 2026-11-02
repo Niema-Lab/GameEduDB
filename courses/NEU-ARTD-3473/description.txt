@@ -1,0 +1,1 @@
+Explores all areas of 3D game asset creation—animation, modeling, shading, effects, and their integration. Working in small groups, students have an opportunity to learn how to construct animated assets that work efficiently within a game programming environment. Encourages students to specialize in at least one area of asset creation.

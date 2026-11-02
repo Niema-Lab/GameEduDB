@@ -1,0 +1,1 @@
+Introduces intermediate skills and software used in creating 3D animation. Explores modeling, surfacing, lighting, key framing, and rigging in this technology workshop.

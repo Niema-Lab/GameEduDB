@@ -1,0 +1,1 @@
+Utilizes elements of story and game play in the design of both 2D and 3D environments, integrating architecture, landscape, and set dressing. Introduces real-time procedurally generated terrain and flora, asset optimization, and nonlinear path finding. Explores content ranging from historically accurate and contemporary hyperrealistic to stylized and fanciful.

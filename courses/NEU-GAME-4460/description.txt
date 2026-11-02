@@ -1,0 +1,1 @@
+Studies principles of procedural content generation and generative methods, including modular design, the role of randomness in design, and designing for emergence. Examines the role of generative design in games and its impact on both designers and players. Through assignments and a semester-long project, encourages student creation of generative systems for playful experiences.

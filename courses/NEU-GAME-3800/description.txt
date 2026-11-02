@@ -1,0 +1,1 @@
+Students segment the concepts into individual systems and prototype them in an iterative manner, formally iterating over the whole game to improve the player experience. Requires students to maintain a schedule and project management documents. Results in the presentation of the complete game for critique. May be repeated once.
