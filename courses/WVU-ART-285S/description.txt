@@ -1,0 +1,1 @@
+Covers core principles of audio design and control in an interactive environment. Students will learn about sound creation and propagation, audio recording and editing, the structure and emotional effect of music, and the function and application of sound effects to augment interactive experiences.

@@ -1,0 +1,1 @@
+This course teaches the fundamentals of creating interactive media using the Unity game engine and C# programming. Students will combine design, code, story text, art, and sound to build working prototypes in several game genres.

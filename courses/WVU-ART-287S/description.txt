@@ -1,0 +1,1 @@
+Introduces the principles and best practices of code development for visual interactive applications. The course covers the basics of programming code structures by introducing students to interactive coding languages. Students will gain confidence with working with code through skill and knowledge based hands-on lessons and assignments.
