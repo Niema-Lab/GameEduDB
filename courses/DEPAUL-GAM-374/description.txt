@@ -1,0 +1,1 @@
+Students will develop a basic 3D game engine. The focus will be on the implementation challenges and interdependencies between systems such as asset management, rendering, simple collisions, input/output, alarms, etc. Emphasis will be placed on developing the skills needed for robust, efficient, and portable implementation.

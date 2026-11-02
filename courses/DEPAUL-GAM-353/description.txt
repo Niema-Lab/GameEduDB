@@ -1,0 +1,1 @@
+This course focuses on the parsing and conditioning of game related assets for real-time game engines. Topics include the content pipeline, processing or standard file formats using modern API, integration of external tools, run-time file format design, command line and graphical user interfaces.

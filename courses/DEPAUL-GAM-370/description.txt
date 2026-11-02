@@ -1,0 +1,1 @@
+This programming class will present the rendering pipeline and basic shader creation. Students will create their own graphics package using a high-level graphics API such as Direct X. Topics covered include illumination techniques, Gouraud and Phong shading, antialiasing techniques, texture mapping, blending and environment mapping.

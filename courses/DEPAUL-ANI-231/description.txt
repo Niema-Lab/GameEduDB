@@ -1,0 +1,1 @@
+In this course, students will be introduced to animation in 3D through the use of traditional animation principles. Topics will include: animation fundamentals, keyframing, splining, animated cameras, rendering, and an introduction to rigging basic characters. Emphasis will be placed on using the computer as a tool to create animation for film and games.

@@ -1,0 +1,1 @@
+This course focuses on teaching both filmmakers, designers and artists the fundamentals of a game engine. Topics include how to develop or import materials, environment pieces, animations, as well as creating lighting, post processing and cinematics. Emphasis will be placed on creating 3D set pieces and cinematic sequences. No previous experience with 3D is required.

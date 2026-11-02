@@ -1,0 +1,1 @@
+This course is a workshop focusing on realistic character motion obtained through motion capture. Students will learn the motion capture pipeline, including character skinning and mapping, planning and directing motion capture sessions, applying motion to a character and motion editing.

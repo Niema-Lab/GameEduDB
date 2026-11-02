@@ -1,0 +1,1 @@
+In this course, students will develop skills in game design and development through the construction of a "mod" of an existing game. Emphasis will be placed on the game development life cycle from concept through release, on productivity in a team environment, and on effective project management practices.

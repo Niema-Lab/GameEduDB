@@ -1,0 +1,1 @@
+Introduction to combinatorics, basic probability, graph theory, propositional logic, singly-quantified statements, operational knowledge of set theory, functions, number systems.

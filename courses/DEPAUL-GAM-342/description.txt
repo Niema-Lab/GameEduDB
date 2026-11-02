@@ -1,0 +1,1 @@
+This class builds on topics covered in earlier courses, with a focus on creating believable worlds for videogames. This course emphasizes designing large exterior environments, advanced mission scripting, and integrated storytelling. Using a 3D level editor and formal level design process, students create fun, polished, memorable virtual worlds.

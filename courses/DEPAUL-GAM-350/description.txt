@@ -1,0 +1,1 @@
+The course concentrates on Newton's Laws of Motion, kinematics and kinetics. This theory will be applied to problems that a game programmer must understand e.g. collisions between objects, projectiles and their trajectories, real-time simulation of motion. Special objects such as cars, aircraft and ships will be discussed. Students will apply and implement laws of physics.

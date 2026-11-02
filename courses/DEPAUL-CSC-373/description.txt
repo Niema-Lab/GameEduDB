@@ -1,0 +1,1 @@
+A course on computer systems topics, focusing on machine-level programming and architecture and their relevance for application programming. Information representations, assembly language, C programming, and debuggers, processor architecture.

@@ -1,0 +1,1 @@
+Review of mathematical foundation and techniques needed for the development of 3D graphics and game systems. This class will provide the foundation in linear algebra and 3D geometry required for implementing common tasks in 3D graphics and game systems. Topics include: vectors, matrices, transforms, coordinate changes, projections, intersection.

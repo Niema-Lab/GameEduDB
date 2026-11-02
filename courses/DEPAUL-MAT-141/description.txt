@@ -1,0 +1,1 @@
+Introduction to properties of integers and real numbers, sequences, recursion, mathematical induction, relations, digraphs, graph theory, multiply-quantified statements, complexity.

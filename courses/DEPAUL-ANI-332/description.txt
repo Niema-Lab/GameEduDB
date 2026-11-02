@@ -1,0 +1,1 @@
+Students will study the processes and techniques for creating professional quality character rigs. Following a professional production workflow, students will create character skeletons, learn aesthetic and technical considerations for skinning, learn techniques for optimal parameterization, and learn to construct character animation controls.

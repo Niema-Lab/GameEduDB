@@ -1,0 +1,1 @@
+This workshop introduces game scripting to artists and game designers. A game script is a short list of commands that control something in a game, such as how a character moves, or an enemy's behavior. Students will learn to read, modify, and author scripts that generate and affect a variety of game elements over the course of weekly projects.

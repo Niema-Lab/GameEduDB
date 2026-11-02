@@ -1,0 +1,1 @@
+An advanced course on operating system design and implementation. Process management and scheduling, memory management, file systems, device drivers, access control, and virtualization will be covered. The emphasis of the course will be on implementing components of a functional operating system.
