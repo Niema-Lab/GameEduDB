@@ -1,0 +1,1 @@
+This course introduces fundamental scripting concepts through the exploration of modern scripting languages commonly used in disciplines related to digital content creation (DCC) pipelines.

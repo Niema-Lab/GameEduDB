@@ -1,0 +1,1 @@
+This course provides an environment in which the pre-production of GMAP 377 Game Development: Workshop I can be taken through a full production effort. Students work in small teams to bring a selected prototype to completion.

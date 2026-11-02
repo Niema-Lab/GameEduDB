@@ -1,0 +1,1 @@
+This course explores modern game engine scripting languages that are event-driven, control the art assets, provide multiplayer communication, and database access.

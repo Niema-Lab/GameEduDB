@@ -1,0 +1,1 @@
+Builds on topics introduced in ANIM 211 Animation I, incorporating advanced animation techniques such as inverse kinematics and dynamics. Requires students to propose, design, and produce a short animation.

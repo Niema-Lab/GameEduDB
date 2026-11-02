@@ -1,0 +1,1 @@
+This course will step through the various modules of game engines, enabling students to gain access to real-time shaders and materials, particle systems and animation techniques.

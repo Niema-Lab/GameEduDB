@@ -1,0 +1,1 @@
+Students learn to use motion capture systems for full-body, human performance capture as well as the processing and use of the resulting data in character animation and real-time/game engine applications.

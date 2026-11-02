@@ -1,0 +1,1 @@
+In this course, students learn principles and techniques of scene building in realtime, 3D interactive graphics engines for use in animation, visualization, game design, VR, AR and other forms of digital media.

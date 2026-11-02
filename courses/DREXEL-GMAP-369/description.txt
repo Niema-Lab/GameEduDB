@@ -1,0 +1,1 @@
+This course explores development of games for mobile platforms. Specifically addressed will be platform issues such as processor speed, screen resolution, user interface and memory.

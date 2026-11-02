@@ -1,0 +1,1 @@
+This course will cover an overview of the fundamental design skills of digital games using a variety of game engines, including interactive text, 2d and 3d game engines, and grey-boxing with primitive shapes in-engine and modeling tools, exploiting the systems and existing asset libraries available for rapid experimentation.

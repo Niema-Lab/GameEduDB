@@ -1,0 +1,1 @@
+This course teaches the use and integration of state machines into game engines, as well as other methods for creating and controlling Non Player Characters (NPCs).

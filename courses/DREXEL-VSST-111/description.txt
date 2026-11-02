@@ -1,0 +1,1 @@
+Introduces drawing of the human figure, with emphasis on composition and shape-area relationships.

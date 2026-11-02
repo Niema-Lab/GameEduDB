@@ -1,0 +1,1 @@
+Students learn to use advanced motion capture systems and the data output from these systems. This course combines the use of full-body capture along with facial performance capture as well as the processing and use of the resulting data in character animation and real-time/game engine applications.
