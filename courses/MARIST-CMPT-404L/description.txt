@@ -1,0 +1,1 @@
+This course is an introduction to the major problems, techniques, and issues of artificial intelligence. Emphasis is placed upon the topics of knowledge representation and problem solving. The languages LISP or PROLOG will be used to illustrate various AI techniques.

@@ -1,0 +1,1 @@
+This course introduces the algebraic concepts, methods, and techniques that form the basis of computer science, including the relevant areas of logic, set theory, matrices, graphs, geometric linear algebra, and the theory of relations; functions; bounds; and permutations.

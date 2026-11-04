@@ -1,0 +1,1 @@
+This course builds on CMPT 220L to continue our students’ progress towards true software craftsmanship. Students will study advanced concepts in software design and testing while developing skills including but not limited to the areas of advanced client-side programming, server-side programming, data integration, and thinking with portals.

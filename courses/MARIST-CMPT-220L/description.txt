@@ -1,0 +1,1 @@
+This course builds on CMPT 120L to introduce our students to the art and science of software development. Students will study software development history while mastering SD skills including but not limited to real-world modeling and multi-language software development.

@@ -1,0 +1,1 @@
+This course introduces students to problem solving with computer programming. Students will study some historical context for problem solving with programming while mastering introductory programming skills including but not limited to user interaction design, procedures, functions, scope, alternation, repetition, collections, and real-world modeling.
