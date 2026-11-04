@@ -1,0 +1,1 @@
+The study of formal models of computation in terms of abstract language and machine models. These include formal languages, finite state automata, pushdown automata, Turing machines, and grammars.

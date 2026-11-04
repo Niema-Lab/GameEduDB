@@ -1,0 +1,1 @@
+A course in digital 3D production using industry-standard tools and software. Students will create virtual objects, scenes, and animated content. Topics include exposure to modeling, texturing, rigging, and animation, with emphasis on 3D thinking applicable to game development and other digital media content.

@@ -1,0 +1,1 @@
+Course will discuss conceptual and technical processes of developing humanoid characters for use within games, animation, or other artistic media. Course content will discuss topics including modeling, texturing, rigging.

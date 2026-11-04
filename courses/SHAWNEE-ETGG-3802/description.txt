@@ -1,0 +1,1 @@
+This class is a continuation of ETGG 3801. ETGG 3802 classroom and lab activities focus upon the creation of a custom programmed 3D engine that encompasses advanced 3D engine features such as physics modeling, special effects, sound effects, and advanced I/O and interface routines.

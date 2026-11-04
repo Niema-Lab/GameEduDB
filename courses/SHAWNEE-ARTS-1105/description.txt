@@ -1,0 +1,1 @@
+An introduction to the operating system, peripherals, and storage of graphic based work. Discussion of bitmapped and vector graphics and their strengths and weaknesses. A broad overview of some of the software and the parameters it defines for the artist. Production of original artworks.

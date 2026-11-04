@@ -1,0 +1,1 @@
+This course is an exploration of sound effects, ambient audio, and music used in the video game industry with practical components presented in a variety of contemporary audio middle-ware environments.

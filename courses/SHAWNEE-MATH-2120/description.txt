@@ -1,0 +1,1 @@
+This is the second course in the calculus sequence. The main topics are techniques of antidifferentiation, applications of integrals, elementary differential equations, approximations of definite integrals, improper integrals, sequences, series representations of functions, and convergence of series.

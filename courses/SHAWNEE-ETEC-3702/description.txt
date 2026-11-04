@@ -1,0 +1,1 @@
+This course examines principles of concurrent and parallel programming. These may include synchronization primitives such as semaphores, conditions, and barriers; techniques of mutual exclusion; parallel algorithms; synchronous and asynchronous message passing; remote procedure calls; task rendezvous; callback-based parallelism; and popular process interaction paradigms.

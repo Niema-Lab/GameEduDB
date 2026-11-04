@@ -1,0 +1,1 @@
+This is the first course in the calculus sequence. The main topics are functions, graphs, limits, the derivative and applications of the derivative, properties, interpretations, and applications of the definite integral, the Fundamental Theorem of Calculus, basic techniques of antidifferentiation.

@@ -1,0 +1,1 @@
+Students will be exposed to theoretical and applied aspects of Graphical User Interface design. This course will include exposure to the practical technical processes of implementing design to screen. Students will apply art processes learned in other courses to the technical creation of UI elements for Game and Simulation development.

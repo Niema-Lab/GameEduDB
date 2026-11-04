@@ -1,0 +1,1 @@
+Application of finite state automata as regular expressions to programming language design and analysis of the use of context-free grammars as a formal device for language syntax. Techniques of lexical analysis and parsing (top-down and bottom-up), symbol table management, code generation, and error handling are covered.

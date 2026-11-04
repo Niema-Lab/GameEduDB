@@ -1,0 +1,1 @@
+Solutions to linear systems, matrices and matrix algebra, determinants, n-dimensional real vector spaces and subspaces, linear mappings, and diagonalization. Conceptual understanding, techniques and computational skills emphasized.

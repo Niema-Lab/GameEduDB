@@ -1,0 +1,1 @@
+This course is designed to teach students advanced programming techniques designed to achieve increased code performance. Course content includes both algorithmic optimization techniques as well as hardware optimization techniques. Lab activities focus upon hands-on, real-world code optimization exercises using both low-level and high-level programming languages.

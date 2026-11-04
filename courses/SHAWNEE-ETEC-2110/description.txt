@@ -1,0 +1,1 @@
+The details of direct software-hardware interaction will be examined. Topics include binary number representation, computer arithmetic, indirect memory addressing with pointers, dynamic memory allocation, and references. A systems programming language (such as C or C++) will be used for programming projects in the course.

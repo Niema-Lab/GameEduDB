@@ -1,0 +1,1 @@
+Interfacing a computer system to external devices which support asynchronous and synchronous communications, flow-control paths, data transfer, packets, and physical interfaces. A study of the ISO model protocols, logical connections and services, streams and datagrams, LANs, internetworking, routing, and servers.

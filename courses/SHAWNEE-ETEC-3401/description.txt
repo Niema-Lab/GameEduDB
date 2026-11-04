@@ -1,0 +1,1 @@
+This course focuses on the theories of algorithms, data structures, computational complexity, and correctness. Topics covered include: divide-and-conquer techniques, dynamic programming, greediness, sorting, searching, graph problems, lower bound techniques, and NP-completeness.
