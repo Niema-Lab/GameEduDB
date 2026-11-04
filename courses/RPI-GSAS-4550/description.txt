@@ -1,0 +1,1 @@
+This is a class on the composition of game engines, the substrate between hardware and scripting. Topics include entity/component systems, multithreading, event management, graphics and shader programming, rigid body dynamics, collision detection, multiplayer networking, audio, and other elements of modern game engines.

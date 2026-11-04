@@ -1,0 +1,1 @@
+This course introduces students to basic concepts and methods of artificial intelligence and their applications in computer games. The topics include decision making, movement, path finding, and AI for human-like characters. This course will take the form of a combination of lectures, presentations by students, class discussions, and independent study.

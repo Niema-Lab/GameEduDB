@@ -1,0 +1,1 @@
+A course building on the fundamentals of animation and focusing on implementing these fundamentals in the process of making games for 3D engines like Unreal, which involves hand-keyed cycle animation as well as utilizing motion capture data.

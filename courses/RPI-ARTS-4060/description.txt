@@ -1,0 +1,1 @@
+An introduction to the technical techniques and principles of computer animation with a focus on rigging, skinning, character fx, particle simulations, compositioning and rendering. Lectures, discussion, and exposure to contemporary work enable students to develop skills in this rapidly evolving field.

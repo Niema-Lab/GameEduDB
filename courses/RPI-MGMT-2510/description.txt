@@ -1,0 +1,1 @@
+An introduction to the fundamentals of data management and analysis. The course will survey and cover methods ranging from spreadsheets to relational databases. Learning is supported with hands-on exercises, helping students develop competencies in working with data. Topics include foundational concepts in information systems, spreadsheets, data modeling, and database design.

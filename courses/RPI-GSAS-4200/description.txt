@@ -1,0 +1,1 @@
+A course exploring methods for 3D computer lighting, rendering, and camera authoring. We will discuss strong foundational theory from film in regards to lighting and cinematography. The course will focus on producing high fidelity rendered images and video for animation, games, and digital art.

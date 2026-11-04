@@ -1,0 +1,1 @@
+Quantitative basis of modern computer architecture, processor design, memory hierarchy, and input/output methods. Layered operating system structures, process and storage management. Layered network organization, network protocols, switching, local and wide area networks. Examples from Unix and the Internet.

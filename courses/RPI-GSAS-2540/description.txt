@@ -1,0 +1,1 @@
+This hands-on class introduces many fundamental concepts in game development. Students will learn to program multiple video games. Topics include render loops, rigid body dynamics, interfaces, event and messaging systems, and co-routines.
