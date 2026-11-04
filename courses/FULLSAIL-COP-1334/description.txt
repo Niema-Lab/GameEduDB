@@ -1,0 +1,1 @@
+The Programming I course covers fundamental computer science and programming topics such as algorithms, software problem solving, input/output, control flow, functions, object-oriented programming, and references. Students will learn how to program software in a modern high-level programming language.

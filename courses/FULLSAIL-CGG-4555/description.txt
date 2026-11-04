@@ -1,0 +1,1 @@
+The Environment Art course trains students in the techniques involved in modern game-environment creation. Students will gain a deeper technical understanding and will develop assets for use in a game engine. The course focuses on the modularity of materials and meshes that adhere to industry standards, both visually and technically.

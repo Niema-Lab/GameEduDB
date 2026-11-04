@@ -1,0 +1,1 @@
+The Game Animation II course introduces the process of incorporating in-game cinematic animated sequences. Students will develop their characters through acting and performance while adhering to game-engine constraints.

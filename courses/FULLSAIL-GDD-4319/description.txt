@@ -1,0 +1,1 @@
+The Game Integration course involves the maintenance of technical-design documentation, the implementation of game technology, and the preparation and presentation of alpha and beta milestones. Students will continue working on their game projects and integrating assets toward final milestones.

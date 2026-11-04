@@ -1,0 +1,1 @@
+The Advanced Game Characters course expands on previous modeling, sculpting, and texturing techniques. Students will create a set of production-ready character assets with a focus on character clothing, accessories, anatomy, optimized topology, and materials while adhering to game-engine constraints.

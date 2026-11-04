@@ -1,0 +1,1 @@
+The Engine Development course focuses on rendering and animation in a game engine. Students will explore and implement an optimized rendering system. The course also covers advanced rendering topics, including postprocessing, shadows, and normal mapping.

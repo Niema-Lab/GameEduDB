@@ -1,0 +1,1 @@
+The Digital Logic course presents an overview of logic design and symbolic logic to support the fundamentals of computer organization and architecture. Students will apply knowledge of binary systems and Boolean logic to engineer the fundamental elements of modern computing systems.

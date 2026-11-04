@@ -1,0 +1,1 @@
+The 3-D Foundations course familiarizes students with the fundamentals of creating 2-D and 3-D computer graphics. Students will learn the interface and controls of industry-standard software applications as they develop basic animation skills that prepare them for the more advanced courses later in their program.

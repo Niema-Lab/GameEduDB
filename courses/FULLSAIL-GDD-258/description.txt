@@ -1,0 +1,1 @@
+In the Software Engineering course, students will learn commonly used design patterns, practices, and principles involved in the process of constructing software. Students will be working inside a prebuilt software solution wherein they will find and fix various kinds of software bugs, add new features to the software, and track the changes made by using version-control tools.

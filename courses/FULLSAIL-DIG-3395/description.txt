@@ -1,0 +1,1 @@
+The Motion Capture course teaches students techniques to digitize motion, edit sequences, and develop an understanding of simulated motion. Students will explore motion-capture setup, shooting, data tracking, skeleton retargeting, and animation correction and enhancement. This course provides students with an in-depth understanding of film and game motion-capture pipelines.
