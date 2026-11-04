@@ -1,0 +1,1 @@
+Artists will be introduced to scripting in Python using an integrated development environment focusing on foundational programming concepts, creative coding, and programming tools in an industry-standard animation software package and required libraries. Topics covered include principles of technical art, technical design, tool creation, and generative art.

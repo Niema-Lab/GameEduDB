@@ -1,0 +1,1 @@
+Application of concepts from GAME 227 - Game Design I. Exploration of relationships between character and environment in both 2- and 3-dimensional space.

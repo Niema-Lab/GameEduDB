@@ -1,0 +1,1 @@
+Introduction to 3D computer animation for games. Emphasis on principles of designing and producing 3D computer-generated animation through creation of advanced motion studies. Develop higher-level skills for implementation within game environments: model building; animation; color; lighting, with an emphasis on implementing those assets in a game engine environment.
