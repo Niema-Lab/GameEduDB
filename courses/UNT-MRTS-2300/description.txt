@@ -1,0 +1,1 @@
+Introduces the fundamentals of creating digital assets from an industry perspective with a focus on production techniques such as modeling, UV mapping, creating textures, animation, optimization for games, and other aspects of games, film, and television asset creation.
