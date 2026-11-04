@@ -1,0 +1,1 @@
+This is an advanced Game Sound Design course utilizing industry-standard middleware solutions. Students will design and implement event-driven adaptive audio using middleware in conjunction with industry-standard game engines.

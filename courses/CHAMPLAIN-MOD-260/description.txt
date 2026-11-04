@@ -1,0 +1,1 @@
+Learn the fundamentals of procedural 3D modeling techniques widely used in game, animation, and visual effects industries. Students will explore the core concepts of procedural workflows and generate 3D models using non-destructive, node based techniques.

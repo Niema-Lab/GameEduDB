@@ -1,0 +1,1 @@
+Explore advanced techniques for procedural generation of environment assets, props and visual effects. Students will develop node based networks for 3D models and dynamic simulations and package them into digital assets that can be imported into game engines and other 3D software.

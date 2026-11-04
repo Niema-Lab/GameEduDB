@@ -1,0 +1,1 @@
+Students will learn the concepts, techniques, and structures of discrete mathematics necessary for the software engineer, including logic, sets, functions, relations, Boolean algebra, and combinatorics. The course also introduces the concept of mathematical proof.

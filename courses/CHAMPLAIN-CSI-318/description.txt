@@ -1,0 +1,1 @@
+This course will provide students a broad introduction to programming for iOS in the context of developing apps for Apple mobile platforms (e.g. iPhone, iPad). Students will gain experience developing native apps using Swift, Interface Builder, and the iOS SDK. Peripheral topics, including networking, security, and accessibility, are also covered.

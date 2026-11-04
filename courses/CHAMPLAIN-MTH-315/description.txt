@@ -1,0 +1,1 @@
+This course is an exploration of different types of geometries. Starting with compass and straightedge constructions, students identify and prove theorems in Euclidean geometry. By relaxing Euclid’s Parallel Postulate, students explore neutral and non-Euclidean geometries. The course concludes with a survey of finite geometries.

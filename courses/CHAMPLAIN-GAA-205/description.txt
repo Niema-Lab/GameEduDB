@@ -1,0 +1,1 @@
+Students will explore the creation and implementation of visual assets for immersive 2D games, including environment art, character art, animation, lighting, visual effects, and UI elements, while analyzing 2D game genres and aesthetics to inform their work.

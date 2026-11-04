@@ -1,0 +1,1 @@
+Building on 3D Modeling & Texturing Fundamentals, students model and texture increasingly complex and detailed assets, with an emphasis on optimizing topology and textures for real-time performance in game engines.

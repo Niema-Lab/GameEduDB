@@ -1,0 +1,1 @@
+This is an introductory course in linear algebra. Topics include systems of linear equations, matrix algebra, determinants eigenvalues & eigenvectors and an introduction into the theory of vector spaces.

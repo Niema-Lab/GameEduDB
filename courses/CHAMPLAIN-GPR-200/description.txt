@@ -1,0 +1,1 @@
+This course takes a shaders-first dive into modern computer graphics programming. Students are introduced to vertex and fragment shaders, 2D and 3D coordinate spaces, drawing primitives, lighting and shading, data flow and manipulation, and modern GPU capabilities. Linear algebra and 3D math concepts will be refreshed and/or introduced for applicable topics.

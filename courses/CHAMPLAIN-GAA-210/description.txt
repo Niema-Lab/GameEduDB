@@ -1,0 +1,1 @@
+Students will explore how 3D visual assets are implemented within game engines, examining topics such as environment assets, character animation, lighting, materials, and visual effects. They will also analyze 3D game genres and aesthetics to develop a broader understanding of immersive game worlds.

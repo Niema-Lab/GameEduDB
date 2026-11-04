@@ -1,0 +1,1 @@
+This course builds upon the technical experience obtained in prior Graphics courses. Students will explore the latest real-time rendering techniques and GPU architecture. Potential topics include volumetric rendering, ray-tracing, industry-standard renderer architectures, and the latest graphics APIs. Projects are introduced to implement advanced visual effects.

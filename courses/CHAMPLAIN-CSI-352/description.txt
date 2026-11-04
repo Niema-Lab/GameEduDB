@@ -1,0 +1,1 @@
+Students develop problem analysis and decomposition skills necessary for solving complex computational problems. Topics covered include graph algorithms, greedy algorithms, divide and conquer algorithms, dynamic programming, computability and computational complexity.

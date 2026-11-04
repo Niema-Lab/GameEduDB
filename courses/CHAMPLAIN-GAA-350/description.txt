@@ -1,0 +1,1 @@
+Students will implement advanced techniques to create believable and aesthetically successful procedural materials for use on 3D models in game engines and 3D painting software.

@@ -1,0 +1,1 @@
+This course is intended to provide in-depth investigation of the Requirements and Design phases of the software development life cycle. The course maintains a focus on concepts techniques, and practical experience following phase processes. Requirements and Design documentation is developed. Project managament teamwork and presentation skills are also emphasized.

@@ -1,0 +1,1 @@
+Students learn the foundation principles of 3D modeling and texturing while using quad modeling and physically based rendering techniques to create textured hard surface models.

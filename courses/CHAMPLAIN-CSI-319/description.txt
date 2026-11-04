@@ -1,0 +1,1 @@
+This course will provide students a broad introduction to programming for the Android operating system in the context of developing smartphone and tablet apps. Students will gain experience developing native apps using Kotlin, Android Studio, and the Android SDK. Peripheral topics, including networking, security, and accessibility, are also covered.

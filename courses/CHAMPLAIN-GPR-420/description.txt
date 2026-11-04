@@ -1,0 +1,1 @@
+Console Programming focuses on console video game system development using contemporary architectures and development tools. Students will assimilate and implement techniques for efficient game console programming. Implemented programs will also incorporate techniques for effective use of 2D graphics, 3D graphics controllers, memory management and the audio system.

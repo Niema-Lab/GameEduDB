@@ -1,0 +1,1 @@
+Students learn the theory and practical application of techniques used in games to simulate real-world physical interactions. Implementation of 2D and 3D algorithms to effect movement, particle systems, collision detection gravitational forces, kinematics, and spring systems are covered. Implementations trade-offs of efficiency for accuracy are adapted for real time games.

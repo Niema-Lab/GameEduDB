@@ -1,0 +1,1 @@
+Students extend knowledge of animation for game development (learned in GAA-275) through applied aesthetic, technical and narrative techniques. Students will animate functional in-game, player characters and NPC(s). This course will prepare animators to quickly integrate within production teams in a game development studio.

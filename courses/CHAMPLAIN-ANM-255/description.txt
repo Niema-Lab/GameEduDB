@@ -1,0 +1,1 @@
+Students will learn fundamental rigging concepts, including the creation of bones, utility nodes and connections and creating user friendly controls for manipulating 3D characters. Additionally, students will use constraints and other tools to create efficient, basic rigs. The course will also cover the application of Forward and Inverse Kinematics in joint manipulation.

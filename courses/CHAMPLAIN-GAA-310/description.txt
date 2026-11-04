@@ -1,0 +1,1 @@
+VFX artists add the visual “wow” and enhance the player’s interaction with a game, creating things like sword swipes, lightning, magic, dust, water and explosions. In this course students learn the theory and practice behind creating real-time visual effects. By the end of the course they will be able to create a variety of visual effects in a game engine.

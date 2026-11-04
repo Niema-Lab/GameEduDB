@@ -1,0 +1,1 @@
+Students compare and contrast a variety of data structures. Students compare algorithms for tasks such as searching and sorting, while articulating efficiency in terms of time complexity. Students implement data structures and algorithms to support solution designs.

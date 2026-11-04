@@ -1,0 +1,1 @@
+This course will give the student an understanding of the architecture of modern operating systems and how software interacts with those operating systems.
