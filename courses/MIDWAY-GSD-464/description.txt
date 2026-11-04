@@ -1,0 +1,1 @@
+Students work in teams to develop a comprehensive game design for a substantial computer game, including detailed storyline, level design, artistic approach, implementation technologies, and art-asset pipeline. Emphasis placed on creating novel, artistic game design concepts. Includes design reviews and formal presentations. Prerequisite: GSD 360.

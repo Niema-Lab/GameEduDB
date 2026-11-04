@@ -1,0 +1,1 @@
+The GSD is designed to offer a dynamic curriculum that strikes a perfect balance between game design principles, storytelling, and art while supported by existing Computer Science courses for skill development in computer programming.
