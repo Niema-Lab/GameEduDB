@@ -1,0 +1,1 @@
+This course is an overview of video game technology. Topics will cover the roles and tasks of different hardware components found in a video game console and the software packages that comprise the video game development process. Not to be taken by electrical engineering, computer engineering, computer science, or cybersecurity and networks majors. 3 credits.

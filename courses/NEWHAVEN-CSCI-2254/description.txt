@@ -1,0 +1,1 @@
+This course surveys the basics of game history, game design, game engines, technical ethics, and project management. Students will have the ability to analyze games, identify game mechanics and game engines, and assemble interactive media using predefined assets and gaming modules. 3 credits.
