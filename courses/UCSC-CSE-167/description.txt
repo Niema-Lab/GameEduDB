@@ -1,0 +1,1 @@
+Provides hands-on knowledge and experience with modern mobile computing platforms for sensing and interactions tasks. Students learn how to create usable applications on a sensor-laden, mobile computing platform with adequate level of user interface.

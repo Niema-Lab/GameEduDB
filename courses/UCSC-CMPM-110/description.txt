@@ -1,0 +1,1 @@
+Game writers create worlds, characters, and stories—and also craft computational systems so players can experience these fictions interactively. This course covers the fundamentals of authoring fictions and systems that work together toward powerful player experiences. All offerings support students with required synchronous section meetings.

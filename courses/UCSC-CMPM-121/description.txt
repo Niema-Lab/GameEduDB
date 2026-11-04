@@ -1,0 +1,1 @@
+Advanced game programming focused on software design patterns and refactoring. Introduces classic software design patterns, as well as game programming patterns. Introduces software refactoring, including code smells and widely used refactoring patterns.

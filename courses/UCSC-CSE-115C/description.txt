@@ -1,0 +1,1 @@
+Continuation of CSE 116. Students work in teams to develop, test, document, and deploy a substantial software project. Teams give a formal presentation and demonstration of each project. (Formerly Computer Science 117.)

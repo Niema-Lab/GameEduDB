@@ -1,0 +1,1 @@
+Python basics; data extraction from CSV, JSON, XML, Excel, PDF, encoded text files; data cleaning, finding duplicates, missing data, fuzzy matching; data exploration, joining, aggregating, separating, correlation, clustering; web scraping, APIs, scraping data from social media, open data network. (Formerly CMPS 184.)

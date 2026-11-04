@@ -1,0 +1,1 @@
+Covers the graphic elements in computer games. Topics include modifying, optimizing, adding components, and building a game engine. Course evaluation based on exams and several programming projects, including a game built using the student's game engine.

@@ -1,0 +1,1 @@
+Introduces real-time, hardware-accelerated graphics programming suitable for game development, visual effects, and interactive multimedia projects. Emphasizes contemporary shader-programming techniques and developing custom effects using game engines and multimedia software.

@@ -1,0 +1,1 @@
+Covers the techniques, algorithms, and applications of data mining, including data preprocessing, data exploration, classification, clustering, mining text, and sequential and social data. (Formerly TIM 145.)

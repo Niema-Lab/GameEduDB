@@ -1,0 +1,1 @@
+Teaches the principles of open source software development. By participating in diverse projects, students experience the process of developing software in a distributed, community-centric environment. Students learn about the tools, processes, and soft skills that are essential in this context.

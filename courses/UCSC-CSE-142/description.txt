@@ -1,0 +1,1 @@
+Introduction to machine learning algorithms and their applications. Topics include classification learning, density estimation and Bayesian learning regression, and online learning. Provides introduction to standard learning methods such as neural networks, decision trees, boosting, and nearest neighbor techniques.

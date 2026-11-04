@@ -1,0 +1,1 @@
+Introduction to the architecture and implementation of database systems. Topics covered include data storage, tree and hash indexes, storage management, query evaluation and optimization, transaction management, concurrency control, recovery, and XML data management.

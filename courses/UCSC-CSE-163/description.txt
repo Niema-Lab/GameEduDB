@@ -1,0 +1,1 @@
+Presents the basics of open-source programming tools to perform data analysis and create interactive visualizations and maps for the web, data integrity and scraping, statistical computation, simple and novel visualizations, and geomapping. The examples are drawn from social science, public policy, and data journalism. (Formerly CMPS 165.)

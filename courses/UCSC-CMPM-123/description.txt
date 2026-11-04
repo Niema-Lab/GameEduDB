@@ -1,0 +1,1 @@
+Course introduces students to current and emerging advanced programming methods used in building complex, high-performance, and networked interactive media systems. Students use tools like debuggers and profiles to inspect and resolve software performance bottlenecks in a compiled language.

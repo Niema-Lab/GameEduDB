@@ -1,0 +1,1 @@
+Teaches students to design, develop, and evaluate games for diverse user populations including players with disabilities. Through hands-on prototyping and rigorous playtesting methodologies, students learn to implement technical accessibility features using industry-standard development tools and frameworks.

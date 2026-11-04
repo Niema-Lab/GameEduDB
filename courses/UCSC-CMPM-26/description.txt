@@ -1,0 +1,1 @@
+Introduces theories and techniques of 3D computer animation. Topics include: character animation; rigging; simulation of cloth, liquids, and fire; motion capture; rendering; and editing animated scenes. Students develop proficiency in 3D animation via lectures and assignments focused on the use of a 3D animation tool and use of motion-capture software.

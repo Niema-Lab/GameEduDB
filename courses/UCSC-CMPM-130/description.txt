@@ -1,0 +1,1 @@
+Students develop skills and interactive prototypes for addressing three communication challenges: first, software itself communicating with interactors; second, developers of software communicating about the design of the software's interactions and users' experiences; and third, communicating results of design processes.

@@ -1,0 +1,1 @@
+Orbital mechanics, techniques of integration, and separable differential equations. Taylor expansions and error estimates, the Gaussian integral, Gamma function and Stirling's formula. Series and power series, numerous applications to physics.

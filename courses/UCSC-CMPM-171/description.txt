@@ -1,0 +1,1 @@
+Students work in teams to create a fully-functional subset ("vertical slice") of an interactive, playable software system. Focus is on experience design, systems design, integrating assets (visual, auditory, and written), testing, and project management. May be repeated for credit. (Formerly offered as Game Design Studio II.)

@@ -1,0 +1,1 @@
+Teaches the concrete programming and collaboration skills associated with making a digital game from start to finish, including but not limited to: establishing a team, concepting, storyboarding, prototyping, producing, and testing a game for release. Students are organized into groups and work together to create and produce a playable game.

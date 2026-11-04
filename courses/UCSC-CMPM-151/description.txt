@@ -1,0 +1,1 @@
+Introduces compositional techniques and procedural audio as exhibited in the sound and music of video games. Surveys different styles of music implemented in video games and associated compositional approaches. Students develop skill in procedural audio via a series of workshops and assignments.

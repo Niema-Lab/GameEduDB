@@ -1,0 +1,1 @@
+Provides experience with applying computing to social issues. Case studies on multiple issues. For example: privacy, copyright, voting, education, poverty, energy, activism. Team project in which students develop software to address a pre-identified need of a global or local non-profit. (Formerly Computer Science 119.)

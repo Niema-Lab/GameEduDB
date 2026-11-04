@@ -1,0 +1,1 @@
+Surveys the relationship between music and data as exhibited in industry and research implementations of sonification and music information retrieval. Students introduced to various styles and algorithms of sound analysis and modeling and develop skills to program unique approaches in this area.

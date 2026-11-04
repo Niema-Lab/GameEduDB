@@ -1,0 +1,1 @@
+Students work in teams on building the Minimum Viable Product (MVP) for a computational media project. The focus is on designing a production plan, and executing it through an iterative process. Projects may cover the entire range of computational media, from interactive art installations to mobile apps.

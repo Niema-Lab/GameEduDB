@@ -1,0 +1,1 @@
+Learn the fundamentals of at least two contemporary game engines. Develop 3D game prototypes using custom-level geometry and shaders. Understand common features of the engines and how engine-specific features shape the space games that are reasonable to implement.

@@ -1,0 +1,1 @@
+Introduction to construction of games using game engine technology, using a specific game engine as a focus. Covers major game engine features: input, collision, animation, model import, lighting, camera, rendering, textures, particle systems. Introduction to a specific game scripting language, custom game logic, game programming patterns. (Formerly offered as CMPM 121.)

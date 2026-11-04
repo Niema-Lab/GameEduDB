@@ -1,0 +1,1 @@
+Introduction to parallel and concurrent programming. Topics include: types of parallel computers and programming platforms; design, implementation, and optimization of programs for parallel and multicore processors; basic and advanced programming techniques; performance analysis and load balancing; and selected parallel algorithms.

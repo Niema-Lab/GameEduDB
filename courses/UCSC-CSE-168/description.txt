@@ -1,0 +1,1 @@
+Covers the concepts and methods needed to develop augmented reality (AR) and virtual reality (VR) applications. Topics include 3D modeling, graphics rendering, image compositing, occlusion handling, sensors, computer vision and image analysis, toolkits for AR, different display options, dynamics, interaction, and navigation.

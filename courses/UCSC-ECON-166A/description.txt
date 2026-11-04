@@ -1,0 +1,1 @@
+Introduces modern game theory, including applications in social science, biology, and engineering. Topics include extensive form, strategic form, mixed strategies, incomplete information, repeated games, evolutionary games, and simulation techniques.

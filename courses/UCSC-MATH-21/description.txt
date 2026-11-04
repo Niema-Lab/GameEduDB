@@ -1,0 +1,1 @@
+Systems of linear equations matrices, determinants. Introduces abstract vector spaces, linear transformation, inner products, the geometry of Euclidean space, and eigenvalues. Students cannot receive credit for this course and AM 10.

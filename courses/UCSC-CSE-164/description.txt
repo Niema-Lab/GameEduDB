@@ -1,0 +1,1 @@
+Introduces both the basic computer vision concepts and the advanced deep learning methods for computer vision. Topics include fundamentals of image formation, camera imaging geometry, early-/mid-/high-level vision, basics of machine learning and convolutional neural networks for vision.
