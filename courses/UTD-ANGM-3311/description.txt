@@ -1,0 +1,1 @@
+Exploration of processes and practices in tools, engine, and pipeline development for games, animation, and other digital media. Prerequisites: (ANGM 2305 or CS 1335 or CS 1337) and (ANGM 2310 with a grade of B or better).

@@ -1,0 +1,1 @@
+Explores concepts and best practices for developing interactive applications to be used for training, simulation and non-entertainment media. Concepts focus on scripting and developing digital applications, but will also include designing game systems, audio and feedback systems, and User Interface. Prerequisite: (ANGM 2305 with a grade of C or better) or CS 1325 or CS 1436.

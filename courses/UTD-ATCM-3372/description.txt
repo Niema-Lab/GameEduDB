@@ -1,0 +1,1 @@
+Exploration of sound design principles, soundscapes, voice acting, and music as they relate to digital game development. Students in the course will examine key concepts of sound design for games within the constraints of interactive media, gameplay requirements, and virtual environments. Prerequisite: ATCM 2345.

@@ -1,0 +1,1 @@
+Introduces the foundations of programming to solve problems and generate art for applications in graphics, animation, film, games, and visualization. Topics include foundational coding skills to read, modify, and write code from scratch.

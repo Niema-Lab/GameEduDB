@@ -1,0 +1,1 @@
+This course focuses on theory and practice for extended game experiences in digital game development. Students will experiment with mechanics, design level maps, and build playable prototypes in a modern game engine. Concepts will explore challenge scaffolding, player guidance, collisions, and event scripting. Prerequisite: ANGM 2310 with a grade of B or better.

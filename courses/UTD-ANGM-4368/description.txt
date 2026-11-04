@@ -1,0 +1,1 @@
+This course explores advanced concepts and practices in scripting for digital game development. Students will build more complex game systems and mechanics while learning best practices in modern game development. Concepts will explore player input, game control systems, and team collaboration practices. Prerequisite: ANGM 3368 with a grade of C or better.

@@ -1,0 +1,1 @@
+Advanced study of interactive game design, focusing on methods and techniques for rapid digital prototyping, mechanical iteration, tuning, and balancing. Students in the course will examine both successes and failures to improve on successive iterations of a game mechanic, concept, or experience. Prerequisite: ANGM 3365.

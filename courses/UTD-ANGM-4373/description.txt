@@ -1,0 +1,1 @@
+This course builds upon the foundational principles explored in Animation I. Students will learn and practice animation processes, from preparation and planning to animating a fully rigged character using key frame animation, to implementation into a game engine to create a real-time, immersive user experience. Prerequisite: ANGM 3305.

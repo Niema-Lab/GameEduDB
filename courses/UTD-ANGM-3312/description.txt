@@ -1,0 +1,1 @@
+This course introduces advanced techniques for surfacing and materials creation used in both film and games. Specific techniques may include UVing, procedural shaders, and look development using image editing and animation software. Students will also gain experience developing shaders inside a game engine. Prerequisite: ANGM 3306.

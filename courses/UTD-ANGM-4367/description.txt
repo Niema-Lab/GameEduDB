@@ -1,0 +1,1 @@
+Exploration of advanced methods and techniques in level design for interactive games, including contextual player guidance, challenge scaffolding, indexical storytelling, complex event scripting, and asset management. Prerequisites: ANGM 3367 with a grade of B or better and instructor consent required.
