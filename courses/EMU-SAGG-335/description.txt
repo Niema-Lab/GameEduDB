@@ -1,0 +1,1 @@
+The focus of this class is a continued study of of Unity I. In this course, the students will learn the production process of using the Unity software for graphic development of gameplay. Topics include game art, lighting, rendering, and shading along with cameras and basic effects as applied to gaming.

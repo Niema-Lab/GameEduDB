@@ -1,0 +1,1 @@
+This course examines how to create an engaging, effective story while relating the practical considerations of building a simulation, animation, or game. Emphasis will be placed on traditional narrative development as well as interactive design necessary for game development. Techniques such as storyboarding and flow-charting for interaction are introduced.

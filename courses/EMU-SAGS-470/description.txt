@@ -1,0 +1,1 @@
+This course focuses on a host of constraints used to create accurate physical relationships between rigid-body and soft-body objects for simulations and animation. The techniques taught are used to create high-speed simulations with interactions between multiple objects with control over mass, friction, and elasticity.

@@ -1,0 +1,1 @@
+This course is an introduction to Unity for 2D game creation. The main focus of the class is understanding and using Unity software in the development of a 2D game. Instruction will focus on the Unity environment, creating 2D sprites, building game words with basic movement, and player control.

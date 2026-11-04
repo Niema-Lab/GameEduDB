@@ -1,0 +1,1 @@
+This course focuses on learning the techniques and constraints used to create textures for 3dimensional models and environments used in gaming and simulation. Through instruction and lab, this course provides basic principles, research tools, techniques, and in-depth tutorials of texturing and mapping.

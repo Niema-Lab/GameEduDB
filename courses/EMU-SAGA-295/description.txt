@@ -1,0 +1,1 @@
+This course is an introduction to Character Rigging. This class prepares students with the aptitude to use industry-standard processes in order to produce hierarchical bone structures to easily control three-dimensional models. The emphasis of the class will be on techniques, workflows, naming conventions, and organization of the rigging process.

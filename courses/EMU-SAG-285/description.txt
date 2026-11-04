@@ -1,0 +1,1 @@
+This course is a practical survey covering the principles of simulation. Multimedia exercises are explored and students learn to use a variety of techniques to produce games and simulation situations using software, such as 3-D Max or Maya. Students will use their graphics skills to build 3-dimensional models and simulate them in different settings.
