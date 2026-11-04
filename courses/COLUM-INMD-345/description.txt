@@ -1,0 +1,1 @@
+This course aims to help students bridge the gap between design and development. Using industry-standard prototyping tools, the course content will focus on design concepts and front-end development to ensure students understand how to turn their interface design work into functional code as well as preparing files for dev handoff.

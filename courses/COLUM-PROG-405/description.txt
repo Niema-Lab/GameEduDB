@@ -1,0 +1,1 @@
+Develop complex applications with reusable components. Advanced principles of object oriented design and programming are covered as a library of reusable code and a substantial project is built.

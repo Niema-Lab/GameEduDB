@@ -1,0 +1,1 @@
+Learn problem-solving techniques, algorithm development, and object-oriented system design as you build portfolio work. Essential topics such as data structures, control structures, and best programming practices are covered. Create efficient and effective code through weekly practice, assignments, and projects.
