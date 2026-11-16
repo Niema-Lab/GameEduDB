@@ -1,0 +1,79 @@
+name: Compile GameEduDB and deploy static content to Pages
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Set up environment
+        run: |
+          sudo apt-get update && \
+          sudo apt-get install -y graphviz pandoc python3 python3-pip texlive-xetex && \
+          pip install graphviz
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build website
+        run: |
+          python3 scripts/build_website.py > GameEduDB.html && \
+          python3 scripts/build_markdown.py > GameEduDB.md && \
+          pandoc -s --toc --metadata title="GameEduDB" -o GameEduDB.pdf --pdf-engine=xelatex GameEduDB.md && \
+          mkdir html && \
+          cp GameEduDB.html html/index.html && \
+          cp GameEduDB.md GameEduDB.pdf html/
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './html/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Generate release tag
+      id: tag
+      run: |
+        echo "::set-output name=release_tag::$(date +"%Y-%m-%d_%H-%M-%S")"
+      - name: Publish release
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: ${{ steps.tag.outputs.release_tag }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload HTML to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: GameEduDB.html
+        asset_name: GameEduDB.html
+        tag: ${{ steps.tag.outputs.release_tag }}
+        overwrite: true
+      - name: Upload Markdown to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: GameEduDB.md
+        asset_name: GameEduDB.md
+        tag: ${{ steps.tag.outputs.release_tag }}
+        overwrite: true
+      - name: Upload PDF to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: GameEduDB.pdf
+        asset_name: GameEduDB.pdf
+        tag: ${{ steps.tag.outputs.release_tag }}
+        overwrite: true
