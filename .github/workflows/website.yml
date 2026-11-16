@@ -32,7 +32,7 @@ jobs:
         run: |
           python3 scripts/build_website.py > GameEduDB.html && \
           python3 scripts/build_markdown.py > GameEduDB.md && \
-          pandoc -s --toc --metadata title="GameEduDB" -o GameEduDB.pdf --pdf-engine=xelated GameEduDB.md && \
+          pandoc -s --toc --metadata title="GameEduDB" -o GameEduDB.pdf --pdf-engine=xelatex GameEduDB.md && \
           mkdir html && \
           cp GameEduDB.html html/index.html
       - name: Upload artifact
