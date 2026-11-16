@@ -24,8 +24,7 @@ jobs:
       - name: Set up environment
         run: |
           sudo apt-get update && \
-          sudo apt-get install -y graphviz pandoc python3 python3-pip texlive-xetex && \
-          pip install graphviz
+          sudo apt-get install -y pandoc python3
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build website

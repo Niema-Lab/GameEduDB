@@ -4,7 +4,6 @@ Build a standalone interactive HTML website from the GameEduDB contents
 '''
 
 # imports
-from graphviz import Digraph
 from pathlib import Path
 from sys import argv
 import json
@@ -65,15 +64,6 @@ TRANSLATE = {
     'total_credits': 'Total Credits/Units',
     'url': 'Official Website',
 }
-COURSE_CODE_COLORS = {
-    'ART': '#e9a23b',
-    'CSE': '#4285c5',
-    'MATH': '#45a477',
-}
-COURSE_COLOR_PALETTE = [
-    '#8b79c6', '#d47791', '#4e9b9b', '#c47b45', '#6689c7',
-    '#9a9b4c', '#bd6cbd', '#5b9b70', '#c16d65', '#6c91a5',
-]
 
 # sorting helpers
 def natural_sort_key(value):
@@ -133,47 +123,6 @@ def prerequisite_closure(course_ids, data):
                 included.add(prerequisite_id)
                 pending.append(prerequisite_id)
     return included
-
-# graph generation
-def graph_prefix_colors(course_ids, data, dark=False):
-    prefixes = sorted({data['courses'][course_id].get('course_code', [''])[0].split()[0]
-                       for course_id in course_ids
-                       if data['courses'][course_id].get('course_code', [''])[0].split()})
-    if len(prefixes) <= 1:
-        return {}
-    colors = {}
-    for index, prefix in enumerate(prefixes):
-        color = COURSE_CODE_COLORS.get(prefix, COURSE_COLOR_PALETTE[index % len(COURSE_COLOR_PALETTE)])
-        if dark:
-            color = {'#e9a23b': '#80551c', '#4285c5': '#244f78', '#45a477': '#246444'}.get(color, color)
-        colors[prefix] = color
-    return colors
-
-def build_graph_svg(course_ids, data, dark=False):
-    included = prerequisite_closure(course_ids, data)
-    colors = graph_prefix_colors(included, data, dark)
-    graph = Digraph(format='svg', engine='dot')
-    graph.attr(rankdir='TB', bgcolor='transparent', pad='0.2', nodesep='0.25', ranksep='0.45',
-               fontname='Arial', splines='ortho')
-    graph.attr('node', shape='box', style='rounded,filled', fontname='Arial', fontsize='10',
-               margin='0.12,0.08', color='#64748b' if not dark else '#94a3b8',
-               fontcolor='#172033' if not dark else '#f1f5f9')
-    graph.attr('edge', color='#64748b' if not dark else '#aab6c7', arrowsize='0.7')
-    for course_id in sorted(included, key=lambda x: course_code_sort_key(x, data)):
-        course_data = data['courses'][course_id]
-        code = course_data.get('course_code', [''])[0]
-        name = course_data['name'][0]
-        label = f'{code}\\n{name}' if code else name
-        prefix = code.split()[0] if code.split() else ''
-        fill = colors.get(prefix, '#ffffff' if not dark else '#303b4d')
-        style = 'rounded,filled' if course_id in course_ids else 'rounded,filled,dashed'
-        graph.node(course_id, label=label, fillcolor=fill, style=style,
-                   URL=f'#course/{course_id}', tooltip=course_title(course_id, data))
-    for course_id in included:
-        for prerequisite_id in data['courses'][course_id].get('prerequisite_course_ids', []):
-            if prerequisite_id in included:
-                graph.edge(prerequisite_id, course_id)
-    return graph.pipe().decode('utf-8')
 
 # content helpers
 def display_value(key, values):
@@ -246,18 +195,7 @@ def course_card(course_id, data, classifications=None):
         out += '<div class="badges">' + ''.join(f'<span class="badge badge-{name.casefold()}">{name}</span>' for name in classifications) + '</div>'
     return out + '</a>'
 
-def graph_section(entity_key, course_ids, data, graph_templates):
-    if not course_ids:
-        return ''
-    included = prerequisite_closure(course_ids, data)
-    edge_count = sum(len(data['courses'][course_id].get('prerequisite_course_ids', [])) for course_id in included)
-    external_count = len(included - set(course_ids))
-    template_id = f'graph-{entity_key}'
-    graph_templates.append((template_id, build_graph_svg(course_ids, data, False), build_graph_svg(course_ids, data, True)))
-    return f'''<section class="panel graph-panel"><button class="section-toggle" aria-expanded="false" aria-controls="{template_id}-container"><span><span class="section-heading">Prerequisite Graph</span><span class="graph-summary">{len(included)} courses · {edge_count} prerequisite relationships · {len(course_ids)} included · {external_count} external prerequisites</span></span><span class="toggle-symbol">＋</span></button><div class="graph-container" id="{template_id}-container" hidden data-graph="{template_id}"></div></section>'''
-
 def build_website(data):
-    graph_templates = []
     institution_to_programs = {key: set() for key in data['institutions']}
     institution_to_departments = {key: set() for key in data['institutions']}
     institution_to_courses = {key: set() for key in data['institutions']}
@@ -277,7 +215,6 @@ def build_website(data):
         institution_to_courses[course['institution_id'][0]].add(course_id)
         if 'department_id' in course:
             department_to_courses[course['department_id'][0]].add(course_id)
-
     entities = {}
     for entity_type in ['programs', 'institutions', 'departments', 'courses']:
         for entity_id, entity_data in data[entity_type].items():
@@ -288,7 +225,6 @@ def build_website(data):
                 'description': ' '.join(entity_data.get('description', [])),
                 'institution': data['institutions'][entity_data['institution_id'][0]]['name'][0] if 'institution_id' in entity_data else '',
             }
-
     views = {}
     # Program views
     for program_id, program in data['programs'].items():
@@ -305,9 +241,7 @@ def build_website(data):
                 card = course_card(course_id, data, classifications)
                 body += f'<div class="filterable" data-classifications="{" ".join(value.casefold() for value in classifications)}">{card}</div>'
             body += '</div></section>'
-        body += graph_section(f'program-{program_id}', required, data, graph_templates)
         views[f'program/{program_id}'] = {'type': 'program', 'title': title, 'body': body}
-
     # Institution views
     for institution_id, institution in data['institutions'].items():
         title = institution['name'][0]
@@ -330,9 +264,7 @@ def build_website(data):
         ordered_courses = sort_course_ids(course_ids, data)
         if ordered_courses:
             body += '<section class="panel"><h2>Courses</h2><div class="cards">' + ''.join(course_card(x, data) for x in ordered_courses) + '</div></section>'
-        body += graph_section(f'institution-{institution_id}', course_ids, data, graph_templates)
         views[f'institution/{institution_id}'] = {'type': 'institution', 'title': title, 'body': body}
-
     # Department views
     for department_id, department in data['departments'].items():
         title = department['name'][0]
@@ -345,9 +277,7 @@ def build_website(data):
         ordered_courses = sort_course_ids(course_ids, data)
         if ordered_courses:
             body += '<section class="panel"><h2>Courses</h2><div class="cards">' + ''.join(course_card(x, data) for x in ordered_courses) + '</div></section>'
-        body += graph_section(f'department-{department_id}', course_ids, data, graph_templates)
         views[f'department/{department_id}'] = {'type': 'department', 'title': title, 'body': body}
-
     # Course views
     for course_id, course in data['courses'].items():
         title = course_title(course_id, data)
@@ -366,15 +296,12 @@ def build_website(data):
                 body += program_card(program_id, data, sorted(course_to_programs[course_id][program_id]))
             body += '</div></section>'
         views[f'course/{course_id}'] = {'type': 'course', 'title': title, 'body': body}
-
     directory = '<div class="directory"><h1>Video Game Development Programs</h1><p class="intro">Explore programs, institutions, departments, and courses in video game development.</p><div class="cards">'
     for program_id in sorted(data['programs'], key=lambda x: entity_sort_key(x, data, 'programs')):
         directory += program_card(program_id, data)
     directory += '</div></div>'
-
     payload = json.dumps({'views': views, 'entities': entities}, ensure_ascii=False).replace('</', '<\\/')
-    templates = ''.join(f'<template id="{template_id}-light">{light_svg}</template><template id="{template_id}-dark">{dark_svg}</template>' for template_id, light_svg, dark_svg in graph_templates)
-    return HTML_TEMPLATE.replace('<!-- DIRECTORY -->', directory).replace('<!-- DATA -->', payload).replace('<!-- GRAPH TEMPLATES -->', templates)
+    return HTML_TEMPLATE.replace('<!-- DIRECTORY -->', directory).replace('<!-- DATA -->', payload)
 
 HTML_TEMPLATE = r'''<!doctype html>
 <html lang="en">
@@ -385,14 +312,13 @@ HTML_TEMPLATE = r'''<!doctype html>
 :root{color-scheme:light;--bg:#f2f5fa;--surface:#fff;--surface-2:#f7f9fc;--text:#24334c;--muted:#64748b;--border:#e1e7ef;--accent:#426fa8;--shadow:0 2px 8px #1e293b0a}
 :root[data-theme="dark"]{color-scheme:dark;--bg:#171c27;--surface:#202938;--surface-2:#283446;--text:#edf2f8;--muted:#aab7c8;--border:#39465a;--accent:#91b9ed;--shadow:0 2px 8px #0003}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
-a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.topbar{position:sticky;top:0;z-index:10;background:var(--surface);border-bottom:1px solid var(--border);box-shadow:var(--shadow)}.topbar-inner{max-width:1400px;margin:auto;padding:12px 24px;display:flex;align-items:center;gap:18px}.brand{font-weight:800;font-size:21px;color:var(--text);white-space:nowrap}.search{flex:1;min-width:80px;max-width:680px;margin:auto}.search input{width:100%;padding:10px 14px;border:1px solid var(--border);border-radius:9px;background:var(--surface-2);color:var(--text);font:inherit}.theme-toggle,.nav-button,.filter,.section-toggle{border:1px solid var(--border);background:var(--surface-2);color:var(--text);border-radius:9px;padding:9px 12px;cursor:pointer;font:inherit}.theme-toggle{white-space:nowrap}.main{max-width:1400px;margin:0 auto;padding:20px 24px 64px}.breadcrumbs{display:flex;gap:8px;white-space:nowrap;overflow-x:auto;padding:2px 0 18px;color:var(--muted);font-size:13px}.breadcrumbs a{flex:none}.breadcrumbs .current{color:var(--text);font-weight:600}.view h1,.directory h1{font-size:clamp(26px,3vw,36px);line-height:1.2;margin:4px 0 10px}.intro,.description{color:var(--muted)}.description p{margin:8px 0}.entity-header{margin:4px 0 20px}.eyebrow{font-size:11px;font-weight:800;letter-spacing:.12em;color:var(--muted)}.external-link{display:inline-block;margin:4px 0 8px;font-size:13px;font-weight:650}.panel{background:var(--surface);border:1px solid var(--border);border-radius:13px;padding:20px;margin:16px 0;box-shadow:var(--shadow)}.panel h2{font-size:19px;margin:0 0 14px}.metadata-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 28px}.metadata-label{font-size:12px;color:var(--muted);margin-bottom:3px}.metadata-value{font-weight:550}.value-badges,.badges{display:flex;flex-wrap:wrap;gap:6px}.value-badge,.badge{display:inline-block;padding:3px 9px;border-radius:20px;background:var(--surface-2);border:1px solid var(--border);font-size:12px}.badge-core{background:#dceafb;color:#24558c}.badge-path{background:#dff2e7;color:#246743}.badge-elective{background:#f3e8fb;color:#70418c}:root[data-theme="dark"] .badge-core{background:#244568;color:#c5defb}:root[data-theme="dark"] .badge-path{background:#214b38;color:#c5efd5}:root[data-theme="dark"] .badge-elective{background:#49345d;color:#ead4fa}.cards{display:grid;grid-template-columns:1fr;gap:10px}.entity-card{display:block;background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:14px 16px;color:var(--text);transition:border-color .15s,transform .15s}.entity-card:hover{border-color:var(--accent);text-decoration:none;transform:translateY(-1px)}.card-title{font-weight:720;font-size:16px}.card-subtitle{font-size:13px;color:var(--muted);margin-top:1px}.card-description{font-size:13px;color:var(--muted);margin-top:7px}.program-card .card-description{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}.badges{margin-top:8px}.section-title-row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.section-title-row h2{margin:0}.filters{display:flex;gap:6px;flex-wrap:wrap}.filter{font-size:12px;padding:6px 10px}.filter.active{background:var(--accent);color:white;border-color:var(--accent)}.compact-links{display:flex;flex-direction:column;gap:8px}.compact-link{display:block;padding:10px 12px;background:var(--surface-2);border:1px solid var(--border);border-radius:8px;font-weight:600}.graph-panel{padding:0;overflow:hidden}.section-toggle{width:100%;border:0;border-radius:13px;background:transparent;display:flex;align-items:center;justify-content:space-between;text-align:left;padding:17px 20px}.section-heading{display:block;font-size:18px;font-weight:700}.graph-summary{display:block;color:var(--muted);font-size:12px;margin-top:3px}.toggle-symbol{font-size:22px}.graph-container{border-top:1px solid var(--border);padding:14px;overflow:auto;max-height:75vh}.graph-container svg{display:block;max-width:100%;height:auto;margin:auto}.directory>.cards{margin-top:20px}.directory .intro{max-width:850px}.search-results h2{font-size:16px;margin:24px 0 9px}.search-results .entity-card{margin-bottom:8px}.empty-state{text-align:center;padding:70px 20px;color:var(--muted)}.empty-state h2{color:var(--text)}.empty-state button{margin-top:12px}.hidden{display:none!important}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.topbar{position:sticky;top:0;z-index:10;background:var(--surface);border-bottom:1px solid var(--border);box-shadow:var(--shadow)}.topbar-inner{max-width:1400px;margin:auto;padding:12px 24px;display:flex;align-items:center;gap:18px}.brand{font-weight:800;font-size:21px;color:var(--text);white-space:nowrap}.search{flex:1;min-width:80px;max-width:680px;margin:auto}.search input{width:100%;padding:10px 14px;border:1px solid var(--border);border-radius:9px;background:var(--surface-2);color:var(--text);font:inherit}.theme-toggle,.nav-button,.filter{border:1px solid var(--border);background:var(--surface-2);color:var(--text);border-radius:9px;padding:9px 12px;cursor:pointer;font:inherit}.theme-toggle{white-space:nowrap}.main{max-width:1400px;margin:0 auto;padding:20px 24px 64px}.breadcrumbs{display:flex;gap:8px;white-space:nowrap;overflow-x:auto;padding:2px 0 18px;color:var(--muted);font-size:13px}.breadcrumbs a{flex:none}.breadcrumbs .current{color:var(--text);font-weight:600}.view h1,.directory h1{font-size:clamp(26px,3vw,36px);line-height:1.2;margin:4px 0 10px}.intro,.description{color:var(--muted)}.description p{margin:8px 0}.entity-header{margin:4px 0 20px}.eyebrow{font-size:11px;font-weight:800;letter-spacing:.12em;color:var(--muted)}.external-link{display:inline-block;margin:4px 0 8px;font-size:13px;font-weight:650}.panel{background:var(--surface);border:1px solid var(--border);border-radius:13px;padding:20px;margin:16px 0;box-shadow:var(--shadow)}.panel h2{font-size:19px;margin:0 0 14px}.metadata-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 28px}.metadata-label{font-size:12px;color:var(--muted);margin-bottom:3px}.metadata-value{font-weight:550}.value-badges,.badges{display:flex;flex-wrap:wrap;gap:6px}.value-badge,.badge{display:inline-block;padding:3px 9px;border-radius:20px;background:var(--surface-2);border:1px solid var(--border);font-size:12px}.badge-core{background:#dceafb;color:#24558c}.badge-path{background:#dff2e7;color:#246743}.badge-elective{background:#f3e8fb;color:#70418c}:root[data-theme="dark"] .badge-core{background:#244568;color:#c5defb}:root[data-theme="dark"] .badge-path{background:#214b38;color:#c5efd5}:root[data-theme="dark"] .badge-elective{background:#49345d;color:#ead4fa}.cards{display:grid;grid-template-columns:1fr;gap:10px}.entity-card{display:block;background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:14px 16px;color:var(--text);transition:border-color .15s,transform .15s}.entity-card:hover{border-color:var(--accent);text-decoration:none;transform:translateY(-1px)}.card-title{font-weight:720;font-size:16px}.card-subtitle{font-size:13px;color:var(--muted);margin-top:1px}.card-description{font-size:13px;color:var(--muted);margin-top:7px}.program-card .card-description{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}.badges{margin-top:8px}.section-title-row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.section-title-row h2{margin:0}.filters{display:flex;gap:6px;flex-wrap:wrap}.filter{font-size:12px;padding:6px 10px}.filter.active{background:var(--accent);color:white;border-color:var(--accent)}.compact-links{display:flex;flex-direction:column;gap:8px}.compact-link{display:block;padding:10px 12px;background:var(--surface-2);border:1px solid var(--border);border-radius:8px;font-weight:600}.directory>.cards{margin-top:20px}.directory .intro{max-width:850px}.search-results h2{font-size:16px;margin:24px 0 9px}.search-results .entity-card{margin-bottom:8px}.empty-state{text-align:center;padding:70px 20px;color:var(--muted)}.empty-state h2{color:var(--text)}.empty-state button{margin-top:12px}.hidden{display:none!important}
 @media(min-width:900px){.program-card .card-description{-webkit-line-clamp:3}}
 @media(min-width:600px) and (max-width:899px){.program-card .card-description{-webkit-line-clamp:4}}
-@media(max-width:599px){.topbar-inner{padding:9px 12px;gap:9px;flex-wrap:wrap}.brand{font-size:18px}.search{order:3;flex-basis:100%;max-width:none}.theme-toggle{margin-left:auto;padding:7px 9px}.main{padding:14px 12px 44px}.breadcrumbs{margin-right:-12px;padding-bottom:13px}.panel{padding:15px;margin:12px 0}.metadata-grid{grid-template-columns:1fr;gap:12px}.program-card .card-description{-webkit-line-clamp:5}.card-title{font-size:15px}.graph-container{padding:8px}.section-toggle{padding:14px}}
+@media(max-width:599px){.topbar-inner{padding:9px 12px;gap:9px;flex-wrap:wrap}.brand{font-size:18px}.search{order:3;flex-basis:100%;max-width:none}.theme-toggle{margin-left:auto;padding:7px 9px}.main{padding:14px 12px 44px}.breadcrumbs{margin-right:-12px;padding-bottom:13px}.panel{padding:15px;margin:12px 0}.metadata-grid{grid-template-columns:1fr;gap:12px}.program-card .card-description{-webkit-line-clamp:5}.card-title{font-size:15px}}
 </style></head><body>
 <header class="topbar"><div class="topbar-inner"><a class="brand" href="#">GameEduDB</a><div class="search"><input id="search" type="search" placeholder="Search programs, institutions, departments, and courses…" autocomplete="off" aria-label="Search GameEduDB"></div><button class="theme-toggle" id="theme-toggle" type="button">Dark mode</button></div></header>
 <main class="main"><nav class="breadcrumbs" id="breadcrumbs" aria-label="Breadcrumbs"></nav><div id="directory" class="view"><!-- DIRECTORY --></div><div id="view" class="view hidden"></div><div id="search-results" class="search-results hidden"></div></main>
-<!-- GRAPH TEMPLATES -->
 <script id="database" type="application/json"><!-- DATA --></script>
 <script>
 const DB=JSON.parse(document.getElementById('database').textContent);
@@ -400,14 +326,13 @@ const viewEl=document.getElementById('view'),directoryEl=document.getElementById
 let currentPath=[],previousPath=[],searchActive=false;
 const typeNames={program:'Program',institution:'Institution',department:'Department',course:'Course'};
 function theme(){return document.documentElement.dataset.theme||'light'}
-function setTheme(value){document.documentElement.dataset.theme=value;localStorage.setItem('gameedudb-theme',value);document.getElementById('theme-toggle').textContent=value==='dark'?'Light mode':'Dark mode';document.querySelectorAll('.graph-container[data-graph]').forEach(container=>{if(!container.hidden)loadGraph(container,container.dataset.graph)})}
+function setTheme(value){document.documentElement.dataset.theme=value;localStorage.setItem('gameedudb-theme',value);document.getElementById('theme-toggle').textContent=value==='dark'?'Light mode':'Dark mode'}
 setTheme(localStorage.getItem('gameedudb-theme')==='dark'?'dark':'light');
 document.getElementById('theme-toggle').addEventListener('click',()=>setTheme(theme()==='dark'?'light':'dark'));
 function renderBreadcrumbs(path){crumbEl.innerHTML='';if(!path.length)return;const root=document.createElement('a');root.href='#';root.textContent='Program Directory';crumbEl.append(root);path.forEach((part,index)=>{const sep=document.createElement('span');sep.textContent='›';crumbEl.append(sep);const item=DB.entities[part];if(!item)return;const link=document.createElement(index===path.length-1?'span':'a');link.textContent=item.name;if(index===path.length-1)link.className='current';else link.href='#'+path.slice(0,index+1).join('/');crumbEl.append(link)})}
 function showPath(path){searchActive=false;searchEl.value='';currentPath=path;const key=path[path.length-1]||'';const view=DB.views[key];directoryEl.classList.add('hidden');resultsEl.classList.add('hidden');if(!view){viewEl.classList.add('hidden');directoryEl.classList.remove('hidden');renderBreadcrumbs([]);return}viewEl.innerHTML=view.body;viewEl.classList.remove('hidden');renderBreadcrumbs(path);document.title=view.title+' · GameEduDB';wireView();}
 function route(){const parts=decodeURIComponent(location.hash.slice(1)).split('/').filter(Boolean);if(!parts.length){currentPath=[];searchActive=false;directoryEl.classList.remove('hidden');viewEl.classList.add('hidden');resultsEl.classList.add('hidden');crumbEl.innerHTML='';document.title='GameEduDB';return}const path=[];for(let i=0;i+1<parts.length;i+=2){const key=parts[i]+'/'+parts[i+1];if(DB.views[key])path.push(key)}showPath(path)}
-function loadGraph(container,id){const template=document.getElementById(id+'-'+theme());if(template){container.innerHTML='';container.append(template.content.cloneNode(true))}}
-function wireView(){viewEl.addEventListener('click',event=>{const link=event.target.closest('a[href^="#"]');if(!link)return;const target=decodeURIComponent(link.getAttribute('href').slice(1));if(DB.views[target]){event.preventDefault();location.hash=currentPath.concat(target).join('/')}});viewEl.querySelectorAll('.section-toggle').forEach(button=>button.addEventListener('click',()=>{const container=document.getElementById(button.getAttribute('aria-controls'));const opening=container.hidden;container.hidden=!opening;button.setAttribute('aria-expanded',String(opening));button.querySelector('.toggle-symbol').textContent=opening?'−':'＋';if(opening)loadGraph(container,container.dataset.graph)}));viewEl.querySelectorAll('.filter').forEach(button=>button.addEventListener('click',()=>{viewEl.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));button.classList.add('active');const filter=button.dataset.filter;viewEl.querySelectorAll('.filterable').forEach(card=>card.classList.toggle('hidden',filter!=='all'&&!card.dataset.classifications.split(' ').includes(filter)))}))}
+function wireView(){viewEl.addEventListener('click',event=>{const link=event.target.closest('a[href^="#"]');if(!link)return;const target=decodeURIComponent(link.getAttribute('href').slice(1));if(DB.views[target]){event.preventDefault();location.hash=currentPath.concat(target).join('/')}});viewEl.querySelectorAll('.filter').forEach(button=>button.addEventListener('click',()=>{viewEl.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));button.classList.add('active');const filter=button.dataset.filter;viewEl.querySelectorAll('.filterable').forEach(card=>card.classList.toggle('hidden',filter!=='all'&&!card.dataset.classifications.split(' ').includes(filter)))}))}
 function tokens(value){return value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean)}
 function search(){const query=tokens(searchEl.value);if(!query.length){if(searchActive){searchActive=false;resultsEl.classList.add('hidden');if(currentPath.length)showPath(currentPath);else{directoryEl.classList.remove('hidden');viewEl.classList.add('hidden');renderBreadcrumbs([])}}return}if(!searchActive){previousPath=currentPath.slice();searchActive=true}directoryEl.classList.add('hidden');viewEl.classList.add('hidden');resultsEl.classList.remove('hidden');renderBreadcrumbs([]);const groups=['program','institution','department','course'];let out='';for(const type of groups){const matches=Object.entries(DB.entities).filter(([key,item])=>item.type===type&&query.every(token=>[item.name,item.code,item.description,item.institution].some(value=>value.toLocaleLowerCase().includes(token)))).sort((a,b)=>a[1].name.localeCompare(b[1].name,undefined,{numeric:true,sensitivity:'base'})||a[1].id.localeCompare(b[1].id));if(!matches.length)continue;out+=`<section><h2>${typeNames[type]}s (${matches.length})</h2>`;for(const [key,item] of matches){out+=`<a class="entity-card" href="#${key}"><div class="card-title">${escapeHTML(type==='course'&&item.code?item.code+': '+item.name:item.name)}</div>${item.institution&&type!=='institution'?`<div class="card-subtitle">${escapeHTML(item.institution)}</div>`:''}${item.description?`<div class="card-description">${escapeHTML(item.description)}</div>`:''}</a>`}out+='</section>'}resultsEl.innerHTML=out||'<div class="empty-state"><h2>No results found</h2><p>Try another search term or check your spelling.</p><button class="theme-toggle" id="clear-search">Clear search</button></div>';const clear=document.getElementById('clear-search');if(clear)clear.addEventListener('click',()=>{searchEl.value='';search()})}
 function escapeHTML(value){return String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]))}
