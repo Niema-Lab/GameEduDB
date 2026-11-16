@@ -24,7 +24,7 @@ jobs:
       - name: Set up environment
         run: |
           sudo apt-get update && \
-          sudo apt-get install -y pandoc python3
+          sudo apt-get install -y pandoc python3 texlive-xetex
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build website
