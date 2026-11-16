@@ -4,7 +4,7 @@ on:
     branches: ["main"]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -46,7 +46,7 @@ jobs:
       - name: Generate release tag
         id: tag
         run: |
-          echo "::set-output name=release_tag::$(date +"%Y-%m-%d_%H-%M-%S")"
+          echo "release_tag=$(date -u +"%Y-%m-%d_%H-%M-%S")" >> "$GITHUB_OUTPUT"
       - name: Publish release
         uses: softprops/action-gh-release@v1
         with:
