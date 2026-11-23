@@ -1,0 +1,1 @@
+Many industries have begun using real-time engines to create interactive experiences and rapidly iterate on new design ideas. This course explores key concepts related to real-time engines and provides hands-on experience with creating basic interactive experiences with freely available tools, like Unreal Engine.

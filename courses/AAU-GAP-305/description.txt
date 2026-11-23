@@ -1,0 +1,1 @@
+Build two games, one using an engine from GAP 301 and another using a tool of your choice. Learning the role of engineer, you'll work in teams using industry-standard tools and methodologies to produce the games.

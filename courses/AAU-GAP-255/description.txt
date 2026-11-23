@@ -1,0 +1,1 @@
+Learn essential techniques for organizing code into classes. Explore common design patterns used throughout game programming to facilitate in writing scalable, maintainable code.

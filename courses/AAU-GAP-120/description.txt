@@ -1,0 +1,1 @@
+Learn to think like a programmer. You'll write programs to move a robot, learn numbering systems, problem-solving, API design, and other concepts foundational to programming. Designed to support GAP 125, but topics apply to all forms of programming.

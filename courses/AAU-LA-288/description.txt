@@ -1,0 +1,1 @@
+Matrix operations are used to perform transformations such as translations, rotations, and scale. Using the mathematics of 3D vectors—including dot and cross product applications—you’ll learn to solve linear systems with matrices.

@@ -1,0 +1,1 @@
+Learn the internals of the CPU and memory systems in modern computers and consoles. You'll study optimization theory and gain hands-on experience with concurrency and multi-threaded programming.

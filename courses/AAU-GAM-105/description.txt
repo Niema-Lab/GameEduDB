@@ -1,0 +1,1 @@
+Learn the fundamental concepts of 3D modeling for games. Using modeling tools and methods in a conventional 3D application, you will create a variety of polygonal objects and how to apply basic lighting and materials to your scenes.

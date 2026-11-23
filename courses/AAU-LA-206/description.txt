@@ -1,0 +1,1 @@
+Students will learn programming fundamentals which can be used as a foundation for learning advanced concepts or working within engine scripting systems. The course uses a simplified development environment to teach the basics of programming like variables, conditional logic, functions, objects, and classes.

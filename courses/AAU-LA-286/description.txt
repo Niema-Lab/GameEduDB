@@ -1,0 +1,1 @@
+Gain math skills for computer science. You’ll learn logic, sets, algorithms, Boolean algebra, number theory, counting techniques, recurrence, trees, and more.

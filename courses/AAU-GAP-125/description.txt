@@ -1,0 +1,1 @@
+Become proficient in C++. To learn the game industry's most-used language, you'll write text-based games using variables, branching, looping, console input/output, pointers, heap allocation, and more.
