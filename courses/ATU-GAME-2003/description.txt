@@ -1,0 +1,1 @@
+A practical introduction to all aspects of 3D development for film and game, including modeling, texturing, animation, rigging, and rendering.

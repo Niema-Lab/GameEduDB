@@ -1,0 +1,1 @@
+A continuation of Programming I which introduces object-oriented programming as well as other topics, including multi-dimensional arrays, functions, string processing, pointers, structs, and records.

@@ -1,0 +1,1 @@
+A practical introduction to game art, design, and coding through the conception, creation, and evaluation of simple digital game(s).

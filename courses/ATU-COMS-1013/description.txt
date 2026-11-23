@@ -1,0 +1,1 @@
+An introduction to the foundational concepts of programming using structured programming concepts of C++ as an implementation tool. Topics include sequential, selection, and iterative control structures, functions, strings, and arrays.

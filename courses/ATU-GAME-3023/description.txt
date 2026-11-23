@@ -1,0 +1,1 @@
+This course is a continuation of the fundamentals of game design and development through the design and production of more complex games and utilization of game engines.

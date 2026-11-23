@@ -1,0 +1,1 @@
+Laboratory for COMS 1013 Programming I course. This course is graded pass/fail.
