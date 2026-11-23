@@ -1,0 +1,1 @@
+Expanding on skills developed in IM230 Game Art Development, this course will be an artistic and technical exploration in the requirements necessary for designing and developing characters for real-time engines. Topics include: concepting for character art, sculpting anatomy, character rigging and animation, and character VFX.

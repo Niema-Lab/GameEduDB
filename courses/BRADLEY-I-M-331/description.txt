@@ -1,0 +1,1 @@
+This course provides an in-depth exploration of creating real-time visualizations using game engine technology. Students will gain hands-on experience with visual scripting tools and develop intractable experiences. This course emphasizes the creation of visually stunning experiences through advanced material blueprints, UI elements, and real-time lighting techniques.

@@ -1,0 +1,1 @@
+Introduction to additional game production tools and game engines. Game production lifecycle, workflow pipeline, group dynamics, and communication skills will all be major components of the course.

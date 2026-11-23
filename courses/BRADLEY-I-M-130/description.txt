@@ -1,0 +1,1 @@
+This course is an introduction to the foundational concepts, tools, and techniques needed to create artwork for video games. Topics include: 3D modeling, Digital Sculpting, creating textures and materials, and how to present digital artwork.

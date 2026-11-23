@@ -1,0 +1,1 @@
+Practical investigation of the uses of contemporary technology for music creation and sound manipulation, with an emphasis on digital tools and techniques. Using the Digital Audio Workstation as a backdrop, students explore digital synthesis, signal processing, and general design and control of sound for electronic music.

@@ -1,0 +1,1 @@
+Expanding on skills developed in IM 230 Game Art Development, this course will be an artistic and technical exploration in the requirements necessary for designing and developing environments for real-time engines. Topics include: concepting for environments, Modular kit construction, kitbashing, photogrammetry, procedural texturing, environment VFX and terrain generation.

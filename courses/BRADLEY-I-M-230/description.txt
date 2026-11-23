@@ -1,0 +1,1 @@
+Building on the foundational skills developed in IM 130 Game Art Fundamentals, this course is an exploration into more advanced concepts, tools, and techniques needed to create optimized and visually appealing artwork for video games. Topics include: asset creation for game engines, art workflows and pipelines, art styles in games, and asset optimization.
