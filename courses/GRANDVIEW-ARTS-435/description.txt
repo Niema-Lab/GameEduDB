@@ -1,0 +1,1 @@
+This course focuses on the creation of interactive virtual and augmented reality applications for games, simulations, and interactive media. Possible course topics covered include human computer interfaces, character rigging of virtual avatars, asset optimization for XR, 3D audio, and programming for interactive experiences. Prerequisite: ARTS 425 or consent of instructor.

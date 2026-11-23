@@ -1,0 +1,1 @@
+This course introduces foundational language and concepts for game design and provides a studio environment for game development. Topics will include play frameworks, operational rules, systems management, and game design prototyping. Studio time will be oriented to developmental approaches to making digital and non-digital games. Prerequisite: GAME-200. Offered Fall (even).

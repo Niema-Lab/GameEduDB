@@ -1,0 +1,1 @@
+This course will enable students to generate 3D animated content for use in digital games and XR experiences. Topics covered will include the rigging and animation of characters and other assets for implementation into a real-time engine. Prerequisite: ARTS 375 or consent of instructor. Offered Spring.

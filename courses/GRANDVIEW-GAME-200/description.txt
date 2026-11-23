@@ -1,0 +1,1 @@
+This course focuses on demonstrating event-driven programming techniques for use in digital games and XR experiences. Possible topics covered include: AI, pathfinding, simulations, special effects, UI interaction, procedurally generated content, and algorithms for games. Offered: Spring.
