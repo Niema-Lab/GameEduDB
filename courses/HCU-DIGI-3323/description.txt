@@ -1,0 +1,1 @@
+Introduces key design principles and applications in computer-generated 3D imagery for video games, animation, visual effects, and graphic design.

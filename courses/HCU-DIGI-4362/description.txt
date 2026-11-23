@@ -1,0 +1,1 @@
+This advanced course builds upon the groundwork established in DIGI 3362 – Game Programming, providing students opportunities to take lead roles on a video game project, practicing key principles game interactivity through engine coding and scripting. This course may be repeated for credit.

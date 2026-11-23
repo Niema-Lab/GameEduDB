@@ -1,0 +1,1 @@
+Introduces key design principles and applications in vector graphics, photo editing, and digital painting for graphic design, video games, animation, and visual effects.

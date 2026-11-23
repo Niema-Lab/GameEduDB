@@ -1,0 +1,1 @@
+This course introduces students to the fundamental elements of video game development, the primary tools, and overall workflow. Students will complete a simple interactive game project.

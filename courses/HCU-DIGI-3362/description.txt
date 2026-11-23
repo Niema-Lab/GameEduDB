@@ -1,0 +1,1 @@
+Through practical application in the development of a video game, students are introduced to game interactivity through engine coding and scripting.
