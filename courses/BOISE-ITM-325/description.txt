@@ -1,0 +1,1 @@
+Design and implementation of client-server web-based information systems. Topics include structuring and styling of semantic documents and creating interactive features. Implement dynamic projects by generating client- and server-side code with the aid of an integrated development environment.

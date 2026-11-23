@@ -1,0 +1,1 @@
+Focuses on introducing the theory and practice of emerging technologies in the Internet of Things. Students will create data driven experiences that use Web services and local networks to connect a variety of devices such as sensors, embedded systems, and circuits through mobile devices.

@@ -1,0 +1,1 @@
+Introduction to computer programming using C++. Topics include: scalar types; aggregate types; reference types; statements; expressions; functions; and a brief introduction to classes and objects. Emphasis is on: implementing given algorithms for numerical, scientific, and engineering applications.

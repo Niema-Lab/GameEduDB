@@ -1,0 +1,1 @@
+Focuses on modeling and animation skills for game and simulation environments. Design principles such as scale and proportion, 3D composition, color, etc. as applied to 3D computer simulated environments, are explored and mastered using industry tools such as Blender or Maya.

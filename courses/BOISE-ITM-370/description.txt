@@ -1,0 +1,1 @@
+An introduction into AI image, text, and other media generating tools. Students will use these tools to automate, augment, and streamline projects. Includes prompt engineering, output analysis, and ethical considerations.

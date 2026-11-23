@@ -1,0 +1,1 @@
+An introduction to the syntactic and execution characteristics of programming, including selection statements, loops, arrays, functions, classes, and objects using the Python programming language. Emphasis is on construction, compilation, debugging, and execution of complete programs that implement given algorithms or solve simple problems.

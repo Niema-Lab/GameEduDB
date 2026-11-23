@@ -1,0 +1,1 @@
+Introduction to Programming with C# and object-oriented design principles. Includes essential programming concepts of data types, decision-making, iteration, encapsulation, inheritance, error handling, testing, and documentation.

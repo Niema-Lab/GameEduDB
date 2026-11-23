@@ -1,0 +1,1 @@
+A project-intensive course on mobile development using either iOS or Android as a platform. Overview of mobile platforms and their characteristics, mobile interface design and best practices using such technologies as GPS, camera, persistence, notifications and others. Platform will be announced before the beginning of each semester.

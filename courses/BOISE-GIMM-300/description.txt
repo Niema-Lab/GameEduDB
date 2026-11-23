@@ -1,0 +1,1 @@
+Focuses on concepts of client-side programming for Web applications. Students are introduced to HTML5, XML, CSS, JavaScript and jQuery. Students also learn about Website creation and content management, focusing especially on mobile Website creation for multiple devices.

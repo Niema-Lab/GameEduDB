@@ -1,0 +1,1 @@
+Focuses on concepts of circuits, sensors, and wireless networks as they relate to custom mobile device creation. Students work with open source systems such as Arduino, Raspberry Pi, and Zigbee to understand and create unique devices to fit specific mobile computing needs.

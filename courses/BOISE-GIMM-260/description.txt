@@ -1,0 +1,1 @@
+Focuses on the basics of web services and their delivery to mobile devices through the browser. Introduces basic database design and web services creation to manipulate data for dynamic mobile experiences. Students gain the ability to organize and manipulate basic data services and have an understanding of how web requests work with the parameters of the HTTPS protocol.

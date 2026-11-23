@@ -1,0 +1,1 @@
+Introduction to object-oriented problem solving and programming. Software development process. Data and expression, conditionals and loops, arrays and lists, and classes and interfaces. Introduction to graphical user interfaces (GUIs). Guided, in-class programming activities and targeted projects to teach problem solving and software development skills.

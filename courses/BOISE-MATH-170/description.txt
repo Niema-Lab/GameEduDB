@@ -1,0 +1,1 @@
+Informal limits and continuity. Derivatives and antiderivatives, including trigonometric, exponential, and logarithmic functions. The relationship between a function, its derivative, and its antiderivative. Integration and the fundamental theorem of calculus. Applications of calculus to physical models, geometry, approximation, and optimization.
