@@ -1,0 +1,1 @@
+This course offers understanding of data mining, the use of spreadsheets, applicable descriptive statistics, probability and confidence intervals, methods of estimation, and linear regression analysis. The course is designed to offer students an introduction to data visualization techniques, such as Tableau, and to focus on learning the statistical analytics in Excel.
