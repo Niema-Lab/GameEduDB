@@ -1,0 +1,1 @@
+The objectives of this course are to continue the development of discipline in program design, style and expression, and debugging and testing; to introduce algorithmic analysis; and to introduce basic aspects of string processing, recursion, and simple data structures. Three hours lecture, three hours laboratory per week.

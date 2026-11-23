@@ -1,0 +1,1 @@
+Introduction to problem-solving methods and algorithm development. Objective is to teach how to design, code, debug, and document programs using techniques of good programming style. Three hours lecture, three hours laboratory per week.

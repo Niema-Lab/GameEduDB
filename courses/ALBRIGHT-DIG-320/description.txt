@@ -1,0 +1,1 @@
+The Simulation Design Class will explore how programmers and designers can manage the simulation of small and large-scale systems and environments in both games and applied- simulation fields. A focus will be placed on the frameworks used in these simulations, including design of rule-systems, asset management, and managing out-of- simulation input.

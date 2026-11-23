@@ -1,0 +1,1 @@
+A combination of Albright’s Computer Science and Digital Media programs, Game and Simulation Development will teach you how to utilize software engineering principles to implement game and simulation technologies.

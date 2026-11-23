@@ -1,0 +1,1 @@
+Assigned readings, seminars, projects, and lectures in areas of special interest. These areas include automata theory, computability, formal languages, compiler writing, image processing, and advanced UNIX concepts. Material in these courses should be current and topical. The seminars present a strong challenge to the computer science student. May be repeated with new topic.

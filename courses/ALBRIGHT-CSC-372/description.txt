@@ -1,0 +1,1 @@
+Development of computer graphics concepts, including point plotting techniques, transformations, hidden edges, and surfaces. Both two-dimensional and three- dimensional applications will be presented. Students will be expected to develop programs in a structure language and to use the OpenGL API.
