@@ -1,0 +1,1 @@
+3D Modeling for Game Engines is designed to cover the core concepts of 3D modeling as well as the development of characters, objects, and environments used in game development with the additional workflow elements unique to their use in game engines. 3 credits.
