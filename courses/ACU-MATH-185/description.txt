@@ -1,0 +1,1 @@
+Limits, continuity, differential calculus of elementary functions. Applications to curve sketching, optimization, rates of change, and linear approximations. Introduction to antiderivatives and definite integrals. Prerequisite: MATH 124 or a satisfactory score on the mathematics placement exam. Credit will not be given for more than one of MATH 131 and MATH 185.

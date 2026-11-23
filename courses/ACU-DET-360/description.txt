@@ -1,0 +1,1 @@
+Introduction to concepts of Augmented Reality and Virtual Reality application development. Students will learn to use a variety of game engines and scripting languages to produce Mixed reality (AR/VR) content. Students will also be introduced to basic programming/scripting, lighting, and interaction to enhance the detail and design of Mixed reality content. Prerequisite: DET 260.

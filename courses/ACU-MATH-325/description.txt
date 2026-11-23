@@ -1,0 +1,1 @@
+Vectors, linear geometry of three dimensional space, vector spaces, linear systems of equations, linear transformations, matrix algebra, determinants, diagonal matrices, and eigenvalue problems, change of bases in a vector space. Gram-Schmidt process, and unitary matrices. Prerequisite: MATH 186.

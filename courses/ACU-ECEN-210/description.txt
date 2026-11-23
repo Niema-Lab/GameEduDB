@@ -1,0 +1,1 @@
+This course covers fundamental concepts of digital electronics, including binary numbers, binary mathematical operations, error codes, Boolean algebra, Boolean logic simplification, Karnaugh maps, gate-level schematics, combinational logic, sequential logic, latches, flip-flops, counters, clocks, registers, and memory.

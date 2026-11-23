@@ -1,0 +1,1 @@
+Design and scientific and mathematical study of algorithms. Analytic and experimental performance determination. Includes searching and sorting, trees, graphs, asymptotic (e.g., big-O) performance bounds, and the halting problem. Prerequisite: CS 130 and MATH 185 with a grade of “C” or better.

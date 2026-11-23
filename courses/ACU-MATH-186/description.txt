@@ -1,0 +1,1 @@
+Continuation of MATH 185. Integral calculus, techniques and applications of integration, volumes, areas, arc lengths, and surface areas. Indeterminate forms. Infinite sequences and series and power series representations. Prerequisite: MATH 185.

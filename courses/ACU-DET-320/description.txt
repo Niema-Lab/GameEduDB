@@ -1,0 +1,1 @@
+Introduction to advanced 3D modeling concepts of digital sculpting, level of detail, and application of advanced materials. Students will create organic and hard-surface models, balancing LOD and poly-count for game and virtual production applications. Prerequisite: DET 220.

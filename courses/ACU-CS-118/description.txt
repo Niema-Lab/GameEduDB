@@ -1,0 +1,1 @@
+Computer game scripting. Offers a deeper exploration of computer programming using a scripting language specifically for game design, with an emphasis on creating variables, functions, dictionaries, classes, exception handling, and working with game objects within a game engine. Prerequisite: CS 117 with a grade of “C” or better.

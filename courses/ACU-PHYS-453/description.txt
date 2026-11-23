@@ -1,0 +1,1 @@
+An introduction to modern machine learning techniques for data science applications. The primary focus is supervised learning classifiers such as neural networks and decision trees. Additional topics include unsupervised learning, regression, feature engineering, and a machine learning project. Significant programming is required. Prerequisite: CS 120 or ENGR 117.

@@ -1,0 +1,1 @@
+A continuing study of the development of large-scale software systems. Includes an overview of currently used analysis and design methodologies, including both structured and object-oriented paradigms. UML and Design Patterns will be introduced. Students will be exposed to existing projects of moderate size. Prerequisite: CS 374 with a grade of “C” or better.

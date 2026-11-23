@@ -1,0 +1,1 @@
+An introduction to programming and problem solving with an emphasis on front-end design. Topics include: loops and repetition, decision procedures, graphical user interface elements, simple algorithm design, and debugging strategies. A student may not receive credit for this course after receiving credit for CS 115 or CS 120.

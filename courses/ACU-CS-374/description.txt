@@ -1,0 +1,1 @@
+A study of the development of large-scale software systems. Includes an overview of the software development life cycle. Principles of software testing will be introduced. Projects will afford practical experience in the development of interpersonal communication skills needed for team software development. Prerequisite: CS 230 with a grade of “C” or better.

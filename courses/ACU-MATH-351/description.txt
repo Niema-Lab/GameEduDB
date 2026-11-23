@@ -1,0 +1,1 @@
+Introduction to the abstract fundamentals of algebra. Topics include number theory, fields, polynomials over a field, and field extensions. Introduction to integral domains, rings, and groups. Prerequisite: MATH 186, MATH 227.

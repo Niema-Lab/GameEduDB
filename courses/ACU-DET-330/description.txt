@@ -1,0 +1,1 @@
+Continues the study of animation principles introduced in Animation I, with an expanded focus on applying those concepts to more complex motion and performance. Emphasis is placed on refining movement, developing believable animated actions, and applying animation techniques within both real-time and linear media contexts. Prerequisite: DET 230.

@@ -1,0 +1,1 @@
+Introduces the development of games for mobile computing devices such as the iPhone or Android. Assumes a strong programming background and includes theory, concepts, and hands-on programming in several environments. Prerequisite: DET 260 with a grade of “C” or better.

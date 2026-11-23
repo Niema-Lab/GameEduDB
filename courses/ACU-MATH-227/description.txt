@@ -1,0 +1,1 @@
+Elementary set theory, logic, combinatorics, relations, and applications. Prerequisite: CS 120 or MATH 185.

@@ -1,0 +1,1 @@
+Introduction to concepts of 3D modeling. Students will learn to use 3D software to produce models and scenes for use in animation, game engines, and additive manufacturing (3D printing). Students will also be introduced to basic texturing, shaders, lighting, and dynamics to enhance the detail and design of 3D models.

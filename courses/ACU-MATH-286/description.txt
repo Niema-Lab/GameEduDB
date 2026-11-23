@@ -1,0 +1,1 @@
+Calculus of several variables and elements of vector analysis, including partial derivatives and applications, multiple integrals and applications, gradient, line integrals, surface integrals, divergence and curl of vector functions, and vector integral theorems. Prerequisite: MATH 186.

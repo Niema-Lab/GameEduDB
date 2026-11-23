@@ -1,0 +1,1 @@
+Principles of game development using an industry standard game engine. The course will cover techniques used to develop games. Includes gameplay, construction, level design, creating virtual environments, and deploying games to common hardware. Prerequisite: CS 117 or CS 120.
