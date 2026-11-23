@@ -1,0 +1,1 @@
+In this course, students will collaborate in game production. Focus in this course will be placed on Agile software development. Production emphasis will include behavior design and scripting, asset design, interface testing, and effective professional communication. Students will be introduced to distribution processes for independent games.
