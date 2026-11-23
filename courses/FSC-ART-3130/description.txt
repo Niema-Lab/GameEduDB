@@ -1,0 +1,1 @@
+Four hours. Prerequisite: ART 1150 or permission of instructor. Explores fundamental video game scripting principles using the Blueprint visual scripting language. This course introduces students to scripting techniques essential for game design, providing a foundation in creating interactive and dynamic game elements.

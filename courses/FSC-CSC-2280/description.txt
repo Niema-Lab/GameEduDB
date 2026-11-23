@@ -1,0 +1,1 @@
+Four hours. Concepts of algorithmic thinking, computer programming, machine organization and selected current topics in computer science. Programming in Python.
