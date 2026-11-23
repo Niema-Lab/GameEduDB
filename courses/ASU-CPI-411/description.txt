@@ -1,0 +1,1 @@
+Examines real-time rendering of high-quality interactive graphics. Studies advances in graphics hardware and algorithms that make this possible. Examples of techniques and topics include nonphotorealistic rendering, occlusion culling, level of detail, terrain rendering, shadow generation, image-based rendering and physical simulation.

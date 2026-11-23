@@ -1,0 +1,1 @@
+Introduces contemporary Web technologies and the front-end technologies needed to code particularly in contemporary interactive Web applications. Deepens knowledge in the emergence and evolution of Web technologies and standards.

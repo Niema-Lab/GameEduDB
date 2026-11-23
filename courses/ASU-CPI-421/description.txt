@@ -1,0 +1,1 @@
+Provides working knowledge of 3-D modeling, texture mapping, and paint concepts for the creation of 3-D video games art assets. Students work on concepts such as 3-D lighting, high polygon mesh rendering, and various third-party software and how to integrate them into the asset production pipeline.

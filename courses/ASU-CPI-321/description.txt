@@ -1,0 +1,1 @@
+Introduces art theory and concepts as they apply to video game development. Covers 2-D and 3-D composition, color theory, modeling, and lighting techniques. Demonstrates practical application of these art fundamentals in establishing style guides, concept art, storyboards, and in-game assets.

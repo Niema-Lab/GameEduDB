@@ -1,0 +1,1 @@
+Introduces the fundamentals of visual scripting in game engines. Students learn to create interactive game elements, design game logic and prototype gameplay mechanics without traditional programming. Uses Unreal Engine using Blueprint and covers basics, event graphs, variables, functions and common design patterns used in game development.

@@ -1,0 +1,1 @@
+Introduces the general and foundational concepts behind game design, including what works, how to integrate game elements and how to support a player's experience. Prepares students for courses that focus on implementing these skills and concepts while creating a game.

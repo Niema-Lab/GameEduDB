@@ -1,0 +1,1 @@
+Introduces the basics of 3D game development by using a game engine. Focuses on the pipeline of 3D game development including environment and contents creation, scripting to control components, and graphics user interfaces development. Develops several 3D games for multi platforms.

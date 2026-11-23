@@ -1,0 +1,1 @@
+Introduces basic 3D workflows and techniques. Topics covered include visual storytelling and composition, project workflows, 3D modeling, virtual cameras, texturing, shading and rendering.

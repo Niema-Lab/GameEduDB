@@ -1,0 +1,1 @@
+Introduces fundamental concepts relevant for understanding computation. What are algorithms and how can computer code express them? Basics of how real-world signals are captured, encoded, recorded, retrieved and decoded. Designed for students with little or no background in programming.

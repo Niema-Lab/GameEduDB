@@ -1,0 +1,1 @@
+Covers basic 2D/3D animation and motion graphic techniques and principles. Topics covered include project workflows, key frames, path animation, motion principles, hierarchical structures, animated textures, lights and cameras.
