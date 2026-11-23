@@ -1,0 +1,1 @@
+An introduction to concepts and applications of relational databases. Evolution of database systems, analysis, and design of schema with practical applications included.

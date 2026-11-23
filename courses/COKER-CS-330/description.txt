@@ -1,0 +1,1 @@
+Introduction to CGI, ASP, scripting, and configuration of web servers, creation of dynamic web pages using forms and database input. Programming will be done mostly in Perl.

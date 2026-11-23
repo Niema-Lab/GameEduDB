@@ -1,0 +1,1 @@
+Continuation of CS110 Computer Science I including procedural and object-oriented programming techniques. Introduces abstract data types (ADTS) and linked data structures. CS111 includes a one-semester hour laboratory course, with two laboratory hours per week.

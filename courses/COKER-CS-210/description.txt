@@ -1,0 +1,1 @@
+A study of sparse arrays, stacks, queues, linked lists, graphs, sorting and searching algorithms and hashing functions. CS210 includes a one-semester hour laboratory course, with two laboratory hours per week.

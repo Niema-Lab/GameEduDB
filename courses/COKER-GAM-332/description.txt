@@ -1,0 +1,1 @@
+The Unity engine powers nearly 50% of all games and nearly 75% of mobile games. This course, built in collaboration with Unity and the IGDA, will introduce you to developing games in Unity. By the end of this course, students will learn how to build a fully functioning game within the Unity system, including all key elements. Prerequisites: Successful completion of GAM 330
