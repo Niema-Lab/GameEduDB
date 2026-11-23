@@ -1,0 +1,1 @@
+There are three tiers to Web Programming: Front-end GUI programming, back-end database design with business logic programming, and a middle-tier web server with control logic programming. In this course, students complete a web project creating this 3-tier architecture by learning the latest programming languages used in web development.

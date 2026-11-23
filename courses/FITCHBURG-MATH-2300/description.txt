@@ -1,0 +1,1 @@
+This course involves the study of the derivative of a function, methods of differentiation and applications, L’Hospital’s Rule, integration of functions, the Fundamental Theorem of Calculus, and the substitution rule.

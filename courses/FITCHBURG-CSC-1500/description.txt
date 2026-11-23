@@ -1,0 +1,1 @@
+This course introduces Computer Science by using a high-level programming language. Students will be taught to design programs and implement them using object-oriented programming techniques. This course provides a solid background for further studies in Computer Science by preparing students to enroll in the more specialized high-level software courses.

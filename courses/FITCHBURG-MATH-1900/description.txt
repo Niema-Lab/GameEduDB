@@ -1,0 +1,1 @@
+This course introduces discrete mathematics as applied to computer science. Topics covered include Boolean logic, elementary set theory, functions, relations, enumeration, proof techniques, number systems and trees. Cross-listed with CSC 1900

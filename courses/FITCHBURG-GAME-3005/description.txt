@@ -1,0 +1,1 @@
+This course will introduce students to the design and development of games for mobile platforms including iOS and Android. Students will explore the relationship between design and technology from user, designer, and developer perspectives, create several digital game prototypes to test on mobile devices, and prepare a final game to be published on a mobile platform.

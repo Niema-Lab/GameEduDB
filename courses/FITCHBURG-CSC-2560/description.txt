@@ -1,0 +1,1 @@
+This course provides the student with the fundamentals of structured programming at the systems level. UNIX is used as a base for this course. Students obtain a thorough knowledge of the C language, comfort in using the UNIX operating system and an appreciation for a systems approach to low-level programming tasks.

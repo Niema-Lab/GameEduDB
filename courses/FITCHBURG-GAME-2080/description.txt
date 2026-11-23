@@ -1,0 +1,1 @@
+Students will learn the fundamentals of digital 3D animation, from modeled objects and characters to motion capture. Topics covered will be: principles of animation, movement and timing, frame composition, pre-visualization and storyboarding. Students will learn rigging for motion, lighting, animating and rendering frames, and exporting for 3D game engines.

@@ -1,0 +1,1 @@
+In this course topics covered include the application of vector spaces, linear transformations and matrices.

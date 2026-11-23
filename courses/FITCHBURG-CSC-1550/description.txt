@@ -1,0 +1,1 @@
+This course builds on the concepts covered in Computer Science I. Topics covered include inheritance, polymorphism, recursion, advanced GUI programming, exception handling and input/output handling. Students use integrated development environment to create, compile, run and debug programs.

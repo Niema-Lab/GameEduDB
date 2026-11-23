@@ -1,0 +1,1 @@
+Students will write programs that create digital representations of geometric objects and render them on a computer screen. Topics covered in this course are: the graphics processing pipeline, graphics primitives, vertex specification, rendering, color theory, geometric transformations, illumination, perspectives and the virtual camera.
