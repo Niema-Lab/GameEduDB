@@ -1,0 +1,1 @@
+Students learn to make prototypes for digital games using digital and analog methods. The process of game testing and the role of proto- typing in the game development process are examined. Stu- dents will learn rapid prototyping skills using a variety of digital development tools. Prerequisite: GAM 2252. Four credits.

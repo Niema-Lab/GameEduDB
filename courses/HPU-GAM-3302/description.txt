@@ -1,0 +1,1 @@
+Examines the role of story in the theory, design, and scripting of games. Attention is placed on balancing story design with interactivity. Literary narrative techniques and visual storytelling devices are also examined. Students will craft interactive narratives using game-making tools. Four credits.
