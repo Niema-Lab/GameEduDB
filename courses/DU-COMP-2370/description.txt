@@ -1,0 +1,1 @@
+This course introduces the performance analysis of algorithms, including proof techniques; data structures and their physical storage representation, including space and performance analysis; recursive techniques; stacks, queues, lists, trees, sets, graphs; sorting and searching algorithms. Prerequisites: MATH 2200 or COMP 2300; COMP 1353 or COMP 2673.

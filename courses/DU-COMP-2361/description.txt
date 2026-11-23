@@ -1,0 +1,1 @@
+This course introduces low-level computer systems and programming. Topics covered include Linux, the C programming language, pointers, dynamic memory management, number systems, instruction set architectures, debugging, and caching. Prerequisites: COMP 1353.

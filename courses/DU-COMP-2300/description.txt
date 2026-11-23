@@ -1,0 +1,1 @@
+Number systems and basic number theory, propositional and predicate logic, proof techniques, mathematical induction, sets, counting and discrete probability, case studies with applications from computer science, such as data representation, algorithm analysis and correctness, and system design. Prerequisites: COMP 1672 or COMP 1352.

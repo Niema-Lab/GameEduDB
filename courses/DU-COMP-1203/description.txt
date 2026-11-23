@@ -1,0 +1,1 @@
+This course introduces testing and software development in computer science. Topics covered include using debuggers, version control systems, unit testing and general testing, Unified Modeling Language (UML), computing ethics, and software development in a team setting. Prerequisite: COMP 1202.

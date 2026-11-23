@@ -1,0 +1,1 @@
+This course introduces computer operating systems and parallel programming. Topics covered include processes, process forks, threads, race conditions, synchronization, scheduling, memory systems, resource sharing, and sockets. Prerequisite: COMP 2361.

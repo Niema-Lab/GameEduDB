@@ -1,0 +1,1 @@
+This course is an introduction to fundamental aspects of computer programming. Topics covered include variables, conditional statements, iteration, functions, basic data structures, objects, file input/output and interactions. Satisfies 3 credits of Analytical Inquiry: Natural and Physical World.
