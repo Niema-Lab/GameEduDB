@@ -1,0 +1,1 @@
+This course introduces students to core game programming concepts through the lens of visual scripting tools. Students explore the fundamentals of game logic and interactivity through hands-on workshops and projects. By the end of the semester, students demonstrate their craft in showcasing 3 game prototypes they’ve programmed and drafted art assets for.
