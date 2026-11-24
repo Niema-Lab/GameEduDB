@@ -1,0 +1,1 @@
+In this course, students go through the development cycle of a 2D side scroller level. Projects involve concepting a cohesive idea, creating schedules, and creating a playable scene in a game engine. At the end of the course the student will have an understanding of the 2D production pipeline that can directly relate to various other disciplines in the game art program.

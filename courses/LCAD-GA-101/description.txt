@@ -1,0 +1,1 @@
+This course is an overview of the game industry, its pipelines, processes, history, and opportunities. It will include fundamental information on how 3D Art is processed by game engines (the “anatomy of 3D art”), as well as guidance on how to make the most of your time in the LACD Game Art program.

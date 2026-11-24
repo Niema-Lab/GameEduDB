@@ -1,0 +1,1 @@
+This course provides students with the understanding of fundamental concepts of sound from conceptual physics, to software implementation and manipulation. Students will learn the concepts of signal flow, processing, and formatting for a game engine.

@@ -1,0 +1,1 @@
+The students in this course will be focusing on the creation of core mechanics and systems. Using a provided Game Design Document (GDD) as the foundation, students will work within parameters to bring game concepts to life through the design and implementation of different gameplay elements.

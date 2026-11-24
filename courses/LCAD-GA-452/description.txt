@@ -1,0 +1,1 @@
+This course will provide students with a practical and modern industry-focused look into working with digital audio for games. Students will learn how to work audio assets and implement them into a game engine. Concepts of game engine logic, scripting, and rules for audio will be demonstrated in student projects.
