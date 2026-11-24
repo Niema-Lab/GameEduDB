@@ -1,0 +1,1 @@
+Level Design introduces students to the tools used in the creation of interactive game spaces. This course also incorporates level design and architecture theory, modeling for 3D engines, and texturing methods such as photo manipulation and digital painting.

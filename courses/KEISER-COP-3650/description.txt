@@ -1,0 +1,1 @@
+This course covers the development of applications for mobile and wireless software applications. Topics include standalone applications, mobile portals, and enterprise and m-commerce systems. Emphasis is placed on the processes, tools and frameworks required to develop applications for current and emerging mobile computing devices.

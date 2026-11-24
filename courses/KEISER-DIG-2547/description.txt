@@ -1,0 +1,1 @@
+This course explores the theory and practice of designing both practical and digital games by modeling small prototypes in a short amount of time. Students in this course will produce and play test games that both succeed and fail, learning how to use those experiences to create a better interactive product.

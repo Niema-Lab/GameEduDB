@@ -1,0 +1,1 @@
+This course presents tools for the analysis of data. Specific topics include: normal distribution, tests of means, proportions, ANOVA, regression, multiple regression, correlation, and nonparametric methods. A computerized statistical tool is used in the course for data analysis.

@@ -1,0 +1,1 @@
+This course introduces the art of texture mapping creation. Students will explore different types of textures, how they are created, texture set up, proper texture application to 3D models and map file management.

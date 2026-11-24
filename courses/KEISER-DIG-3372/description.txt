@@ -1,0 +1,1 @@
+Introduces the art of digital sculpting on polygonal surfaces. Students create highly-detailed characters through modeling form, shaping features and applying texture. Retopology and normal mapping procedures are also explored.

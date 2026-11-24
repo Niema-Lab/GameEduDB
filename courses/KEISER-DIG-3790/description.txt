@@ -1,0 +1,1 @@
+Introduces the art of advanced digital painting and texture application applied to polygonal surfaces. Students create depth and detail on 3D characters using color, shine, bumpiness, reflection and transparency. Advanced UV unwrapping techniques and normal mapping are also explored.

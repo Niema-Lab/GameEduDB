@@ -1,0 +1,1 @@
+This course presents various approaches to building large enterprise systems to be deployed on the Internet and cloud. Topics include service-oriented programming, grid computing, cloud computing, software as a service, smart clients, and web services.

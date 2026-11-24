@@ -1,0 +1,1 @@
+This course introduces the student to the industry-standard 3D tools used to bring movement to their models. Areas of emphasis include keyframing, motion paths, function curves, animated modifiers and animated hierarchies. Traditional animation staples such as squash and stretch, secondary action, arcs and appeal are explored as well.

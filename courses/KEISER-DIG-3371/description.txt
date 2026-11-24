@@ -1,0 +1,1 @@
+Focuses on the rigging of digital characters for animation. Students learn the technical skills needed to model, set up a skeletal system and test a rig effectively for industry-standard game character animation.

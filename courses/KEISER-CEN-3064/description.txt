@@ -1,0 +1,1 @@
+This course looks at software design principles through the techniques and patterns used to implement components within a system architecture. Addresses the design of software for qualities of security, reliability, reusability, performance etc.

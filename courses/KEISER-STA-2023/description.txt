@@ -1,0 +1,1 @@
+Introduces statistics. Topics include statistical methods dealing with data collection, grouping and presentation, organization of data, measures of central tendency and dispersion, normal distributions, probability, correlation and regression, estimation, hypothesis testing, and contingency table analysis.

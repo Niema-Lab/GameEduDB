@@ -1,0 +1,1 @@
+This course introduces the student to current technology with emphasis on creating imagery within a three-dimensional software package. Concepts such as polygonal modeling, texturing, mapping, animation, lighting and rendering are introduced as well as production workflow.

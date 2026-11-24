@@ -1,0 +1,1 @@
+This course uses a .NET studio platform to design object-oriented applications as they are related to video games. Implementation of Graphical User Interface programs as well as introductory C++ and C# structures are explored.
