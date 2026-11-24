@@ -1,0 +1,1 @@
+Data Structures and Algorithms is an analysis of data structures and algorithms using C++ as the implementation language. Topics include a detailed examination of lists, heaps, trees, graphs, file structures, and the use of formal methods. Emphasis is placed on the fundamentals, development, and the basics of algorithms analysis.

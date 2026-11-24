@@ -1,0 +1,1 @@
+Visual Design and Digital Graphics for Games focuses on visual design and digital graphics for game-based applications. This course will provide students with hands-on experience with using industry-standard software to generate sprites, UI components, textures, and other common 2D elements and compares and contrasts those to 3D modeling and texturing techniques.

@@ -1,0 +1,1 @@
+Introduction to Video Game Design and Development covers the fundamentals of video game design and development concepts in gaming. Emphasis is placed on the history of video games, video game genres, elements of play, developing characters and storylines, gameplay and storyboard design, level and user interface design, and the game design document.
