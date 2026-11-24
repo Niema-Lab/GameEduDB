@@ -1,0 +1,1 @@
+Students will program a functional game from start to finish. They will develop fundamental programming skills and apply technologies and methods unique to game development.

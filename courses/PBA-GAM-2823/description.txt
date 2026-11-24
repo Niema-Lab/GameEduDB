@@ -1,0 +1,1 @@
+Building on the foundation of Game Development I, students will create a full video game from idea to deployment for platform, mobile or virtual reality.
