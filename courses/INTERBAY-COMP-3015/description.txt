@@ -1,0 +1,1 @@
+Integration of databases and dynamic pages in the development of programs for the WEB. Programming of forms for data capture, validation and presentation. Requires 45 hours of lecture-lab.

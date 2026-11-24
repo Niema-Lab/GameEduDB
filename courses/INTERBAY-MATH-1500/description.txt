@@ -1,0 +1,1 @@
+Study of functions, with emphasis on linear, polynomical, rational, exponential, logarithmic and trigonometric functions. Operations with functions and inverse functions. Study of analytical trigonometry of complex numbers; linear and nonlinear equation systems, inequalities, matrices, determinants and polar coordinates.

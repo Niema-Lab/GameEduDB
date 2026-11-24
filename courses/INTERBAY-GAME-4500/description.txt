@@ -1,0 +1,1 @@
+Discussion of the theory and design of various emulators. Includes the architecture of their respective consoles and the different tools used for analysis, extraction and modification of the equipment and the information within them. Requires 30 hours of lecture and 30 hours of closed lab.

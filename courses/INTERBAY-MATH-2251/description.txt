@@ -1,0 +1,1 @@
+Limits of a function, the derivative, Rolle’s theorem and the mean value theorem, application of the derivative. The definite integral and the fundamental theorem of calculus. Derivatives and integrals of trigonometric, exponential and logarithmic functions. Applications of the definite integral. Topics of analytical geometry: the circle, parabola, ellipse, and hyperbola.

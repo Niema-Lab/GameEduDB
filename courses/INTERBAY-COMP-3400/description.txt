@@ -1,0 +1,1 @@
+Analysis of the stages of development of software with emphasis on the management of projects and the engineering of Prerequisites. Comparison of development models and application of the Object-oriented model with UML. Requires 45 hours of lecture-lab.

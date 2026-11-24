@@ -1,0 +1,1 @@
+Discussion of concepts of discrete computational structures. Description of set theory and propositional logic in solving problems related to computer science. Application of matrix theory and graph and tree theory in the representation of computational models. Discussion of social, ethical, or legal situations in the discipline. Requires 45 lecture-laboratory hours.
