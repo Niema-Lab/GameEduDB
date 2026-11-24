@@ -1,0 +1,1 @@
+Introduces applied game design and interactive development using a real-time game engine. Students build core gameplay systems, prototype mechanics, and communicate designs through industry-standard documentation. Prereq: COSC 110. (Formerly COSC 260)

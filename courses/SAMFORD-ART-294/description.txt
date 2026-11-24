@@ -1,0 +1,1 @@
+Integrates applied game design with collaborative, team-based game development. Students learn production pipelines, team development practices, and advanced workflows while designing and developing interactive games in a real-time engine. Prereq: ART 293. (Formerly COSC 360)

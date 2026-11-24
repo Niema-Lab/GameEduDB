@@ -1,0 +1,1 @@
+Students develop the core skills of 3D production, the principles of modeling, and texturing assets. In this course students will explore the creation of 3-D assets specifically designed for integration into a game engine. Prereqs: ART 110, and ART 120 or COSC 110.
