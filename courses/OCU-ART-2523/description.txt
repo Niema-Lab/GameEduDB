@@ -1,0 +1,1 @@
+Creation of virtual objects and environments using the computer to: model, texture, light, render, and animate dynamic objects and scenes in digital three-dimensional space. Four contact hours per week. Prerequisites: ART 1023. (TBA)

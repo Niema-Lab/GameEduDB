@@ -1,0 +1,1 @@
+3D lighting and surfacing techniques using industry standard software. Examination of the relationship between: surface and light, the effects of lighting and surfacing on a 3D scene, types of lights and shadows, sur- face qualities, textures and mapping; workflow management emphasized. Four contact hours per week. Prerequisites: ART 1023, 2523. (TBA)
