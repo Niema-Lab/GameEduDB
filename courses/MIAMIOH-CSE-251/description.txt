@@ -1,0 +1,1 @@
+Introduction to computer programming techniques used in games and visual simulations. Simple data and control structures, mathematical foundations, transformations, rendering algorithms, and interfaces. Not open to CSE majors. Prerequisite: high school algebra and trigonometry.

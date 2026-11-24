@@ -1,0 +1,1 @@
+Develops theoretical foundations, methods, and skills in building complete games. Focuses are placed in particular on the understanding of how design influences gameplay and mechanics. Prerequisites: IMS 211, IMS 212, and IMS 213.

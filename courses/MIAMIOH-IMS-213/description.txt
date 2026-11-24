@@ -1,0 +1,1 @@
+This course introduces students to the process of developing simple 2D games. It is built around a number of game-development challenges that are selected to develop a basic proficiency in 2D game development while learning basic programming and art principles. To complete the challenges, the students are provided with curated online videos and 1-1 in-class instruction.

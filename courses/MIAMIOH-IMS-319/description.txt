@@ -1,0 +1,1 @@
+Provides knowledge in the underlying concepts and practical skills in the design and development of computer generated 3-D imagery. Examines 3-D modeling; animation, lighting and rendering; character animation; and other related topics.

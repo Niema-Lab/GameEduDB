@@ -1,0 +1,1 @@
+This course follows IMS 488. In this course, students move from pre-production for their capstone game into the production phase. At the end of this course, the game is intended to be completely functional and ready for distribution. SC. Prerequisite: IMS 488.

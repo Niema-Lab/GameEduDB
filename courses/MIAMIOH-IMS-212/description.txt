@@ -1,0 +1,1 @@
+This course is an introduction to the many philosophies of game design. Students will learn the core principles of game design, will create games (non-digital) and will learn to iterate and play-test. No previous game design training is required.
