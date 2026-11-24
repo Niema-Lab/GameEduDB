@@ -1,0 +1,1 @@
+Students will develop a working knowledge of how 2D images are manipulated on the desktop, using Adobe Photoshop. Topics consist of image creation, retouching, color correction, and compositing images together to form a final design. Emphasis is placed on the use of Photoshop as it pertains to creating and editing 2D images used in games.

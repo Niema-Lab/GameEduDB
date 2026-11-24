@@ -1,0 +1,1 @@
+This course will provide a foundation in the tools, techniques, and production methods for creating game environments and successfully using Unity 3D in production situations.

@@ -1,0 +1,1 @@
+Students will learn the development of tools for the game industry and the development of the primitive components of a game engine. Topics include editing tools, asset pipeline management system, converters, database management, networking, interpreter, and defect tracking systems.

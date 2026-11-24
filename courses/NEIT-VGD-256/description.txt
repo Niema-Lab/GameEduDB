@@ -1,0 +1,1 @@
+This course will expand the use of the Unity 3D tool in a production. Students will use JavaScript, C#, to enhance interactivity and gameplay, while also deploying characters, objects, sounds and textures required for the development of a basic 3D game.

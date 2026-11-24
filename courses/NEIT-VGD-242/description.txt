@@ -1,0 +1,1 @@
+This course will build on the fundamentals learned in Modeling I ( VGD 133 ) providing the opportunity to learn more refined and advanced techniques in 3D modeling, rendering and animation. Topics covered along with advanced modeling techniques include advanced tools, materials, lighting, and levels of detail.

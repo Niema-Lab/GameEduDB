@@ -1,0 +1,1 @@
+Students will study the essential math necessary to become a successful game developer. Topics include vectors, matrices, transformations, collision detection, random numbers, rendering techniques and optimizations.

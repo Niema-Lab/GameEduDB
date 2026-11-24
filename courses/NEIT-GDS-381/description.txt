@@ -1,0 +1,1 @@
+Testing is an integral part of the system development function. Students will gain an appreciation of why software testing and quality assurance is so important. Topics include the types of testing, the testing team, defect tracking, test software automation, and the testing philosophy.

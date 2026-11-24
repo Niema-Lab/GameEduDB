@@ -1,0 +1,1 @@
+This course is designed to challenge students’ organizational, design and programming skills. Students will be part of a small development team of designer and programmers and tasked with producing the code and materials assets necessary to complete a full game product.

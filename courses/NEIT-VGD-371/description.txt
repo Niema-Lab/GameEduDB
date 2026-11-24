@@ -1,0 +1,1 @@
+Expanding on previously learned modeling techniques, students will create fully renderable game assets through a series of projects that increase in complexity. Projects include complex UV and texture mapping techniques, baking detail from hi-poly models onto low-poly assets, and collision models. The emphasis in this course will be on game environments and assets.

@@ -1,0 +1,1 @@
+A study of intermediate game programming using C++ will be covered. Topics include string handling, intermediate array processing, passing by reference, pointers, and an introduction to creating, editing, and updating data files.

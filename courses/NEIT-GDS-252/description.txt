@@ -1,0 +1,1 @@
+This course includes an overview of the algorithms and data structures used in gaming and simulation applications today. Topics include, but are not limited to, linked lists, queues, stacks, user input as well as a variety of AI techniques used in game development.

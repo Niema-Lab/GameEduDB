@@ -1,0 +1,1 @@
+A study of advanced game programming topics will be covered. Topics include sorting/searching arrays and data files, classes/objects, code libraries, and advanced pointer techniques. This course will also teach students object-oriented principles and implementations including inheritance, composition, encapsulation, data hiding, overloading, overriding, and polymorphism.

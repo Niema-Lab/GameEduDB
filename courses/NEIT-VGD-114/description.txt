@@ -1,0 +1,1 @@
+This course is an overview of the game development industry. Students will learn what is involved in developing a professional game from start to finish. Topics include the game development life cycle, developing a budget and game specification documents. Students will also be exposed to important physics, math and artificial intelligence concepts relevant to game development

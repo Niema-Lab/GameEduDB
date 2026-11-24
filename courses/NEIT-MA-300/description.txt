@@ -1,0 +1,1 @@
+This introductory course stresses the use of statistics as a management tool for decision-making. The focus is on descriptive statistics, communicating statistical data, concepts of probability distribution, estimation, and hypothesis testing.

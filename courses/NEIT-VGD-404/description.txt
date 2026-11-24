@@ -1,0 +1,1 @@
+Expanding on previously learned techniques for texture creation, students will create high-quality textures through a series of projects that increase in complexity. Projects include creating textures from source images, creating textures from a blank canvas, and the creation of multipass shaders. The emphasis in this course will be on textures for game environments and assets.

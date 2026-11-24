@@ -1,0 +1,1 @@
+Limits will be introduced, and the derivatives and integrals of algebraic functions will be studied at length. Applications include rectilinear motion, curve sketching, maxima and minima problems, related rates, and area under a curve.

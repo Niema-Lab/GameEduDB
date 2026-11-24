@@ -1,0 +1,1 @@
+In this course, students will gain an introduction to Internet technologies and basic programming logic through the study of HTML 5, XHTML, Cascading Style Sheets, and JavaScript. File organization and implementation of web graphics will be stressed throughout this course.

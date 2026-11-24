@@ -1,0 +1,1 @@
+This course is a non-calculus approach to the study of fundamental physics and includes kinematics and dynamics of bodies, velocity, acceleration, and Newton’s laws of motion, forces in equilibrium, concurrent and non-concurrent forces, work, power, energy, and torque. Labs are performed within the course to reinforce concepts.

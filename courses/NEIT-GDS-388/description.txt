@@ -1,0 +1,1 @@
+This course focuses on developing web applications and tools for games and game development using open source web technology like Node.js and Mongo DB. Students will develop games that use REST APIs that supply data to their games and other web applications related to them such as player save data, account information, game analytics, and the security of that data.

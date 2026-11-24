@@ -1,0 +1,1 @@
+Topics to be covered in this lab-based introductory algebra course include operations with signed numbers, rules for exponents, polynomial operations, solutions to linear equations in one variable, and several applications important to various programs.

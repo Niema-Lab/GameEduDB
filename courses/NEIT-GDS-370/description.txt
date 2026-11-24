@@ -1,0 +1,1 @@
+Students will study advanced aspects of game design. Topics include genre-specific design issues, storytelling, level design, puzzle design as well as the game development life cycle.
