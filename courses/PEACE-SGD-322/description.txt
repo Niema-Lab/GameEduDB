@@ -1,0 +1,1 @@
+Prerequisite: UXD 110 This course focuses on techniques involved in animating 3D models in 3D scenes using Maya and 3ds Studio Max. Students will use Motion Capture equipment and will learn the process of building a 3D scene from objects with lighting placement and camera manipulation. Animation of characters using key frames is covered in detail.

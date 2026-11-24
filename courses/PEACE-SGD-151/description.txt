@@ -1,0 +1,1 @@
+This course is an introduction to the fundamentals of computer programming beginning with code style, data types, and conditional expressions. Students will use algorithmic thinking to solve problems with code including managing data, creating visuals, and programming interactivity with user input.
