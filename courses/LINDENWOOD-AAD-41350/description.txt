@@ -1,0 +1,1 @@
+This course provides hands-on experience in a range of platforms to develop XR applications, comparing different XR development approaches, methods, and tools. The differences between developing for AR and VR will be covered, as well as the development stages for new XR projects. You will design and produce XR scenes for applications. Knowledge of C# is recommended.

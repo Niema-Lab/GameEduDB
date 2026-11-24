@@ -1,0 +1,1 @@
+This course provides an introduction to the use of 3D/360° Cameras to create virtual reality content for application development. You will learn techniques for Immersive Cinema Design for Mobile, Web, and Head Mounted Displays: Analysis and application of tools for Virtual Cinema.

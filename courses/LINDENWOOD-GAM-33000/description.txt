@@ -1,0 +1,1 @@
+The course focuses on the testing of playable prototypes. Students will address issues of quality assurance and attend to detected program errors, bug fixes, and overall game improvement. Students will also learn to write analytical reports based on the comprehensive testing strategies and tools utilized during this course.

@@ -1,0 +1,1 @@
+This course introduces you to rapidly prototyping video games using several popular game engines. Developing multiple games, each over the course of one week, you will be challenged by the professional pace of the work while also receiving valuable feedback from your instructor and peers weekly. One game will be chosen to be developed further based off feedback.

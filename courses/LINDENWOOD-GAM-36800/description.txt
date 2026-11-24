@@ -1,0 +1,1 @@
+This course introduces you to working in modern game engines while building your own games based on industry inspired workflows. You will gain knowledge of how to import your own art assets into a game space and prototype a 3D game design.

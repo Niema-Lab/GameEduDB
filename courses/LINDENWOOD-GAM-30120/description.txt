@@ -1,0 +1,1 @@
+Students will use industry standard software to create a playable three-dimensional level, including terrain generation, custom texture maps and three-dimensional place-able models. The course will also explore the theory behind level creation and design.

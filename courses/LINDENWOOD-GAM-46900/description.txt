@@ -1,0 +1,1 @@
+This course covers the basic principles of animation. Students will use industry-standard software to create three-dimensional animations including particle simulations, character animation, facial animation, key frames and editing three-dimensional animation curves.

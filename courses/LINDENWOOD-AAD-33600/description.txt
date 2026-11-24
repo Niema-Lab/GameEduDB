@@ -1,0 +1,1 @@
+This hands-on course provides students with the skills needed to design 3D models, materials, lighting, and animation using a popular 3D software application. Rendering techniques, camera usage, and surface-mapping will be covered in an effort to have students capable of producing photo-realistic images.

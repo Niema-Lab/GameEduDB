@@ -1,0 +1,1 @@
+This course will introduce the basics of scripting within industry standard game engines. By the end of the course, students will have a knowledge how modern game engines function, and how to develop basic gameplay. Students will learn to prototype games quickly and how to communicate effectively with programmers.

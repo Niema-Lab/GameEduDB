@@ -1,0 +1,1 @@
+This course introduces students to programming logic in a structured web centric environment. Topics include language syntax, semantics, data types, program organization, pseudo code, flow-charting, algorithm design, and basic programming constructs.
