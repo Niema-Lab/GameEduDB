@@ -1,0 +1,1 @@
+A first course in computer programming, covering variables, functions, conditionals, recursion, loops, and arrays. Emphasis is placed on documentation and algorithm planning. Object-oriented programming is introduced, including methods, classes, inheritance, and polymorphism. Three lecture hours and 2 hours of computer lab. Springs and Falls.
