@@ -1,0 +1,1 @@
+A hands-on course which introduces the fundamentals of programming for the internet. The course will focus on Web Page scripting languages as well as programming languages for Web Page animation, and Web applets. The languages used will be those currently most supported by most popular Web browsers.

@@ -1,0 +1,1 @@
+This course, which builds upon the foundations established in CSC 1900, focuses, in an in-depth manner, on programming for the Internet. The course will teach students advanced client-side web programming using the language currently most supported by the popular web browsers.

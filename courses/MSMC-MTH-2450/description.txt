@@ -1,0 +1,1 @@
+A study of computer-related arithmetic and mathematical methods selected from a variety of topics including: number systems, number representation, Boolean algebra, hardware and software arithmetic, mathematical algorithms, error correcting codes, fuzzy sets, coding theory, computability and complexity, Turing machines and other appropriate topics.

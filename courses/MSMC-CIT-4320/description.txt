@@ -1,0 +1,1 @@
+The course introduces students to the human factors, modern usability, accessibility and human-centered design thinking necessary to develop effective computer interfaces. The course covers human cognition, human errors, input technologies, human-centered design, usability, accessibility, and research methods in HCI.

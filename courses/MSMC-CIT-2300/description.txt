@@ -1,0 +1,1 @@
+An introductory course in networking covering all layers of networking as defined by the OSI Model, the major components of the TCP/IP Suite of networking protocols, and networking hardware technology such as routers and switches.

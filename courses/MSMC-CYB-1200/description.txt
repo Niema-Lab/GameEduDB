@@ -1,0 +1,1 @@
+This course introduces foundational topics in cybersecurity. Topics include basic concepts on - confidentiality, integrity, and availability (CIA); network security; data security; physical security; software security; basic cryptography; malware threats; social engineering; risk management; disaster recovery; ethical and legal computing.

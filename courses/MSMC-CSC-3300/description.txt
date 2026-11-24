@@ -1,0 +1,1 @@
+Analysis and design techniques applied to non-numeric algorithms that act on data structures. Use of algorithmic analysis and design criteria in the selection of methods for data manipulation. It is recommended students take MTH-2450: Topics in Computer Math prior to taking this course.

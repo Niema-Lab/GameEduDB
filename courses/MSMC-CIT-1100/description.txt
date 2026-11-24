@@ -1,0 +1,1 @@
+Introduces the student to the fundamental concepts and terminology of computing and computer science, including computer hardware components, computer programming concepts, number systems and Boolean algebra, and additional topics of current importance. This course is intended for students majoring or minoring in the computing sciences.
