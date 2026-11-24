@@ -1,0 +1,1 @@
+Game development involves a lot of mathematical concepts that sound scary, but are actually quite straight forward. This course will teach critical math concepts (such as vector math, linear interpolation, and trigonometry) that are necessary to quickly and efficiently implement mechanics for games.

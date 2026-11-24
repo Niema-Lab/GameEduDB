@@ -1,0 +1,1 @@
+This course exposes students to the fundamentals of sound design in games including industry standard software tools for SFX and music. Students learn about techniques for recording, synthesizing, mixing, and editing digital audio.

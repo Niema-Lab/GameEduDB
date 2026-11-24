@@ -1,0 +1,1 @@
+In this class students work with professional level editor tools to map out and implement high quality play experiences in an existing game. Students learn to script events and implement visual designs that aid in game play and storytelling. Students learn the proper balance of pacing, save points, obstacles, pick-ups, and other level design concepts.

@@ -1,0 +1,1 @@
+This class picks-up where Sound Design for Games left off by delving into advanced topics in creating game audio. Students will create an original audio track for an existing game.

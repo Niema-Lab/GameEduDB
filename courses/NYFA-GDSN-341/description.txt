@@ -1,0 +1,1 @@
+This is a follow-up to Game Studio V which was a companion to the Full Cycle Game Production class. Students work in teams to polish and launch their digital game. They sharpen their skills by practicing game development multiple times throughout the degree program. Prerequisite(s): Game Studio V
