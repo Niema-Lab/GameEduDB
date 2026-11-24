@@ -1,0 +1,1 @@
+This course is a hands-on introduction to the creation of Microsoft Excel spreadsheets. The student will gain practical skills in the use of formulas and Excel functions, the design of spreadsheets, and the creation of charts. The course focuses on Excel skills that will be required in business and other non-scientific environments.

@@ -1,0 +1,1 @@
+This course is primarily designed to teach the C/C++ programming language to engineering and science students who already know how to write computer programs. The emphasis is on the syntactic details of C/C++ and programming techniques unique to the language. Good programming skills are assumed. Programming projects are expected.

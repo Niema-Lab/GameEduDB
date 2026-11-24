@@ -1,0 +1,1 @@
+This course provides an introduction to hardware and software support for graphical displays. Topics will include the development of 2D and 3D objects. Included are discussions of geometric transformations, interactive technologies, clipping and windowing, and hidden-surface removal.

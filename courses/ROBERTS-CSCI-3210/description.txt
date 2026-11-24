@@ -1,0 +1,1 @@
+This course examines the design and efficiency of sequential and parallel algorithms. In addition, students will examine various classes of problems and the strengths and weaknesses of different problem solving strategies. Students will demonstrate their understanding of these tools using an appropriate computing environment.

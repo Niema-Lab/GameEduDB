@@ -1,0 +1,1 @@
+An introduction to the descriptive and inferential statistics, this course typically covers descriptive analysis of data, correlation and regression, sampling distributions, central limit theorem, confidence intervals, hypothesis testing, inferences about means, and the chi-square test. The course includes use of the computer. Offered every semester.

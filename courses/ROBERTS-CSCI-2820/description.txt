@@ -1,0 +1,1 @@
+This course teaches the student the programming required to to develop an interactive professional-looking web page. They will learn the necessary tools of HTML, CSS and JavaScript to program the page.
