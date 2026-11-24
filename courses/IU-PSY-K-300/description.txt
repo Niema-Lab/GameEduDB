@@ -1,0 +1,1 @@
+Introduction to statistics; nature of statistical data; ordering and manipulation of data; measures of central tendency and dispersion; elementary probability. Concepts of statistical inference and decision: estimation and hypothesis testing. Special topics include regression and correlation, analysis of variance, non-parametric methods.

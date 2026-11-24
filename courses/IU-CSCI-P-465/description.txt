@@ -1,0 +1,1 @@
+Analysis design, and implementation of information systems. Project specification. Data modeling. Software design methodologies. Software quality assurance. Supervised team development of a real system for a real client.

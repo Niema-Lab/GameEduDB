@@ -1,0 +1,1 @@
+Students will learn how to make digital game prototypes gaining hands-on experience while working in teams and using game engines such as Unity and Unreal. Students will develop sound teamwork practices such as appropriate and timely communication, version control, and leadership; employ production methods such as agile and waterfall; and develop essential playtesting methods.

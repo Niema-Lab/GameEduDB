@@ -1,0 +1,1 @@
+This course will develop the student's ability to design game systems. Readings will be taken from systems design theory, social sciences, and engineering. Students will create systems in different software packages.

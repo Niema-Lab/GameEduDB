@@ -1,0 +1,1 @@
+Introduction to methods for analyzing quantitative data. Graphical and numerical descriptions of data, probability models of data, inference about populations from random samples. Regression and analysis of variance.

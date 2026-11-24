@@ -1,0 +1,1 @@
+Principles of distributed systems including system design, distributed algorithms, consistency and concurrency, and reliability and availability. The role of these foundational issues in distributed file systems, distributed computing, and data-driven systems.

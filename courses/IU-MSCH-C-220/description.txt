@@ -1,0 +1,1 @@
+Provides a survey of current technologies for creating games. These tools are also appropriate for projects in virtual and augmented reality and interactive journalism. Students acquire competency in several game engines demonstrated by the creation of several digital game prototypes using recently released tools.

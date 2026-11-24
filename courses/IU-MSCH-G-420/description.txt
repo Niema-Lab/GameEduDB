@@ -1,0 +1,1 @@
+Covers 3D modeling and character development for games. Introduces the tools and techniques to create clean base meshes for game engines. Uses UV layouts to create characters, props, vehicles, weapons, and static mesh environments. Includes peer critiques, as well as discussions about project deadlines, tools and techniques, methodologies, and results.

@@ -1,0 +1,1 @@
+Explores the design of conflict systems for games. Students will learn fundamental theories of conflict design (e.g. game theory) and advanced design tools (e.g. spreadsheets). Theories and tools will be applied to popular video and board games.

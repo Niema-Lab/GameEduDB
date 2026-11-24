@@ -1,0 +1,1 @@
+Formation and study of mathematical models used in the biological, social, and management sciences. Mathematical topics include games, graphs, Markov and Poisson processes, mathematical programming, queues, and equations of growth.

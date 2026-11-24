@@ -1,0 +1,1 @@
+Sets, counting, basic probability, including random variables and expected values. Linear systems, matrices, linear programming, and applications.

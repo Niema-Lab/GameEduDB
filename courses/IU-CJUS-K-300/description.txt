@@ -1,0 +1,1 @@
+CJUS-K 300 covers the properties of single variables, the measurement of association between pairs of variables, and statistical inference. Additional topics, such as the analyses of qualitative and aggregated data, address specific criminal justice concerns.

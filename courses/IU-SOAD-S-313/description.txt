@@ -1,0 +1,1 @@
+Hands-on studio course exploring the technical development of three-dimensional computer graphics for state-of-the-art display systems. Includes investigation of user-interface design, creation of 3D graphical environments, and exploration of the parallel drives toward content creation and visual aesthetics.

@@ -1,0 +1,1 @@
+Introduction to methods for analyzing data arising in business, designed to prepare business students for the Kelley School's Integrative Core. Graphical and numerical descriptions of data, probability models, fundamental principles of estimation and hypothesis testing, applications to linear regression and quality control. Microsoft Excel used to perform analyses.

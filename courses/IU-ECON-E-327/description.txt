@@ -1,0 +1,1 @@
+Mathematical analysis of strategic interaction. Noncooperative games played once or repeatedly, with perfect or imperfect information. Necessary condition for a solution (equilibrium) as well as sufficient conditions (refinements). Cooperative games, such as bargaining and market games. Numerous applications, including experimental games.

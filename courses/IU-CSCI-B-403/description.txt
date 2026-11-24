@@ -1,0 +1,1 @@
+Algorithm design methodology. General methods for analysis of algorithms. Analysis of the performance of specific algorithms, such as those for searching and sorting.

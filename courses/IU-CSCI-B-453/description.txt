@@ -1,0 +1,1 @@
+By taking this course, students gain high competence developing games using current game engines (e.g., Unity), and have exposure to advanced topics including shader creation, SpatialOS, procedural content generation, and/or creating dynamic UIs or AIs for games.

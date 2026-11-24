@@ -1,0 +1,1 @@
+History, theory, and design of data communicating between devices. Topics include history of computer networks, network architecture and topology, local- and wide-area networks, ISO network layers, current and future IEEE standards for networks, and network operating systems.

@@ -1,0 +1,1 @@
+Covers working with detailed game data, including formulating questions, specifying statistics, extracting data, isolating variables of interest, analyzing those variables, and visualizing the results. Students will work with industry standard tools, methods, and real-world data.

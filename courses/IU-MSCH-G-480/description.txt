@@ -1,0 +1,1 @@
+Provides an intensive introduction to the design and technical development of virtual worlds and massively multiplayer online games (MMOs). Topics include designing for persistence in a virtual world, world simulation, long-term player goals, and social interactivity.

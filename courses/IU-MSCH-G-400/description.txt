@@ -1,0 +1,1 @@
+Student development teams learn advanced techniques for conceiving and producing games. Course uses state-of-the-art game engines and industry production methods such as agile and waterfall with practice in overcoming obstacles such as bugs, poor communication, absent leadership. Prototypes will be tested and analyzed in statistical form.

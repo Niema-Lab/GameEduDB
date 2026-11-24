@@ -1,0 +1,1 @@
+Lectures emphasize the use of basic probability concepts and statistical theory in the estimation and testing of single parameter and multivariate relationships. In computer labs, using Microsoft Excel, each student calculates descriptive statistics, probabilities, and least squares regression coefficients in situations based on current business and economic events.

@@ -1,0 +1,1 @@
+Introduces the logic of statistical inference. Students will learn how to use sample data to reach conclusions about a population of interest by calculating confidence intervals and significance tests. Estimating the effects of multiple independent variables using cross-tabulations and/or regression.
