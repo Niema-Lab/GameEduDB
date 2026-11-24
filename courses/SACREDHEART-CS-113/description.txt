@@ -1,0 +1,1 @@
+Presents mathematical concepts for computer science including propositional logic, sets; relations and functions (including big-Oh notation); counting; countability; permutations and combinations; probability; Boolean algebras.

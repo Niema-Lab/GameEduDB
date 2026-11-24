@@ -1,0 +1,1 @@
+This course is geared toward liberal arts, science, business, and health science majors. It introduces descriptive statistics, probability distributions (both discrete and normal), confidence intervals, hypothesis testing, and correlation. Real-world applications are offered and computer statistical software may be used.

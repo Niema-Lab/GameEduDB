@@ -1,0 +1,1 @@
+This course presents an overview of computer architecture and computer organization as they relate to computer science. Topics include computer components, interconnection structures, internal memory, instruction sets, number representation in computers, parallel processing, and an elementary introduction to assembly programming.

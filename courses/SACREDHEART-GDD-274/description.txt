@@ -1,0 +1,1 @@
+3D game creation using Unreal Engine. Included topics are Blueprint scripting, the Unreal level editor, actors and components, materials, lighting, user interface elements, physics, and audio.

@@ -1,0 +1,1 @@
+How to create an effective, fun mobile game. Using the Unity development platform and C# programming language students will write and build a mobile game for deployment on Android and iOS operating systems.

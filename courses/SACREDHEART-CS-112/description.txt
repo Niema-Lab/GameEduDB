@@ -1,0 +1,1 @@
+A continuation of CS 111 using a structured programming language to implement multidimensional arrays, stacks, queues, linked lists, and binary trees. Also introduces recursion, pointers, and classes.

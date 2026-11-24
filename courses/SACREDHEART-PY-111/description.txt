@@ -1,0 +1,1 @@
+Non-calculus-based course covering the basic principles of mechanics (units, vectors, 1D and 2D motion, concepts of force, torque, static equilibrium, energy, work, momentum, rotational motion, and gravitation), fluid mechanics, temperature, and thermal expansion. A prerequisite to PY 113

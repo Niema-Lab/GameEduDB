@@ -1,0 +1,1 @@
+Students are introduced to the design and development of interactive applications using virtual and augmented reality technologies. Through hands-on projects, students learn the fundamentals of building immersive experiences across both VR and AR platforms.

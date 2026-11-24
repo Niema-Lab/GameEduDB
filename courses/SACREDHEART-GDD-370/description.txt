@@ -1,0 +1,1 @@
+An object-oriented approach to game development. Topics covered will include classes, instantiation, event listeners, polymorphism, encapsulation, event handlers, and functions/methods.

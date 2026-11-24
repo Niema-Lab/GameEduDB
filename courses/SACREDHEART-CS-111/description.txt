@@ -1,0 +1,1 @@
+A first course in programming using a structured programming language. Topics include iteration, selection, procedures, functions, and arrays with the use of flowcharts and modules. Presents applications in both business and scientific areas.

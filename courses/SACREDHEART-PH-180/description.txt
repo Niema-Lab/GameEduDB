@@ -1,0 +1,1 @@
+This course is an exercise in the formal study of arguments and inference. Particular attention is given to symbolic representations of systems of rationality and to what makes an argument valid or invalid.

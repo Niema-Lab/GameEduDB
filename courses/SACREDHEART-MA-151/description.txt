@@ -1,0 +1,1 @@
+Explores limits and approximation, differential and integral calculus of the elementary algebraic and transcendental functions, and applications of differentiation and integration. A prerequisite to MA 152
