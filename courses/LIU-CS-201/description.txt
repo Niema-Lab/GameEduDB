@@ -1,0 +1,1 @@
+This course is an introduction to problem solving and computer programming with practical exercises.

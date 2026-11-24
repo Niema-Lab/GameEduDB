@@ -1,0 +1,1 @@
+This course explores advanced techniques in 3D modeling and animation with Autodesk Maya 3D and Adobe After Effects. Emphasis is placed on 3D character development, complex modeling, and surface mapping, lighting, and animation scripting within the three-dimensional environment. Prerequisite of CGPH 220 is required.

@@ -1,0 +1,1 @@
+This course is directed toward understanding and interpreting numerical data. Topics covered include: descriptive statistics, regression, correlation, sampling techniques and elements of inferential statistics. Not open to students who have taken MTH 423, 341 or BIO 341.

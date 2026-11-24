@@ -1,0 +1,1 @@
+This course covers usage of HTML and CSS in the design and construction of web pages and sites. A focus on design with user interaction in mind is central to the courses theme.

@@ -1,0 +1,1 @@
+This course presents the software development life cycle from the perspective of game design. Topics include: rule based scenarios, story boarding, virtual environments, interaction design, and prototyping. Pre or co-requisite of IT 251 is required.

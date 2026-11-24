@@ -1,0 +1,1 @@
+This course teaches students how to program digital game designs. Students are expected to have an understanding of basic game programming principles to take this class. This course teaches students how to create games using the Unity game engine. As with many courses in this program, the focus is on hands-on game creation. A pre requisite of DGD 204 is required.
