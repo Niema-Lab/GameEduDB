@@ -1,0 +1,1 @@
+Prerequisites: VGD 1002 and CUS 1100This advanced production course investigates new methods in authoring media using emerging technology, with a focus on physical computing. Students apply concepts in experience design and embodied cognition as they integrate dynamic and responsive digital content, write custom software, and utilize microcontrollers, sensors, and actuators.

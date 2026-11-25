@@ -1,0 +1,1 @@
+Basic tools and techniques for programming in Processing and Java to create computer games and introduce accompanying computer science principles. This course will explore the power of algorithms for solving problems in computer science related to game development.

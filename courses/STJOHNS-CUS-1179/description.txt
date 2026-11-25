@@ -1,0 +1,1 @@
+Prerequisite: CUS 1165 or HCI 1021, MTH 1014. Introduction to the analysis of databases for relationships, patterns, and trends. Both visualizing data and developing graphical representations of data will be stressed. Students will learn to select, prepare, visualize, analyze and present data findings that lead to the discovery of novel and actionable information.
