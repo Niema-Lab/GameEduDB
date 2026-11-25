@@ -1,0 +1,1 @@
+This course explores the specification and implementation of containers as abstract data types. Structures covered include strings, vectors, stacks, queues, sequential lists, binary trees, hashes and graphs. The course also investigates algorithm design and evaluation, such as sorting, search, recursion and algorithmic analysis.

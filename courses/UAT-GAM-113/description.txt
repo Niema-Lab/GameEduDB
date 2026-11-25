@@ -1,0 +1,1 @@
+Game development toolkits are the basis for industry games both casual and large. This course introduces students to working in a toolkit environment by instructing in how games of all sizes and complexities are built within a toolkit. This course also provides practice for students as they use the most foundational tools to build game projects.

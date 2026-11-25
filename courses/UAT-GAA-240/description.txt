@@ -1,0 +1,1 @@
+This course focuses on the creation of textures for digital games. Students will learn how to create consistent and efficient texture maps from scratch as well as from photo references. Proper mapping and application procedures will also be reviewed. Assignments will help students build their own texture library to increase their production speed.

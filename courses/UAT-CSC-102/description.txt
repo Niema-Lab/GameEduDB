@@ -1,0 +1,1 @@
+The purpose of this course is to introduce the fundamentals of computer science and programming. Students will become familiar with problem solving techniques and algorithm development using computers, including a structured high-level programming language. Topics will include flow of control, assignment, arrays, functions, and input and output, among others.

@@ -1,0 +1,1 @@
+Students will design and develop a Strategy Game solving the programming challenges associated with games in this genre. This course will explore topics such as mission setup, formations, movement, data tracking, map control, AI, and game flow. The game will consider both real time and turn based systems.

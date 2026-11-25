@@ -1,0 +1,1 @@
+Building on the core gameplay programming skills from Introduction to Game Programming, this course does a deep dive into the implementation needs of gameplay mechanics. Using established programming practices and techniques, students will solve design, programming, and technical issues with an eye toward implementing gameplay into a consistent player experience.

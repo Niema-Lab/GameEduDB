@@ -1,0 +1,1 @@
+This course introduces the student to industry standard 3D game art and animation for video games. Students will recognize, differentiate, analyze, and create game art assets that are used in 3D game projects. Areas of emphasis include: game art, concept, box modeling, UV unwrap, texturing, rigging, animation, rendering, and development of an online portfolio.

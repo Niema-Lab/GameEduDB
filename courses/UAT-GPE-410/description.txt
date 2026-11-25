@@ -1,0 +1,1 @@
+Students will design and develop an Action Game solving the programming challenges associated with games in this genre. This course will explore topics such as weapon systems, cover systems, movement, health, powerups, inventory, physics, and camera control. The game will be complete with AI, HUD, and missions.
