@@ -1,0 +1,1 @@
+Introduction to the procedural nature of interactive media and games, though the coding language Processing. Students will develop proficiency in reading and creating computational media.

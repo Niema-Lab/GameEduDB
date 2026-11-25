@@ -1,0 +1,1 @@
+Application of mathematics, physics, geometry and programming algorithms in the context of video game programming practice.

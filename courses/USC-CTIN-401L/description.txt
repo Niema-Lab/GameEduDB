@@ -1,0 +1,1 @@
+Introduction to the aesthetics, terminology and common trends of interface design for games. Topics include 2-D and 3-D spaces and user/camera perspectives.

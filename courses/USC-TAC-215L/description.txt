@@ -1,0 +1,1 @@
+An applied introduction to the techniques used for modeling, animating, texturing, lighting, rendering, and creating 3D content for games, cinematics, visual effects, animation and visualizations.

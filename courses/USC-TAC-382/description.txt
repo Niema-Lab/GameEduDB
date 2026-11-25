@@ -1,0 +1,1 @@
+Application of techniques used to develop games for mobile devices. Sprites, mobile input, mobile graphics and monetization.

@@ -1,0 +1,1 @@
+Boolean algebra, propositional and first-order logic, proof techniques. Sets, functions, series, summations. Big-O notation; algorithm analysis. Recursion; basic sorting algorithms. Graphs and basic graph algorithms.

@@ -1,0 +1,1 @@
+3D character animation with a video game focus; movement clarity versus game reaction speed, LOD visibility and automated export systems.

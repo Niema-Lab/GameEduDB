@@ -1,0 +1,1 @@
+Introduction to software packages and practices exploring current animation techniques that leverage simulation systems. Artificial intelligence as a tool for animation.

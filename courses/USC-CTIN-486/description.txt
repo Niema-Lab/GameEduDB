@@ -1,0 +1,1 @@
+Design of game projects using immersive input devices. Development of play mechanics, feedback systems and game design for immersive environments.

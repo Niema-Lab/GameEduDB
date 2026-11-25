@@ -1,0 +1,1 @@
+Matrices, systems of linear equations, vector spaces, inner products and norms, linear transformations, eigenvalues, singular value decomposition. Applications such as image compression, graphs, networks or linear programming.

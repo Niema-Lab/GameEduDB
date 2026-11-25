@@ -1,0 +1,1 @@
+Object-Oriented Programming in Java; using Java threads, Web Services and SQL to write client/server applications; team project; vibe coding with AI tools.

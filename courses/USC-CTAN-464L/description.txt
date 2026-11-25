@@ -1,0 +1,1 @@
+Concepts, tools and techniques used to create cinematic lighting and rendering in computer-generated imagery (CGI).

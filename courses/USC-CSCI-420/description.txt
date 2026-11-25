@@ -1,0 +1,1 @@
+Computer graphics, OpenGL, 2D and 3D transformations, Bézier splines, computer animation, rendering including ray tracing, shading and lighting, artistic rendering, virtual reality, visualization.

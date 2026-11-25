@@ -1,0 +1,1 @@
+Building the core components of a modern 3D game engine including shaders, animation, collision detection, artificial intelligence algorithms, multithreading and profiling.

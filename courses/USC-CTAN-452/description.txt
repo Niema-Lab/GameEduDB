@@ -1,0 +1,1 @@
+Lecture and laboratory in computer animation: geometric modeling, motion specification, lighting, texture mapping, rendering, compositing, production techniques, systems for computer-synthesized animation using Maya software.

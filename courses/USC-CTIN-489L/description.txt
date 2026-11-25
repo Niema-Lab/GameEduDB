@@ -1,0 +1,1 @@
+A follow-up to the introductory game design class, this course will introduce more advanced concepts in game design and game theories, including ideation, digital prototyping and level design.

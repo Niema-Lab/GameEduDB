@@ -1,0 +1,1 @@
+Introduction to linear algebra with engineering applications. Weekly laboratory exercises using MATLAB.

@@ -1,0 +1,1 @@
+Concepts and methods of usability assessment. The emphasis will be on understanding the issues surrounding game interfaces, and utilizing usability assessment methods.

@@ -1,0 +1,1 @@
+Computer organization; entity abstraction and representation; program execution; code optimization; memory usage; exception handling; processing control; computer performance; hands-on work done in C and assembly.

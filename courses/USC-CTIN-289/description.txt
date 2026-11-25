@@ -1,0 +1,1 @@
+Covers core skills for creating in a digital game engine, the role of prototyping in the game development and the use of version control systems.

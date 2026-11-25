@@ -1,0 +1,1 @@
+Introduction to programming using C++, including variables, operators, conditionals, loops, arrays, vectors, strings, functions, files, structs, pointers, dynamic allocation and an introduction to classes.

@@ -1,0 +1,1 @@
+Advanced concepts in 3-D game development: story and character progression, emergent game-play, comprehensive game mechanics and artificial intelligence.

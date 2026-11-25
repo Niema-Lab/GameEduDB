@@ -1,0 +1,1 @@
+Fundamentals of character rigging for video game production and development; optimization of character design, skeleton and mass properties for effective rigging; virtual rigs.

@@ -1,0 +1,1 @@
+Statics and dynamics of particles and rigid bodies, conservation principles, gravitation, simple harmonic oscillators, wave motion, sound waves.

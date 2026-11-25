@@ -1,0 +1,1 @@
+Underlying concepts and principles required for programming video games (topics include vectors, transformations, 3-D math, geometric primitives, matrices).

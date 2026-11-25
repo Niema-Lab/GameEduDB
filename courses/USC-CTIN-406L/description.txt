@@ -1,0 +1,1 @@
+Introduction to the techniques, terminology, and implementation of sounds in games, including establishing a sense of place and concepts of realistic sound.

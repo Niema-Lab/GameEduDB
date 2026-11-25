@@ -1,0 +1,1 @@
+Data structures including linked lists, balanced search trees, heaps, hash tables; probability and number theory applicable to the analysis of randomized data structures.

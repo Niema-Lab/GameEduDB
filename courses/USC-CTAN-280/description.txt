@@ -1,0 +1,1 @@
+An applied introduction to the techniques used for animating 3-D bipedal human character content for the movement and interactive experience within 3-D video games.
