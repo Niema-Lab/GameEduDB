@@ -1,0 +1,1 @@
+Examine the ways in which to create and manage large and complex computer datasets. Review the designs that aid both efficient storage and retrieval. Explore important data structures and their use in application development. Introduce algorithms for design and securing data.

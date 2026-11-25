@@ -1,0 +1,1 @@
+This course examines advanced programming topics including object-oriented programming, data structures and algorithm development.

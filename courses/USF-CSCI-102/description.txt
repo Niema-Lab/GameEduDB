@@ -1,0 +1,1 @@
+Discuss the structure of computing systems. Identify major components, the interrelationship of components and application of computing systems. Use simple computing systems such as Excel for data analysis and HTML for data visualization. Discuss issues created by computing systems related to ethics, security, privacy and social impact.

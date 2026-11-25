@@ -1,0 +1,1 @@
+Introduction to networking topologies including transmission, signals packets, collision, routing and switching, and the fundamentals of network security.

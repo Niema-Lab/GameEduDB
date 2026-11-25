@@ -1,0 +1,1 @@
+This course will focus understanding how to create efficient models for video games and game engines. Throughout the course, students will create high-resolution and low-resolution models, and a variety of textures for game production.

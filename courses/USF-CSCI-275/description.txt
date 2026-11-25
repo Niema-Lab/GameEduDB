@@ -1,0 +1,1 @@
+Foundation of games and logic puzzles. Introduction to psychological player behavior, game development, and ply structures. Implementation of principles and theory to create analog games. Cross-list with MATH 275

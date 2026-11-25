@@ -1,0 +1,1 @@
+Topics include logic, induction, recursion, combinatorics, matrices, graph theory, set theory, relations, and elementary number theory.

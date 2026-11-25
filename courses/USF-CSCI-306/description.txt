@@ -1,0 +1,1 @@
+Advanced implementation of game development theory to create interactive applications and games using video game engine software. Small teams project-based learning. Apply key types of game theory such as cooperative and non-cooperative games, strategy games, and zero sum and non-zero sum games.

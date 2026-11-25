@@ -1,0 +1,1 @@
+A comprehensive overview of the 3/D computer animation production process and hands-on experience of creating 3/D models with surface control. Principles and processes to be discussed include: story boarding, modeling, camera lighting, surface control, motion scripting and rendering.

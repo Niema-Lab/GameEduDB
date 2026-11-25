@@ -1,0 +1,1 @@
+Advancing techniques in modeling, animation, and rendering. Movements of objects, actors and cameras along with animated effects of attributes will be demonstrated and discussed as it applies to a production studio environment.

@@ -1,0 +1,1 @@
+Create highly articulated models for animation. Study the use of rigid and smooth skinning, envelope weighting, flexors, lattices, non-linear, and sculpt deformers. The final goals are a fully created character and a short animated story using best practices.

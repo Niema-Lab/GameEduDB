@@ -1,0 +1,1 @@
+Introduction to data analytics, data warehousing, and big data in the business decision making process. Examine data universes, cubes, and data marts. Understand how analysis could lead to product innovation and a competitive advance.
