@@ -1,0 +1,1 @@
+This studio course is focused on introducing and practicing full character creation workflow. Detailed human body topology will be created (nose, eye, mouth, hand, and feet). Detailed head, hand, and body anatomy will be explored. Basic UV, texturing, and renderings techniques will be introduced in the context of character creation.

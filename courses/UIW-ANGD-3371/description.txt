@@ -1,0 +1,1 @@
+This studio course builds on the topics covered in Game Programming I and II. Students will learn advanced game programming topics, such as procedural content generation, game design concepts, and interaction with online systems. It is the third part of a series of courses designed to train practical skills that will help prepare students for work in the video game industry.

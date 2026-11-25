@@ -1,0 +1,1 @@
+Learn programming design and development emphasizing structured programming techniques. Typical language is Visual C++. Learn to plan and create simple, useful program codes behind graphical user interfaces (windows) for use as standalone programs or applications macros. Learning programming reveals the type of coding behind all software and teaches logic and attention to detail.

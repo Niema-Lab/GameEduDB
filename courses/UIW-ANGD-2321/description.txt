@@ -1,0 +1,1 @@
+This studio course covers technical issues and solutions for the game and animation production pipeline. It includes rigging, visual effects (VFX), scripting, standalone computer tools, applications, and plug-in development. Effective rigging tools and VFX techniques will be taught. Various coding languages and their applications will be explored.

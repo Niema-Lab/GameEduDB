@@ -1,0 +1,1 @@
+This studio course provides an entry-level survey of game engines. This survey includes basic environment creation, player control mechanisms, in-game animation engines, basic AI, UI, and VR creation. The basics of programming for games will also be explored.

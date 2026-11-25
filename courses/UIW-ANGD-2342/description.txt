@@ -1,0 +1,1 @@
+This studio course is focused on creating animations that are used in games. Content will include both animation loops for game play (first-person, third-person, and others) and animation performance for use in cinematic sequences.
