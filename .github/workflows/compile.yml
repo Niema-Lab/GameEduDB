@@ -36,7 +36,7 @@ jobs:
           cp GameEduDB.html html/index.html && \
           cp GameEduDB.md GameEduDB.pdf html/
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: './html/'
       - name: Deploy to GitHub Pages
