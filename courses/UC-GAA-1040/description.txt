@@ -1,0 +1,1 @@
+This course offers an overview of specific, relevant software and hardware used for designing games, and makerspace tools for 3D printing, laser-cutting, among other practices. A working competency with current industry software, and physical game production is an expected outcome of the course, as well as the knowledge needed to learn new, not-yet-invented tools in the future.
