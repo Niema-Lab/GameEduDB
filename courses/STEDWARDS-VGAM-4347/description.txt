@@ -1,0 +1,1 @@
+This course, the final of two culminating courses in the major, will continue a hands-on experience in game development and testing. Students will work in teams to develop their game projects through the Alpha, Beta, and release phases. Prerequisite: VGAM 4345. Spring.

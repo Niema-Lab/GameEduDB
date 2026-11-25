@@ -1,0 +1,1 @@
+This course covers the basics of logic, computer literacy, and software creation. Students initially learn programming concepts using spreadsheets, and then move to Python to create simple games, automate tasks, and solve real-world problems. Fall. Spring.

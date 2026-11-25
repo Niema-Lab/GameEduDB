@@ -1,0 +1,1 @@
+This course focuses on methods of designing, planning, and producing digital applications. Students work in teams to create their own simple games or apps. Topics covered will include designing to a specification, efforts estimates, task tracking, types of testing, and release considerations. Prerequisite: VGAM 1310 or COSC 1305. Fall.

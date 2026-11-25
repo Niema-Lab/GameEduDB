@@ -1,0 +1,1 @@
+This course builds on concepts introduced in Beginning Coding for Non-Coders by exploring client/server models, databases, and simple app design and development. Prerequisite: VGAM 1310 or COSC 1305. Spring.
