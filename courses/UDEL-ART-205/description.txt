@@ -1,0 +1,1 @@
+Introduction to interactive media and concepts of interaction design. Students learn the basics of coding and programming languages that are fundamental to human-computer interaction and strategies for understanding users and prototyping designed experiences with media.

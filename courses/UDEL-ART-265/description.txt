@@ -1,0 +1,1 @@
+Introduction to using software to create 3D models and computer animations. Students will be given a comprehensive introduction to the various components including modeling, animating, rendering and lighting.

@@ -1,0 +1,1 @@
+Principles of computer science illustrated through programming in the domain of game design and development to the fundamentals of computing through problem solving, abstraction, and algorithmic design. Topics include control structures, arrays, functions, and procedures. Programming projects illustrate the design and implementation of game applications.
