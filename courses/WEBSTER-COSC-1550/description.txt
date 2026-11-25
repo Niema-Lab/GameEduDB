@@ -1,0 +1,1 @@
+This course introduces students to the C++ language in order to teach programming as a systematic discipline and as a problem-solving tool. Acquaints students with fundamental concepts of computers, information processing, algorithms and programs. Only offered in a 16-week format. May be repeated once for credit.
