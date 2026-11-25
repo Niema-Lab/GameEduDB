@@ -1,0 +1,1 @@
+Prerequisites: CSCI 3103, plus either CSCI 3063 or CSCI 3153. A comparative study of programming languages. Characteristics of languages and their formal description, the theory of languages, and the internal design of compilers will be introduced. 3 hours. Fall.

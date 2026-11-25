@@ -1,0 +1,1 @@
+Prerequisites: CSCI 3203. This course provides a general introduction to computer organization and architecture. Topics covered include basic assembler language, digital circuits, processor design, ALU design and algorithms, memory hierarchy, and types of machine architecture. 3 hours. Spring.

@@ -1,0 +1,1 @@
+Prerequisites: ART 1033 or ART 1113. This course primarily delves into 2D design creation and implementation in linear and nonlinear environments, but will investigate preliminary instruction into 3D environments as well. 3 hours. Spring.

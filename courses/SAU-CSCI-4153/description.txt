@@ -1,0 +1,1 @@
+Prerequisites: CSCI 3103. An introduction to software engineering practice. An object-oriented language will be used. Project management and project teams will be considered. 3 hours. Spring.

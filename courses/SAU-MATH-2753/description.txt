@@ -1,0 +1,1 @@
+Prerequisites: MATH 1525 or MATH 2125. A study of linear vector spaces Includes linear mappings and matrix representations, bases and orthonormality, and Eigen values and Eigen vectors. Applications to systems of linear equations, linear operators, and geometry. 3 hours. Fall, spring.

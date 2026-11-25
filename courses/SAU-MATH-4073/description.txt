@@ -1,0 +1,1 @@
+Prerequisites: MATH 2753. A study of the elementary theory of probability with statistical applications. The standard distributions will be applied to sampling theory, confidence intervals, and tests of hypotheses. Problem solving techniques and real-world applications will be stressed. 3 hours. Fall.

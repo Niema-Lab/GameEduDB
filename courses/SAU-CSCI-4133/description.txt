@@ -1,0 +1,1 @@
+Prerequisites: CSCI 3103. A study of the various issues in the design of modern operating systems, including process management and scheduling, real and virtual memory management, file system, and communication. 3 hours. Spring.

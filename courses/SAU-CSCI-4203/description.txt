@@ -1,0 +1,1 @@
+Prerequisites: CSCI 3103. This course is designed to teach students about organizing data to obtain required information. The course will cover the design and implementation of database applications, the use of SQL for information storage and retrieval, and techniques for managing the development of database systems. 3 hours. Fall.

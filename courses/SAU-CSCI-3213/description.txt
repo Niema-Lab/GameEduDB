@@ -1,0 +1,1 @@
+Prerequisites: CSCI 3103. This course will cover networking from the lowest levels of data transmission and wiring to the highest levels of application software, including how underlying technologies provide services and how the Internet application use those services. 3 hours. Fall.

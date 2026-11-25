@@ -1,0 +1,1 @@
+Corequisites: CSCI 2101. This course is an introduction to the fundamental concepts of programming including expressions and variables, input/output, control structures (conditionals and loops), arrays/vectors, strings, function, pointers, structures and files. 3 hours. Fall, spring.

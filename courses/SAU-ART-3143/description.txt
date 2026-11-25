@@ -1,0 +1,1 @@
+Prerequisites: ART 2193 and ART 3053. This class will introduce character rigging and the role of technical artists in the game development industry. This class focuses on systems for creating 3D skeletons and controls for manipulating the skeletons and 3D mesh attached as well as technical art skills utilized to automate and streamline production pipelines. 3 hours. Fall.

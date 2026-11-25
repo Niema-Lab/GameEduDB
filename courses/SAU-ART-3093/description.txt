@@ -1,0 +1,1 @@
+Prerequisites: ART 2193 and ART 3053. This course focuses on 3D animation and Visual FX physics-based animation systems in 3D modeling and animation software such as Maya and in game development software such as Unity. An understanding of 3D modeling software, basic game engine use and animation principles is expected prior to entry. 3 hours. Spring.

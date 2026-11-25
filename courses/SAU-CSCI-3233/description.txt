@@ -1,0 +1,1 @@
+Prerequisites: CSCI 2103. Students will be introduced to finite state machines, regular languages, pushdown automata, context-free languages, Turing machines, undecidability and complexity analysis. 3 hours. Spring.

@@ -1,0 +1,1 @@
+Prerequisites: CSCI 2103. Corequisites: CSCI 2111. This course is a continuation of CSCI 2103. It introduces the principles and concepts of object-oriented design and programming. The content includes classes and objects, and data encapsulation, inheritance and polymorphism. 3 hours. Fall, spring.

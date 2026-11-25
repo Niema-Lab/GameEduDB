@@ -1,0 +1,1 @@
+Prerequisites: CSCI 2113. A study of the structures used to organize data and the algorithms for manipulating these structures. 3 hours. Fall, Spring.

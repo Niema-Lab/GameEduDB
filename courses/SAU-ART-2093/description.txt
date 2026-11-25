@@ -1,0 +1,1 @@
+Prerequisites: CSCI 2133. This course will expand on the information taught in CSCI 2133 with a focus on the scripting languages and game engine tools utilized by artists in the game development and simulation industries. It will cover physical interactions between game objects such as collisions, physics, and events as well as animation systems. 3 hours. Spring.

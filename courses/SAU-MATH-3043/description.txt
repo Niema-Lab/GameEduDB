@@ -1,0 +1,1 @@
+Prerequisites: MATH 1023. An introduction to descriptive statistics, probability, binomial and normal distributions, hypothesis testing, correlation, and regression. 3 hours. Fall, spring.

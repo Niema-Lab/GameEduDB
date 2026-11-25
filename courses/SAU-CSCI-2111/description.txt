@@ -1,0 +1,1 @@
+Corequisites: CSCI 2113. This course focuses on hands on practice of the object oriented programming concepts learned in CSCI 2113. It covers classes and objects, and data encapsulation, inheritance and polymorphism. 1 hours. Fall, spring.

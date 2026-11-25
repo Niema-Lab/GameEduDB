@@ -1,0 +1,1 @@
+Corequisites: CSCI 2103. This course focuses on hands on practices of the programming concepts learned in CSCI 2103. It covers expressions and variables, input/output, control structures (conditionals and loops), arrays/vectors, strings, functions, pointers, structures and files. 1 hours. Fall, spring.

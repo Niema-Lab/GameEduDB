@@ -1,0 +1,1 @@
+Prerequisites: CSCI 3103. An introduction to generating computer graphic displays. Includes both two and three-dimensional graphics, graphics packages, and the impact of differing media and their resolutions and aspect ratios. This course is language independent. 3 hours. Fall.

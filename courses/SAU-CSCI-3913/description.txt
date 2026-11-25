@@ -1,0 +1,1 @@
+Prerequisites: CSCI 2133. Students will learn creating virtual reality games and applications in Unity for Google Cardboard, Oculus Rift, HTC Vive and Samsung Gear. 3 hours. As needed. Repeatable for credit with different VR applications.

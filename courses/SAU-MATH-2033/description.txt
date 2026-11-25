@@ -1,0 +1,1 @@
+Prerequisites: MATH 1023. Presents the mathematical tools that form the foundation for the science of computing. Topics include logic, Boolean algebra, number theory, combinatorics, probability, asymptotics, algorithm analysis, and an introduction to computability. 3 hours. Spring.
