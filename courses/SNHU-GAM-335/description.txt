@@ -1,0 +1,1 @@
+In this course, students will develop the gameplay systems and mechanics that bring game design ideas to life. Students will build both underlying technical systems that enable gameplay and event-based user interface systems.

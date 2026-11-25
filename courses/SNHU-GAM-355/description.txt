@@ -1,0 +1,1 @@
+In this course, students will build on their knowledge of algorithms and data structures, exploring algorithms that are widely used in games and interactive simulations. Students will also develop data structures needed for game and simulation needs, including writing custom containers, and apply spatial organization and partitioning concepts and techniques.

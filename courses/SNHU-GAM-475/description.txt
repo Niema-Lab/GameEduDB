@@ -1,0 +1,1 @@
+In this course, students will use their programming skills to augment the functionality of game engines. Students will first explore how components of game engines interact so that they can then develop custom game engine tools and plugins.

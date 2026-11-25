@@ -1,0 +1,1 @@
+Students get an introduction to AI inside a game engine. Using Action scripting, C++, or C# students will be introduced to Path finding, Crowd Control, Character Control, Non Player behavior, World behavior and Object behavior. Students will also be introduced to game play algorithms designed to create immersive reactive worlds.

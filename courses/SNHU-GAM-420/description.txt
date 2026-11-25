@@ -1,0 +1,1 @@
+In this course, students will explore concepts of artificial intelligence (AI), particularly as they relate to gaming and simulations. Students will explore AI algorithms, apply common logic and behavior methodologies, and grapple with ethical issues raised by AI.

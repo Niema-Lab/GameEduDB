@@ -1,0 +1,1 @@
+In this course, students will develop skills necessary to develop online and networked games. Students will explore how these games function technically in order to synchronize game worlds across multiple devices.

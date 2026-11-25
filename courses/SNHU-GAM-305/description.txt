@@ -1,0 +1,1 @@
+To provide a technically well-founded introduction to game development using programming languages and various gaming editors. On completing this course, the student will have acquired a fundamental understanding of the Windows API, the use of sprites, animation and audio in an integrated game environment. This course is cross-listed with IT 305.

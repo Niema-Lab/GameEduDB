@@ -1,0 +1,1 @@
+This class builds on the programming fundamentals learned in previous courses, and covers topics relating to technical systems for video games. Students will learn how to create complex game systems using scripts and will learn advanced scripting techniques. The technical aspects of common gameplay systems will be explored and implemented in various projects.

@@ -1,0 +1,1 @@
+In this course, students will explore programming within game engines. Students will analyze how integrated development environments interface with game engines and learn how to leverage the features of game engines based on design needs.
