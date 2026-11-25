@@ -1,0 +1,1 @@
+Students explore 3-D modeling and animation. Topics include virtual sculpting, texture maps, transformations, procedural shaders, virtual lights and cameras, timeline-based animation, and special effects. Laptop computer required.

@@ -1,0 +1,1 @@
+Introduces students to the UI/UX design for in-game interfaces. Topics include layout design, widget logic, interaction systems, and usability considerations. Prerequisite: DSIN 2350.

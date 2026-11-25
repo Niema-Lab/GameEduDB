@@ -1,0 +1,1 @@
+Introduces students to the structure, terminology, and core systems of a modern real-time rendering pipeline. Students gain foundational proficiency in importing assets and placing objects in a 3D real-time game engine. Topics include draw calls, LOD systems, lighting, and GPU performance considerations. Prerequisite: GAME 3350.

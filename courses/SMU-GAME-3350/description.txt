@@ -1,0 +1,1 @@
+Introduces students to the principles of generating visual effects for games. Topics include GPU based simulation and baked assets using standard industry tools. Prerequisite: CRCP 1350.
