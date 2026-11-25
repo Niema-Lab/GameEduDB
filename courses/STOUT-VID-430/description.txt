@@ -1,0 +1,1 @@
+Intermediate concepts and techniques of visual effects (VFX) and compositing for video production. Primary emphasis on moving image retouching, digital (photographic) matte painting, rotoscoping, motion tracking, and compositing of layer or node-based content. Secondary emphasis on the creation and composite of environmental natural elements and effects.

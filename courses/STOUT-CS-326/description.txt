@@ -1,0 +1,1 @@
+Explore the use of design patterns commonly used in games and their implementations. Exploration of different game engines for creation of an interactive program.

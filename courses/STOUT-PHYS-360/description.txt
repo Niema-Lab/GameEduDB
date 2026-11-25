@@ -1,0 +1,1 @@
+Use of mathematics and physics to model the physical world for use in games and other computer simulations. Topics include motion, gravity, collisions, vectors, matrices, differential equations, dynamics, hydrostatics, hydrodynamics, and elastic systems to model common game objects.

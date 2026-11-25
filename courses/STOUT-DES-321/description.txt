@@ -1,0 +1,1 @@
+Digital rendering and painting. Fundamentals of technical representation of light, shadow, material, and atmosphere.

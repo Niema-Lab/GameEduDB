@@ -1,0 +1,1 @@
+Analytic Reasoning and Natural Sciences - Analytic Reasoning Repeatable for Credit: No Solving problems using computer programming. Input/output, user interface, objects, events, flow of control, functions, arrays.

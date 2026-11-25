@@ -1,0 +1,1 @@
+Advanced concepts and techniques of video production. Primary emphasis is placed on virtual reality (VR) photo/video capture (360 degree), production and post-production techniques. Secondary emphasis is placed on video production and post-production techniques for integrating video and/or motion graphics into augmented reality (AR) applications.

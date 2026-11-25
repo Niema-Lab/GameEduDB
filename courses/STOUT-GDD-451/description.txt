@@ -1,0 +1,1 @@
+Design and development of 3D games from prototype to completion in teams, modeling the approach used in the game development industry. Second of a two-semester sequence; to be preceded by GDD 450. GDD 451 shall be co-scheduled with CS 451 for collaboration between artists and programmers.

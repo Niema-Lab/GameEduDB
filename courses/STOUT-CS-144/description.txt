@@ -1,0 +1,1 @@
+Analytic Reasoning and Natural Sciences - Analytic Reasoning Repeatable for Credit: No Problem solving using a high-level programming language. Input/output, control structures, functions, arrays, structured data, classes, documentation and testing.

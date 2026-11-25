@@ -1,0 +1,1 @@
+Foundations of computational methods in data science. Data lifecycle, analysis of datasets, information extraction using programming tools. Static data visualizations such as: bar charts, histograms, scatterplots, heatmaps, choropleths, and Sankey diagrams. Principles of data visualization.

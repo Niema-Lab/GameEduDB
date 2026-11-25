@@ -1,0 +1,1 @@
+Human-computer interaction (HCI) and interface design. Survey of HCI theories and frameworks. Creation and evaluation of a mockup interface for a specific device context (web, mobile device, desktop program, etc.).

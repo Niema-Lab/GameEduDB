@@ -1,0 +1,1 @@
+The course introduces principles of video game development. Students design and develop a video game, implementing a development pipeline using visual art production, programming, and game development management techniques and tools.

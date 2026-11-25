@@ -1,0 +1,1 @@
+Theory and applications of digital image processing. Mathematical foundations and algorithms for enhancement, restoration, compression, segmentation and reconstruction from projections.

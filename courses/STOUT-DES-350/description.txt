@@ -1,0 +1,1 @@
+Investigation into ways 3D modeling, animation and texturing can be incorporated into interactive experiences using industry standard 3D game engines and emergent technology for user interaction.

@@ -1,0 +1,1 @@
+Introduction to shader programming and procedural modeling with applications in animation and games. Exploration of mathematical and computational tools useful in a “technical art” role.
