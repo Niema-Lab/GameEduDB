@@ -1,0 +1,1 @@
+Two-dimensional graphics algorithms, point and coordinate transformations, animation on graphics terminals and systems. Laboratory instruction using Solaris X-Windows-environment.

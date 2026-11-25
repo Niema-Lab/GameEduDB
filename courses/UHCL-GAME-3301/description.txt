@@ -1,0 +1,1 @@
+This course is an introduction to the fundamental concepts of game programming. Topics include game engines, asset creation and management, gameplay mechanics, and multi modal interactions. Students will be expected to create basic playable games by the end of the semester.

@@ -1,0 +1,1 @@
+Introduction to 3-D modeling techniques for animation, images, and 3-D computer sculptures, including building 3-D models, modeling techniques used in 3-D software applications, texture mapping and lighting in a 3-D environment.

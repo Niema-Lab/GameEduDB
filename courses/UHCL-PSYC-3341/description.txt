@@ -1,0 +1,1 @@
+Covers how users should be included in design process including needs analysis, requirements writing, iterative testing of low/medium/high fidelity prototypes, and implementation.

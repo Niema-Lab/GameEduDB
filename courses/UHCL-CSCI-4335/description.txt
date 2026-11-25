@@ -1,0 +1,1 @@
+Introduction to concepts of artificial intelligence: foundations of artificial intelligence, intelligent agents, searching, constraint satisfaction, planning, knowledge representation uncertain knowledge and reasoning, and learning. AI programming languages will be introduced. Students who receive credit for CSCI 5335 will not receive credit for this course.

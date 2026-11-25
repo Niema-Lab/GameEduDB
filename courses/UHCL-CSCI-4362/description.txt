@@ -1,0 +1,1 @@
+Applying a fourth-generation game engine and language on designing and developing 2-D and 3-D real-time multimedia simulations and games for education, training, robotics and entertainment. Laboratory instruction.

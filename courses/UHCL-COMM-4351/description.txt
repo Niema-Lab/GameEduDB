@@ -1,0 +1,1 @@
+Fundamental principles of animation. Introduces students to 3-D computer animation techniques including keyframing, path animation, nonlinear animation and hierarchical animation. Covers storyboarding and animation project planning.

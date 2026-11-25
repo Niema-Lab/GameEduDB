@@ -1,0 +1,1 @@
+This is the first of a two-semester sequence (Senior Project I and Senior Project II) which allows students to complete a game or simulation over the course of two semesters. Students can work individually or in small teams to complete projects that they have identified or that are provided by external stakeholders.

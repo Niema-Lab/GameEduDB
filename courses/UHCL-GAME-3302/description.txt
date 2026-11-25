@@ -1,0 +1,1 @@
+This course is an introduction to the advanced concepts of game programming in immersive environments, including game engines, asset creation and management, gameplay mechanics, AI, advanced character modeling, and multimodal interactions. Prerequisites: GAME 3301 Game Programming I.
