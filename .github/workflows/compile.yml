@@ -39,6 +39,8 @@ jobs:
         uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: './html/'
+      - name: Wait for artifact propagation # hacky fix for race condition ("deploy-pages" runs before the uploaded artifact is detected). Delete when "deploy-pages" is fixed: https://github.com/actions/deploy-pages/issues/451
+        run: sleep 10 # increase if "deploy-pages" still fails
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
