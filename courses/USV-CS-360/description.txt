@@ -1,0 +1,1 @@
+Students apply concepts from data structures and compiler design in database management. Topics include ﬁle organization, indexing techniques, data models, query languages, B-trees, B*-trees, Study design and implementation of a relational database.

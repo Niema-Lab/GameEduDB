@@ -1,0 +1,1 @@
+This course introduces students to industry-standard game engines. Students will gain an understanding of how a game engine functions, its asset pipelines, as well as best practices for content and gameplay creation. Students will create simple games from concept to executable.

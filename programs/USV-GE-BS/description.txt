@@ -1,0 +1,1 @@
+The Bachelor of Science in Game Engineering provides students with the programming and software development skills needed to build games and other real-time interactive experiences. Coursework covers gameplay programming, scripting, tools development, game engine architecture, simulation, and software engineering.

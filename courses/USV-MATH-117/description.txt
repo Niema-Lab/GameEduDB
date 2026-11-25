@@ -1,0 +1,1 @@
+This course covers the fundamentals of analytic trigonometry. Topics include: identities, trigonometric equations, inverse trig functions, graphs of trig functions, and solutions of right and oblique triangles with applications. Vectors, operations, and the dot product are also covered.

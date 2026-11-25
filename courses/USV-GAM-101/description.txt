@@ -1,0 +1,1 @@
+Introduction to the fundamentals of interactive design through lectures and the building of analog games in a collaborative project-based environment. Topics covered include history of computer games, writing rules, play balance, statistics and probabilities, layout and level design, psychology and replayability, atmosphere, design documents and multiplayer issues.

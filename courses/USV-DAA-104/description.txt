@@ -1,0 +1,1 @@
+This course explores advanced image processing using image editing software and graphics tablets. Coursework addresses image creation and manipulation, color and contrast adjustment, compositing, image matching, and non-destructive editing techniques. An emphasis is placed on creating photorealistic illusions.

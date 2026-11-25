@@ -1,0 +1,1 @@
+Students will utilize fast and simple modeling techniques for creating meshes without UVs. Students will design in 3D quickly and possible to aid in concept design. Students will cover various lighting, texturing and painting techniques. Discussion of UV unwrapping and retopologizing the models built with Dynamesh and Shadowbox for production will also be covered.

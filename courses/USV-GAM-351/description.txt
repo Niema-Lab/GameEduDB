@@ -1,0 +1,1 @@
+In this course students will gain an understanding of various game systems and how they interact to create an immersive game experience, balance, and cohesive design. Systems such as combat, game economics, reward, quest, and narrative are explored.

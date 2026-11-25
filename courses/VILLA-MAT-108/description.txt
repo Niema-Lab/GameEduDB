@@ -1,0 +1,1 @@
+An introduction to the discrete mathematics required for computer science, game design, and related fields. Topics include logic, sets, relations and functions, algorithms and complexity, number theory, counting methods, and graph theory. Exercises and classroom projects will focus on practical applications of these topics. 3 credits

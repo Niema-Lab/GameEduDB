@@ -1,0 +1,1 @@
+Provides an intensive introduction to developing computer programs using a contemporary, high level programming language and environment specific to industry standard game engines. Topics include; data types, variables, operations, artificial intelligence, interactive data, inputs and response to input. 3 credits

@@ -1,0 +1,1 @@
+Logic. Set theory. Functions. Relations. Proofs by mathematical induction. Recursion and program correctness. Fundamentals of counting, and discrete probability. Elementary graph theory. Introduction to analysis of algorithms.

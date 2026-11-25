@@ -1,0 +1,1 @@
+This course covers the pre-production processes and activities carried out before game development begins. Topics include a formalized pitch process and documentation, storytelling in interactive environments, narrative types, story-boarding, pre-visualization, prototyping methodologies, and aspects of audio implementation. This is a studio course. 3 credits

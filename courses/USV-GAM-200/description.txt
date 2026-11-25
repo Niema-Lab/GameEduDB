@@ -1,0 +1,1 @@
+This course introduces students to the art and science of creating and adding audio elements to video games. Students will gain an understanding of how audio creates a fully immersive player experience and the technical requirements of implementing audio.

@@ -1,0 +1,1 @@
+In this course, students will utilize industry-standard game engines and their associated languages to create functional code. Students will explore principles of game programming such as in-game graphics, user input, sound, animation, and collision detection. Students will learn to program their own games and gain a better understanding of game design and development.
