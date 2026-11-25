@@ -1,0 +1,1 @@
+This course focuses on the integration and organization of the various artistic elements used in game development. The course examines user interaction, interface design, and existing paradigms in current games. Students will combine elements of level design, animation, music, sound, and writing to create an aesthetically appealing game.
